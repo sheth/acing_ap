@@ -4,7 +4,8 @@ file = File.new("units.txt", "r")
 line_empty = false
 unit = nil
 section_started = false
-while (line = file.gets.chomp.strip)
+while (line = file.gets)
+  line.chomp!.strip! #remove leading and trailing spaces and new lines.
   if line.start_with? "Unit"
     unit = line.split('-')
     puts     "  <id>" + unit[0].sub(/ /, '-') + "</id>"
@@ -15,6 +16,7 @@ while (line = file.gets.chomp.strip)
     line_empty = true  
     if section_started
       puts   '  </section>'
+      section_started = false
     end  
     next
   elsif line_empty
@@ -30,4 +32,8 @@ while (line = file.gets.chomp.strip)
   end
 end
 file.close
+if section_started
+  puts       '  </section>'
+  section_started = false
+end  
 puts         '</units>'
