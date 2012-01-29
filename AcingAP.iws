@@ -57,7 +57,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LearnIt/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6585" column="26" selection-start="283798" selection-end="283798" vertical-scroll-proportion="0.15085536">
+            <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.482115">
               <folding>
                 <element signature="tag#head#0;tag#html#0" expanded="false" />
                 <element signature="tag#script#2;tag#head#0;tag#html#0" expanded="false" />
@@ -65,12 +65,10 @@
                 <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#ul#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#p#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#ul#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#0;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#1;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
@@ -3368,7 +3366,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LearnIt/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6585" column="26" selection-start="283798" selection-end="283798" vertical-scroll-proportion="0.15085536">
+        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.482115">
           <folding>
             <element signature="tag#head#0;tag#html#0" expanded="false" />
             <element signature="tag#script#2;tag#head#0;tag#html#0" expanded="false" />
@@ -3376,12 +3374,10 @@
             <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#ul#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#p#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#ul#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#1;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
