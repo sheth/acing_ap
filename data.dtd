@@ -1,0 +1,17 @@
+<!ELEMENT acingAPHumanGeography (about, units+, models, glossary)>
+<!ELEMENT about (title, subtitle, by, from, description, copyright)>
+<!ELEMENT units (id, title, section+)>
+<!ELEMENT section (id, title, description+)>
+
+<!ELEMENT models (model+)>
+<!ELEMENT model (id, title, description, image*)>
+
+<!ELEMENT glossary (letter+)>
+<!ELEMENT letter (word+)>
+<!ELEMENT word (id, title, description, example*)>
+
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT example (#PCDATA)>
+<!ELEMENT image (#CDATA)>
