@@ -1,0 +1,1098 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Acing AP</title>
+        <style type="text/css" media="screen">@import "CSS/jqtouch.min.css";</style>
+        <style type="text/css" media="screen">@import "Themes/theme.min.css";</style>
+        <script src="JS/jquery.1.3.2.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="JS/jqtouch.min.js" type="application/x-javascript" charset="utf-8"></script>
+        <script type="text/javascript" charset="utf-8">
+            var jQT = new $.jQTouch({
+                statusBar: 'black',
+                preloadImages: [
+                    'themes/img/back_button.png',
+                    'themes/img/back_button_clicked.png',
+                    'themes/img/button_clicked.png',
+                    'themes/img/grayButton.png',
+                    'themes/img/whiteButton.png',
+                    'themes/img/loading.gif'
+                    ]
+            });
+            // Some sample Javascript functions:
+            $(function(){
+                // Show a swipe event on swipe test
+                $('#swipeme').swipe(function(evt, data) {                
+                    $(this).html('You swiped <strong>' + data.direction + '</strong>!');
+                });
+                $('a[target="_blank"]').click(function() {
+                    if (confirm('This link opens in a new window.')) {
+                        return true;
+                    } else {
+                        $(this).removeClass('active');
+                        return false;
+                    }
+                });
+                // Page animation callback events
+                $('#pageevents').
+                    bind('pageAnimationStart', function(e, info){ 
+                        $(this).find('.info').append('Started animating ' + info.direction + '&hellip; ');
+                    }).
+                    bind('pageAnimationEnd', function(e, info){
+                        $(this).find('.info').append(' finished animating ' + info.direction + '.<br /><br />');
+                    });
+
+
+                // Page animations end with AJAX callback event, example 1 (load remote HTML only first time)
+                $('#callback').bind('pageAnimationEnd', function(e, info){
+                    if (!$(this).data('loaded')) {                      // Make sure the data hasn't already been loaded (we'll set 'loaded' to true a couple lines further down)
+                        $(this).append($('<div>Loading</div>').         // Append a placeholder in case the remote HTML takes its sweet time making it back
+                            load('ajax.html .info', function() {        // Overwrite the "Loading" placeholder text with the remote HTML
+                                $(this).parent().data('loaded', true);  // Set the 'loaded' var to true so we know not to re-load the HTML next time the #callback div animation ends
+                            }));
+                    }
+                });
+
+
+                // Orientation callback event
+                $('body').bind('turn', function(e, data){
+                    $('#orient').html('Orientation: ' + data.orientation);
+                });
+            });
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+        <style type="text/css" media="screen">
+            body.fullscreen #home .info {
+                display: none;
+            }
+            #about {
+                padding: 100px 10px 40px;
+                text-shadow: rgba(255, 255, 255, 0.3) 0px -1px 0;
+                font-size: 13px;
+                text-align: center;
+                background: #ffffff;
+            }
+            #about p {
+                margin-bottom: 8px;
+                color: #000
+            }
+            #about a {
+                color: #000;
+                font-weight: bold;
+                text-decoration: none;
+            }
+         
+        </style>
+    </head>
+    <body>
+      
+
+
+
+
+
+
+
+
+
+
+        <div id="home" class="current">
+            <div class="toolbar">
+                <h1>Review it!</h1>
+            </div>
+
+			
+			
+			
+			<ul class="plastic">
+                <li><a href="#review101">1- Geography</a></li>
+                <li><a href="#review201">2- Population</a></li>
+                <li><a href="#review301">3- Culture</a></li>
+                <li><a href="#review401">4- Political Organization of Space</a></li>
+                <li><a href="#review501">5- Agriculture</a></li>
+                <li><a href="#review601">6- Industrialization</a></li>
+                <li><a href="#review701">7- Cities and Urban Land Use</a></li>
+            </ul>
+			<div class="info">
+                <p>Review for the national exam using these multiple choice questions. Choose a unit above to start. If you want more information on a certain concept, select the 'Learn it' tab. For more information about the exam, use the 'Take it' tab.</p>
+            </div>
+        </div>
+
+
+        <div id="review101">
+        <div class="toolbar">
+              <h1>Unit One Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>When geographers look at the way places and things are laid out on the cultural landscape, they are taking a:</b> <br />(A-) pattern analysis <br />(B-) distribution measurement <br />(C-) spatial perspective <br />(D-) map measurement <br />(E-) None of the above</p>
+</div>
+                <ul class="individual">
+                <li><a href="#right">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review102">Next</a></li>
+        </ul>
+        </div>
+                <div id="review102">
+        <div class="toolbar">
+              <h1>Unit One Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>Which of the following is not true regarding remote sensing?</b> <br />(A-) began with air photography <br />(B-) does not involve satellites <br />(C-) involves aircraft <br />(D-) reveals environmental changes <br />(E-) ANSWER</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review103">Next</a></li>
+        </ul>
+        </div>
+ 
+ <div id="review103">
+        <div class="toolbar">
+              <h1>Unit One Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>What event markedly changed Chicago's relative location (which already had good centrality)?</b> <br />(A-) new interstate highway <br />(B-) more railroads <br />(C-) opening of the St. Lawrence Seaway <br />(D-) new airport <br />(E-) The new WendyÃƒâ€¢s </p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#right">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review104">Next</a></li>
+        </ul>
+        </div>
+ 
+ <div id="review104">
+        <div class="toolbar">
+              <h1>Unit One Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>A city is an example of what kind of region?</b> <br />(A-) formal <br />(B-) functional <br />(C-) perceptual <br />(D-) physical <br />(E-) none of the above</p>
+</div>
+                <ul class="individual">
+                <li><a href="#right">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review105">Next</a></li>
+        </ul>
+        </div>
+
+ <div id="review105">
+        <div class="toolbar">
+              <h1>Unit One Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>Geographers define and delimit a region by:</b> <br />(A-) establishing criteria <br />(B-) walking the region <br />(C-) asking others how they define the region <br />(D-) using climate changes <br />(E-) giving up</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        </ul>
+        </div>
+ 
+        <div id="essays1">
+        <div class="toolbar">
+              <h1>Unit One Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"> Since 1950 many states have faced challenges in developing a strong national identity. <br/>
+(1) Using contemporary examples, explain how each of the following has contributed to the development of national identity and the strengthening of a state. <br/> (a) Economic development <br/>(b) Relocation of a state&apos;s capital (since 1950) <br/>
+(2) Using contemporary examples, explain how each of the following may detract from the development of national identity and weaken a state. <br/> (a) Ethnicity <br/>(b) Transportation infrastructure<br/>
+<br/>To view the scoring guide for this essay, click <a href="http://apcentral.collegeboard.com/apc/public/repository/ap10_human_geo_scoring_guidelines.pdf" target="_blank">here</a>.</p>
+</div>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+       <li><a href="#essays2">Next</a></li>
+        </ul>
+        </div>
+ 
+ <div id="review201">
+    	<div class="toolbar">
+              <h1>Unit Two Review</h1>
+                <a href="#home" class="back">Review it!</a>
+    	</div>
+<div class="selectable">
+    	<p style="margin-left: 10px; margin-right: 15px;"><b>A country at the end of the demographic transition has which of the following?</b> <br />(A-) High birth rates and low death rates <br />(B-) A high infant mortality rate <br />(C-) A high crude birth rate <br />(D-) Low birth and death rates <br />(E-) High population density</p>
+</div><ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#right">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review202">Next</a></li>
+        </ul>
+        </div>
+
+
+
+
+<div id="review202">
+    	<div class="toolbar">
+              <h1>Unit Two Review</h1>
+                <a href="#home" class="back">Review it!</a>
+    	</div>
+<div class="selectable">
+    	<p style="margin-left: 10px; margin-right: 15px;"><b>The nineteenth-century emigration of a large number of Swedes from a particular region of Sweden to Isanti County, Minnesota, as a result of communications from friends and relatives who preceded them there is an example of</b> <br />(A-) brain drain <br />(B-) chain migration <br />(C-) net migration <br />(D-) internal migration <br />(E-) counterurbanization</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+        	    <li><a href="#wrong">(C)</a></li></ul>
+ 
+    	<ul class="individual">
+    	<li><a href="#" class="goback">Back</a></li>
+    	<li><a href="#review203">Next</a></li>
+    	</ul>
+    	</div>
+
+
+
+<div id="review203">
+    	<div class="toolbar">
+              <h1>Unit Two Review</h1>
+                <a href="#home" class="back">Review it!</a>
+    	</div>
+<div class="selectable">
+    	<p style="margin-left: 10px; margin-right: 15px;"><b>The ability of a resource to sustain a population is known as its</b> <br />(A-) support ratio <br />(B-) carrying capacity <br />(C-) subsistence limit <br />(D-) basic employment <br />(E-) population pressure</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+        	    <li><a href="#wrong">(C)</a></li></ul>
+ 
+    	<ul class="individual">
+    	<li><a href="#" class="goback">Back</a></li>
+    	<li><a href="#review204">Next</a></li>
+    	</ul>
+    	</div>
+
+<div id="review204">
+    	<div class="toolbar">
+              <h1>Unit Two Review</h1>
+                <a href="#home" class="back">Review it!</a>
+    	</div>
+<div class="selectable">
+    	<p style="margin-left: 10px; margin-right: 15px;"><b>During the last quarter of the twentieth century, the birth rate has fallen most significantly in which of the following countries?</b> <br />(A-) The United States <br />(B-) India <br />(C-) Iran <br />(D-) China <br />(E-) France</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#right">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+        	    <li><a href="#wrong">(C)</a></li></ul>
+ 
+    	<ul class="individual">
+    	<li><a href="#" class="goback">Back</a></li>
+    	<li><a href="#review205">Next</a></li>
+    	</ul>
+    	</div>
+
+  <div id="review205">
+    	<div class="toolbar">
+              <h1>Unit Two Review</h1>
+                <a href="#home" class="back">Review it!</a>
+    	</div>
+<div class="selectable">
+    	<p style="margin-left: 10px; margin-right: 15px;"><b>Which of the following would be considered cyclic movement?</b> <br />(A-) Moving to Europe <br />(B-) Going away to college <br />(C-) Military service <br />(D-) Spending a year in Spain <br />(E-) Going to work and then returning home at the end of the day</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#right">(E)</a></li></ul>
+                <ul class="individual">
+        	    <li><a href="#wrong">(C)</a></li></ul>
+ 
+    	<ul class="individual">
+    	<li><a href="#" class="goback">Back</a></li>
+    	</ul>
+    	</div>
+
+        <div id="essays2">
+        <div class="toolbar">
+              <h1>Unit Two Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;">Over the past 150 years, Europe has changed from a source to a destination region for international migration.<br/>
+(a) Use the demographic transition model to briefly explain EuropeÃƒâ€¢s development as a source of international migrants between 1800 to 1920. <br/>(b) Identify and briefly explain ONE factor other than demographic transition that was responsible for EuropeÃƒâ€¢s development as a source of migrants to the United States between 1800 to 1920. <br/>
+(c) Briefly explain how THREE aspects of the demographic transition model account for EuropeÃƒâ€¢s transformation into a destination region for migrants from North Africa between 1960 and 2000. <br/>To view the scoring guide for this essay, click <a href="http://apcentral.collegeboard.com/apc/public/repository/ap03_human_geography__28114.pdf " target="_blank">here</a>.</p>
+</div>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+       <li><a href="#essays3">Next</a></li>
+        </ul>
+        </div>
+        
+         <div id="review301">
+        <div class="toolbar">
+              <h1>Unit Three Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>Which of the following refers to the study of the relationship between the physical environment and culture? </b> <br />(A-) Central place theory <br />(B-) Ecosystem analysis <br />(C-) Culture history <br />(D-) Cultural ecology <br />(E-) Polytheis</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#right">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review302">Next</a></li>
+        </ul>
+        </div>
+ 
+         <div id="review302">
+        <div class="toolbar">
+              <h1>Unit Three Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>Which of the following peoples can be described as a stateless nation?</b> <br />(A-) Kurds <br />(B-) Thais <br />(C-) Jews <br />(D-) Samoans <br />(E-) Albanian</p>
+</div>
+                <ul class="individual">
+                <li><a href="#right">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review303">Next</a></li>
+        </ul>
+        </div>
+
+        <div id="review303">
+        <div class="toolbar">
+              <h1>Unit Three Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>Cultural convergence is sometimes called</b> <br />(A-) Americanization <br />(B-) Mcdonalization <br />(C-) cocalization <br />(D-) homogenization <br />(E-) none of the above</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#right">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review304">Next</a></li>
+        </ul>
+        </div>
+
+        <div id="review304">
+        <div class="toolbar">
+              <h1>Unit Three Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>What are the main features of a culture?</b> <br />(A-) Customs and norms <br />(B-) History and religion <br />(C-) Language and ethnicity <br />(D-) All of the above <br />(E-) none of the above</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#right">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review305">Next</a></li>
+        </ul>
+        </div>
+        
+        <div id="review305">
+        <div class="toolbar">
+              <h1>Unit Three Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>What is meant by multiculturalism?</b> <br />(A-) Culture drawing on many influences but still within the patriarchal and Eurocentric framework <br />(B-) Culture drawing on multiple influences undermining patriarchal culture <br />(C-) Listening to world music <br />(D-) Eating a big Mac in India <br />(E-) none of the above</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        </ul>
+        </div>
+ 
+         <div id="essays3">
+        <div class="toolbar">
+              <h1>Unit Two Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;">At the same time that English is solidifying its role as the world&apos;s premier lingua franca, lesser-used minority languages (such as Welsh, Basque, and Inuktitut) are undergoing revival.<br/>
+Discuss three distinct factors promoting the revival of minority languages in the face of globalization. <br/>To view the scoring guide for this essay, click <a href="http://www.collegeboard.com/prod_downloads/ap/students/humangeo/ap07_sg_human_geography.pdf" target="_blank">here</a>.</p>
+</div>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+       <li><a href="#essays4">Next</a></li>
+        </ul>
+        </div>
+        
+ 
+ <div id="review401">
+        <div class="toolbar">
+              <h1>Unit Four Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>Which of the following does NOT act as a centrifugal force for a state?</b> <br />(A-) Uneven development <br />(B-) Substate nationalism <br />(C-) Linguistic homogeneity <br />(D-) A fragmented territorial base <br />(E-) A strong tradition of local governance</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review402">Next</a></li>
+        </ul>
+        </div>
+    
+    <div id="review402">
+        <div class="toolbar">
+              <h1>Unit Four Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>Which of the following best represents the concept of the nation-state in its internal cultural-political makeup and spatial organization?</b> <br />(A-) Iran <br />(B-) South Africa <br />(C-) Japan <br />(D-) New Zealand <br />(E-) Argentina</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review403">Next</a></li>
+        </ul>
+        </div>
+    
+    <div id="review403">
+        <div class="toolbar">
+              <h1>Unit Four Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>Political geographers consider which of the following as the core area of the United States?</b> <br />(A-) The Los Angeles-San Fransico area <br />(B-) The New York-Washington D.C. area <br />(C-) The Chicago-Detroit area  <br />(D-) The Atlanta-Birmingham, Alabama, area  <br />(E-) The Buffalo-Cleveland area</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review404">Next</a></li>
+        </ul>
+        </div>
+    
+    <div id="review404">
+        <div class="toolbar">
+              <h1>Unit Four Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>Which of the following pairs of European countries has the greatest number of African colonies in 1914? </b> <br />(A-) Germany and Italy <br />(B-) Britain and France <br />(C-) Belgium and the Netherlands  <br />(D-) Portugal and Spain <br />(E-) Austria and Hungary</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review405">Next</a></li>
+        </ul>
+        </div>
+    
+    <div id="review405">
+        <div class="toolbar">
+              <h1>Unit Four Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>Core-periphery models are generally based on the idea that...</b> <br />(A-) All world regions are equally well developed. <br />(B-) Levels of social and economic development are fairly uniform between core areas and peripheral areas <br />(C-) Sharp spatial contrasts in social and economic development exist between economic heartlands and outlying subordinate areas <br />(D-) The growth and prosperity of core countries has not been achieved at the expense of peripheral countries <br />(E-) The economic and social heart of a territory should be at its geographic center</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        </ul>
+        </div>
+    
+        <div id="essays4">
+        <div class="toolbar">
+              <h1>Unit Four Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;">Since 1950 many states have faced challenges in developing a strong national identity. <br/>(1) Using contemporary examples, explain how each of the following has contributed to the development of national identity and the strengthening of a state. <br/> (a) Economic development <br/> (b) Relocation of a state&quot;s capital (since 1950) <br/> (2) Using contemporary examples, explain how each of the following may detract from the development of national identity and weaken a state. <br/> (a) Ethnicity <br/> (b) Transportation infrastructure <br/>
+<br/>To view the scoring guide for this essay, click <a href="http://apcentral.collegeboard.com/apc/public/repository/ap10_human_geo_q2.pdf" target="_blank">here</a>.</p>
+</div>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+       <li><a href="#essays5">Next</a></li>
+        </ul>
+        </div>
+
+ 
+        <div id="review501">
+        <div class="toolbar">
+              <h1>Unit Five Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b> As a country increasingly developed, economic activities become dominant in which sector? </b> <br /> (A-) Primary sector<br />(B-) Tertiary sector<br />(C-) Non-basic sector<br />(D-) Secondary sector<br />(E-) Basic sector</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review502">Next</a></li>
+        </ul>
+        </div>
+        <div id="review502">
+        <div class="toolbar">
+              <h1>Unit Five Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b> Corn (maize) was first domesticated in...</b> <br />(A-)Northern Argentina<br />(B-)The Tibetan platateau<br />(C-)The Canadian prarie<br />(D-)Central Mexico<br />(E-)Central Australia</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#right">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review503">Next</a></li>
+        </ul>
+        </div>
+
+<div id="review503">
+        <div class="toolbar">
+              <h1>Unit Five Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>Place the following agricultural events in the correct order: (I)Biotechnologic Revolution begins genetically modifying plants and animals. (II)Mechanization takes hold allowing much more work to be done with much less human labor. (III)Developed countries extend certain agricultural innovations to the Third World during the Green Revolution.(IV)Rachel Carson writes Silent Spring</b> <br />(A-) II, III, IV, I  <br />(B-) II, IV, III, I  <br />(C-) IV, II, III, I  <br />(D-) III, II, IV, I <br />(E-) None of the above</p>
+</div>
+                <ul class="individual">
+                <li><a href="#right">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review504">Next</a></li>
+        </ul>
+        </div>
+
+<div id="review504">
+        <div class="toolbar">
+              <h1>Unit Five Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>The von Thunen model describes agricultural activity as it takes place in relation to the market. Which of the following statements generally represents the agricultural landscape according to the model? </b> <br />(A-) Agricultural activity is solely determined by the longevity of the agricultural product. <br />(B-) Goods that are expensive to transport and spoil quickly must be located closer to the market. <br />(C-) Smaller agricultural goods like beans, herbs, and berries will be grown closer to the market than bigger goods like pumpkins.  <br />(D-) Animals, like grazing cattle and hens, will be located closer to the market, because they are difficult to move. <br />(E-) None of the above.</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review505">Next</a></li>
+        </ul>
+        </div>
+        
+<div id="review505">
+        <div class="toolbar">
+              <h1>Unit Five Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>Which of the following is not a characteristic of agribusiness? </b> <br />(A-) It in large part has led to the demise of the American family farm. <br />(B-) It has incorporated production, consumption, and marketing into an integrated whole.  <br />(C-) It has allowed for increased family market gardening. <br />(D-) It has transformed agricultural productivity such that agricultural activities yield much more than they have historically. <br />(E-) All of the above.</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review506">Next</a></li>
+        </ul>
+        </div>
+        
+
+<div id="review506">
+        <div class="toolbar">
+              <h1>Unit Five Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>Grain raised in the United States is used today primarily as... </b> <br />(A-) human food  <br />(B-) a source of fuel <br />(C-) livestock feed <br />(D-) an export to foreign countries <br />(E-) raw material for various industries</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        </ul>
+        </div>
+
+        <div id="essays5">
+        <div class="toolbar">
+              <h1>Unit Five Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;">Agriculture in the United States has changed significantly in the past few decades. With respect to the past, present, and projected trends in agriculture shown in the diagram above, answer the following:<br/>
+(a) First identify and then explain TWO factors contributing to the steady decline in the number of dairy farms since 1970. <br/>(b) First identify and then explain TWO factors contributing to the increase in the number of organic farms since 1970.<br/>
+<br/>To view the scoring guide for this essay, click <a href="http://apcentral.collegeboard.com/apc/public/repository/ap09_human_geography_q3.pdf" target="_blank">here</a>.</p>
+</div>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+       <li><a href="#essays6">Next</a></li>
+        </ul>
+        </div>
+
+
+<div id="review601">
+    	<div class="toolbar">
+              <h1>Unit Six Review</h1>
+                <a href="#home" class="back">Review it!</a>
+    	</div>
+<div class="selectable">
+    	<p style="margin-left: 10px; margin-right: 15px;"><b>The worldÃƒâ€¢s major manufacturing regions include all of the following EXCEPT</b> <br />(A-) The Rhine-Ruhr Corridor <br />(B-) Northern Italy <br />(C-) The Tokyo Plain <br />(D-) The Volga River Valley <br />(E-) The Connecticut Valley</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#right">(E)</a></li></ul>
+                <ul class="individual">
+        	    <li><a href="#wrong">(C)</a></li></ul>
+ 
+    	<ul class="individual">
+    	<li><a href="#" class="goback">Back</a></li>
+    	<li><a href="#review602">Next</a></li>
+    	</ul>
+    	</div>
+
+<div id="review602">
+    	<div class="toolbar">
+              <h1>Unit Six Review</h1>
+                <a href="#home" class="back">Review it!</a>
+    	</div>
+<div class="selectable">
+    	<p style="margin-left: 10px; margin-right: 15px;"><b>Which of the following is positively correlated with gross domestic product (GDP) per capita?</b> <br />(A-) Infant mortality rate<br />(B-) Carbon dioxide emission per capita <br />(C-) Rate of natural increase <br />(D-) Rice production per capita <br />(E-) Distance from the Greenwich meridian</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+        	    <li><a href="#wrong">(C)</a></li></ul>
+ 
+    	<ul class="individual">
+    	<li><a href="#" class="goback">Back</a></li>
+    	<li><a href="#review603">Next</a></li>
+    	</ul>
+    	</div>
+<div id="review603">
+    	<div class="toolbar">
+              <h1>Unit Six Review</h1>
+                <a href="#home" class="back">Review it!</a>
+    	</div>
+<div class="selectable">
+    	<p style="margin-left: 10px; margin-right: 15px;"><b>An informal economy</b> <br />(A-) is monitored by the government <br />(B-) is taxed by the government <br />(C-) is unmonitored by the government <br />(D-) does not affect a country <br />(E-) is included in the gross national income of a country</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+        	    <li><a href="#right">(C)</a></li></ul>
+ 
+    	<ul class="individual">
+    	<li><a href="#" class="goback">Back</a></li>
+    	<li><a href="#review604">Next</a></li>
+    	</ul>
+    	</div>
+
+<div id="review604">
+    	<div class="toolbar">
+              <h1>Unit Six Review</h1>
+                <a href="#home" class="back">Review it!</a>
+    	</div>
+<div class="selectable">
+    	<p style="margin-left: 10px; margin-right: 15px;"><b>Which of the following is <b>NOT</b> true about Rostow&apos;s Ladder of Development model?</b> <br />(A-) It consists of 5 stages <br />(B-) All countries reach the fifth stage <br />(C-) Industrialization and urbanization start to occur in the <i>takeoff</i> stage <br />(D-) Assumes all countries develop the same <br />(E-) The population growth rate starts to slow in the fourth stage</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+        	    <li><a href="#wrong">(C)</a></li></ul>
+ 
+    	<ul class="individual">
+    	<li><a href="#" class="goback">Back</a></li>
+    	<li><a href="#review605">Next</a></li>
+    	</ul>
+    	</div>
+
+<div id="review605">
+    	<div class="toolbar">
+              <h1>Unit Six Review</h1>
+                <a href="#home" class="back">Review it!</a>
+    	</div>
+<div class="selectable">
+    	<p style="margin-left: 10px; margin-right: 15px;"><b>Which of the following countries is in the periphery?</b> <br />(A-) Zimbabwe <br />(B-) The United States <br />(C-) Australia <br />(D-) France <br />(E-) Canada</p>
+</div>
+                <ul class="individual">
+                <li><a href="#right">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+        	    <li><a href="#wrong">(C)</a></li></ul>
+ 
+    	<ul class="individual">
+    	<li><a href="#" class="goback">Back</a></li>
+    	</ul>
+    	</div>
+
+        <div id="essays6">
+        <div class="toolbar">
+              <h1>Unit Six Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;">Economic restructuring is transforming the world economy.<br/>
+(a) Define and discuss the key features of the new international division of labor, also known as the global division of labor. <br/>(b) Explain an impact of the international division of labor on the socioeconomic structure of the United States. <br/>
+(c) Explain an impact on the international division of labor on the socioeconomic structure of developing countries, such as India, China, and Mexico. <br/>To view the scoring guide for this essay, click <a href="http://apcentral.collegeboard.com/apc/public/repository/ap07_human_geo_q3.pdf" target="_blank">here</a>.</p>
+</div>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+       <li><a href="#essays7">Next</a></li>
+        </ul>
+        </div>
+        
+<div id="review701">
+        <div class="toolbar">
+              <h1>Unit Seven Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b> Within the framework of central place theory, which of the following provides the lowest-order good or service? </b> <br /> (A-) A furniture store<br />(B-) An orthodontist <br />(C-) A gas station <br />(D-) A jewelry store <br />(E-) A professional football stadium</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review702">Next</a></li>
+        </ul>
+        </div>
+        <div id="review702">
+        <div class="toolbar">
+              <h1>Unit Seven Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b> Edge cities have been described as the &quot;tenements of the information age&quot; because these cities have...</b> <br />(A-) Poorly constructed and inexpensive housing <br />(B-) Many high-density townhouse developments designed for people working in nearby office buildings <br />(C-) Sprung up in old abandoned industrial zones <br />(D-) Populations made up mostly of recent immigrants <br />(E-) Inadequate parking</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review703">Next</a></li>
+        </ul>
+        </div>
+        
+                <div id="review703">
+        <div class="toolbar">
+              <h1>Unit Seven Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>The sector model of city structure assumes that typical spatial behavior involves 
+people commuting primarily... </b> <br />(A-) Around the outer belt <br />(B-) In and out of downtown <br />(C-) Within downtown <br />(D-) Within neighborhoods <br />(E-) Between adjacent cities</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#right">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Units</a></li>
+        <li><a href="#review704">Next</a></li>
+        </ul>
+        </div>
+                
+        <div id="review704">
+        <div class="toolbar">
+              <h1>Unit Seven Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>Which of the following is <i>not</i> one of the urban hearths?</b> <br />(A-) Mesopotamia <br />(B-) Nile River Valley <br />(C-) Mesoeurope <br />(D-) Indus River Valley <br />(E-) Mesoamerica</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#wrong">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#right">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#review705">Next</a></li>
+        </ul>
+        </div>
+
+        <div id="review705">
+        <div class="toolbar">
+              <h1>Unit Seven Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;"><b>The first urban revolution was the innovation of...</b> <br />(A-) Agriculture <br />(B-) The bow and arrow <br />(C-) Homes <br />(D-) Cities <br />(E-) Hotels</p>
+</div>
+                <ul class="individual">
+                <li><a href="#wrong">(A)</a></li>
+                <li><a href="#right">(D)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(B)</a></li>
+                <li><a href="#wrong">(E)</a></li></ul>
+                <ul class="individual">
+                <li><a href="#wrong">(C)</a></li></ul>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Units</a></li>
+        </ul>
+        </div>
+
+       <div id="essays7">
+        <div class="toolbar">
+              <h1>Unit Seven Review</h1>
+                <a href="#home" class="back">Review it!</a>
+        </div>
+<div class="selectable">
+        <p style="margin-left: 10px; margin-right: 15px;">In the 1990s the central business and residential districts of cities in the United 
+States became the focus of a revitalization process. Discuss how each of the following has contributed to this revitalization process.<br/>
+(a) Economic factors<br/>(b) Demographic composition<br/>(c) Urban policy<br/>(d) Sense of place<br/>
+<br/>To view the scoring guide for this essay, click <a href="http://www.collegeboard.com/prod_downloads/ap/students/humangeo/ap05_sg_human_geography.pdf" target="_blank">here</a>.</p>
+</div>
+
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        </ul>
+        </div>
+
+
+
+
+
+             <div id="right">
+                <div style="font-size: 2em; text-align: center; margin: 160px 0 90px;">
+                    <img src="Images/right.png" width="104" height="109" alt="" border="0"><br />Way to ace it!
+                </div>
+                <a style="margin:0 10px 120px;color:rgba(0,0,0,.9)" href="#" class="whiteButton goback">Back</a>
+            </div>
+
+
+             <div id="wrong">
+                <div style="font-size: 2em; text-align: center; margin: 160px 0 90px;">
+                    <img src="Images/wrong.png" width="96" height="109" alt="" border="0"><br />Incorrect.
+                </div>
+                <a style="margin:0 10px 120px;color:rgba(0,0,0,.9)" href="#" class="whiteButton goback">Try Again</a>
+            </div>
+
+
+  </body>
+</html>

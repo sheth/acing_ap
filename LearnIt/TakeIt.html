@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Acing AP</title>
+        <style type="text/css" media="screen">@import "CSS/jqtouch.min.css";</style>
+        <style type="text/css" media="screen">@import "Themes/theme.min.css";</style>
+        <script src="JS/jquery.1.3.2.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="JS/jqtouch.min.js" type="application/x-javascript" charset="utf-8"></script>
+        <script type="text/javascript" charset="utf-8">
+            var jQT = new $.jQTouch({
+                statusBar: 'black',
+                preloadImages: [
+                    'themes/img/back_button.png',
+                    'themes/img/back_button_clicked.png',
+                    'themes/img/button_clicked.png',
+                    'themes/img/grayButton.png',
+                    'themes/img/whiteButton.png',
+                    'themes/img/loading.gif'
+                    ]
+            });
+            // Some sample Javascript functions:
+            $(function(){
+                // Show a swipe event on swipe test
+                $('#swipeme').swipe(function(evt, data) {                
+                    $(this).html('You swiped <strong>' + data.direction + '</strong>!');
+                });
+                $('a[target="_blank"]').click(function() {
+                    if (confirm('This link opens in a new window.')) {
+                        return true;
+                    } else {
+                        $(this).removeClass('active');
+                        return false;
+                    }
+                });
+                // Page animation callback events
+                $('#pageevents').
+                    bind('pageAnimationStart', function(e, info){ 
+                        $(this).find('.info').append('Started animating ' + info.direction + '&hellip; ');
+                    }).
+                    bind('pageAnimationEnd', function(e, info){
+                        $(this).find('.info').append(' finished animating ' + info.direction + '.<br /><br />');
+                    });
+
+
+                // Page animations end with AJAX callback event, example 1 (load remote HTML only first time)
+                $('#callback').bind('pageAnimationEnd', function(e, info){
+                    if (!$(this).data('loaded')) {                      // Make sure the data hasn't already been loaded (we'll set 'loaded' to true a couple lines further down)
+                        $(this).append($('<div>Loading</div>').         // Append a placeholder in case the remote HTML takes its sweet time making it back
+                            load('ajax.html .info', function() {        // Overwrite the "Loading" placeholder text with the remote HTML
+                                $(this).parent().data('loaded', true);  // Set the 'loaded' var to true so we know not to re-load the HTML next time the #callback div animation ends
+                            }));
+                    }
+                });
+
+
+                // Orientation callback event
+                $('body').bind('turn', function(e, data){
+                    $('#orient').html('Orientation: ' + data.orientation);
+                });
+            });
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+        <style type="text/css" media="screen">
+            body.fullscreen #home .info {
+                display: none;
+            }
+            #about {
+                padding: 100px 10px 40px;
+                text-shadow: rgba(255, 255, 255, 0.3) 0px -1px 0;
+                font-size: 13px;
+                text-align: center;
+                background: #ffffff;
+            }
+            #about p {
+                margin-bottom: 8px;
+                color: #000
+            }
+            #about a {
+                color: #000;
+                font-weight: bold;
+                text-decoration: none;
+            }
+         
+        </style>
+    </head>
+    <body>
+
+
+
+
+
+
+        <div id="home" class="current">
+            <div class="toolbar">
+                <h1>Take it!</h1>
+           </div>
+
+
+            <ul class="edgetoedge">
+                <li><a href="#exam"><em>National Exam</em></a></li>
+                <li><a href="#strategies"><em>Strategies</em></a></li>
+            </ul>
+        </div>
+		
+		
+		
+		
+		<div id="exam">
+        <div class="toolbar">
+              <h1>National Exam</h1>
+                <a href="#home" class="back">Take it!</a>
+        </div>
+        <div class="selectable">
+        <h1 style="color:white"> The National Exam</h1> <br/>
+        <p style="margin-left: 10px; margin-right: 10px;"> The AP Human Geography natinoal exam is taken in May by all AP Human Geography students in the country (who registered to take it). The test consists of two parts: the multiple choice section and the free response section. Both sections are timed. The multiple choice section is 75 questions long with a 60-minute time limit. Points are not deducted for incorrect answers. The free response section consists of three essay prompts with a 75-minute time limit. Both of these sections are each worth half of the overall grade. All AP exams are graded on a scale of 1 to 5, with 1 being the lowest and 5 being the highest. In order to pass the exam and get credit for the class, you must get either a 3, 4, or 5 on it. Some colleges, however, only except a 4 or a 5. Check with the colleges you're interested in for the best information.</p>
+        </div>
+        </div>
+
+		<div id="strategies">
+        <div class="toolbar">
+              <h1>Strategies</h1>
+                <a href="#home" class="back">Take it!</a>
+        </div>
+        <div class="selectable">
+        <h1 style="color:white"> Strategies for Answering Exam Multiple-Choice Questions</h1> <br/>
+        <p style="margin-left: 10px; margin-right: 10px;"> Remember that on the actual AP exam, because there is so much information, some of the questions will be unfamiliar to you. If you, however, review all the material you learned with this app (Learn It), answer the mock multiple-choice questions (Review It), and use the general strategies presented here (Take It), you will greatly increase your chances of getting the right answer and Acing the AP!</p>
+        </div>
+        <ul class="individual">
+        <!--<li><a href="#" class="goback">Back</a></li>-->
+        <li><a href="#1">Next</a></li>
+        </ul>
+        </div>		
+		
+		<div id="1">
+        <div class="toolbar">
+              <h1>Strategies</h1>
+                <a href="#home" class="back">Take it!</a>
+        </div>
+        <div class="selectable">
+        <h1 style="color:white">(1) Read the entire question.</h1> <br/>
+        <p style="margin-left: 10px; margin-right: 10px;"> You're alowwed to write in the test booklet, so underline any key words in the questions and check for similarities between these key terms along with the answer choices. </p>
+        </div>
+        <ul class="individual">
+        <!--<li><a href="#" class="goback">Back</a></li>-->
+        <li><a href="#2">Next</a></li>
+        </ul>
+        </div>		
+		
+		<div id="2">
+        <div class="toolbar">
+              <h1>Strategies</h1>
+                <a href="#home" class="back">Take it!</a>
+        </div>
+        <div class="selectable">
+        <h1 style="color:white">(2) Use the process of elmination</h1> <br/>
+        <p style="margin-left: 10px; margin-right: 10px;"> Ellimate all the possibilities that you know for sure are incorrect, and take your best guess for the remaining choices. You don't lose points for guessing, but circle the question and come back to it if you have time.</p>
+        </div>
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#3">Next</a></li>
+        </ul>
+        </div>
+		
+		<div id="3">
+        <div class="toolbar">
+              <h1>Strategies</h1>
+                <a href="#home" class="back">Take it!</a>
+        </div>
+        <div class="selectable">
+        <h1 style="color:white">(3) Beware of question- check for negatives.</h1> <br/>
+        <p style="margin-left: 10px; margin-right: 10px;"> Watch out for words like "except" or "not". Make sure your answer answers the question.</p>
+        </div>
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#4">Next</a></li>
+        </ul>
+        </div>
+		
+		<div id="4">
+        <div class="toolbar">
+              <h1>Strategies</h1>
+                <a href="#home" class="back">Take it!</a>
+        </div>
+        <div class="selectable">
+        <h1 style="color:white">(4) Don't forget about the time limit!</h1> <br/>
+        <p style="margin-left: 10px; margin-right: 10px;">Pace yourself. Remember, you have only 60 minutes to answer the 75 multiple choice questions, which calculates out to be less than a minute per question. Skip the harder questions and come back to them later.</p>
+        </div>
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        <li><a href="#5">Next</a></li>
+        </ul>
+        </div>
+		
+		<div id="5">
+        <div class="toolbar">
+              <h1>Strategies</h1>
+                <a href="#home" class="back">Take it!</a>
+        </div>
+        <div class="selectable">
+        <h1 style="color:white">(5) Relax.</h1> <br/>
+        <p style="margin-left: 10px; margin-right: 10px;">Don't stress about the test. Sleep early the night before and have a good breakfast the day of the test. Stay calm during the test, hurrying will make you nervous and will result in a lower score.</p>
+        </div>
+        <ul class="individual">
+        <li><a href="#" class="goback">Back</a></li>
+        </ul>
+        </div>
+		
+</body>
+</html>
