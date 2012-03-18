@@ -1,7 +1,7 @@
 <!ELEMENT reviewIt (units+, description)>
 <!ELEMENT units (id, problem+)+>
 
-<!ELEMENT problem(id, question, wrongAnswer+, rightAnswer)>
+<!ELEMENT problem (id, question, wrongAnswer+, rightAnswer)>
 
 <!ELEMENT id (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
