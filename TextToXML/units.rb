@@ -1,4 +1,12 @@
-#Ruby program to read a file and print the contents with line nos.
+#Ruby program to read units.txt and output a xml document to the console.
+puts         '<?xml version="1.0"?>'
+puts         "<!DOCTYPE units ["
+puts         "        <!ELEMENT units (id, title, section+)+>"
+puts         "        <!ELEMENT section (id, title, description+)>"
+puts         "        <!ELEMENT id (#PCDATA)>"
+puts         "        <!ELEMENT title (#PCDATA)>"
+puts         "        <!ELEMENT description (#PCDATA)>"
+puts         "]>"
 puts         "<units>"
 file = File.new("units.txt", "r")
 line_empty = false

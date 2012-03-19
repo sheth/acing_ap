@@ -4,7 +4,7 @@
 <!ELEMENT section (id, title, description+)>
 
 <!ELEMENT models (model+)>
-<!ELEMENT model (id, title, description, image*)>
+<!ELEMENT model (id, title, image, description)>
 
 <!ELEMENT glossary (letter+)>
 <!ELEMENT letter (word+)>
