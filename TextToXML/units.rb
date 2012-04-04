@@ -15,6 +15,8 @@ section_started = false
 while (line = file.gets)
   line.chomp!.strip! #remove leading and trailing spaces and new lines.
   if line.start_with? "Unit"
+    puts         '</units>'
+    puts         "<units>"
     unit = line.split('-')
     puts     "  <id>" + unit[0].gsub(/ /, '-') + "</id>"
     puts     "  <title>#{unit[1].chomp.strip}</title>"
