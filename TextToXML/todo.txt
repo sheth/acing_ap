@@ -1,0 +1,7 @@
+done units.txt, units.dtd and units.rb
+done models.txt, models.dtd and models.rb
+create glossary.dtd, glossary.txt and glossary.rb - not urgent as glossary is already in ios5 version.
+create reviewit.dtd, reviewit.txt and reviewit.rb
+create takeit.dtd, takeit.txt and takeit.rb not urgent as it is small and can be done manually
+done converting from units.xml to ios5 version via section.rb and menu.rb in XMLtoHTML
+
