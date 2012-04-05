@@ -1,13 +1,15 @@
 #Ruby program to read models.txt and output a xml document to the console.
-puts       '<?xml version="1.0"?>'
-puts       '<!DOCTYPE models ['
-puts       '        <!ELEMENT models (model)+>'
-puts       '        <!ELEMENT model (id, title, image?, description)>'
-puts       '        <!ELEMENT id (#PCDATA)>'
-puts       '        <!ELEMENT title (#PCDATA)>'
-puts       '        <!ELEMENT image (#PCDATA)>'
-puts       '        <!ELEMENT description (#PCDATA)>'
-puts       ']>'
+if ARGV[0] == "print_dtd"
+  puts       '<?xml version="1.0"?>'
+  puts       '<!DOCTYPE models ['
+  puts       '        <!ELEMENT models (model)+>'
+  puts       '        <!ELEMENT model (id, title, image?, description)>'
+  puts       '        <!ELEMENT id (#PCDATA)>'
+  puts       '        <!ELEMENT title (#PCDATA)>'
+  puts       '        <!ELEMENT image (#PCDATA)>'
+  puts       '        <!ELEMENT description (#PCDATA)>'
+  puts       ']>'
+end
 puts       "<models>"
 file = File.new("models.txt", "r")
 model_started = false
