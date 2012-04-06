@@ -1,6 +1,6 @@
-#Ruby program to read new units.txt and output the menu (a html document) to the console.
+#Ruby program to read new learnIt.txt and output the menu (a html document) to the console.
 
-file = File.new("units.txt", "r")
+file = File.new("learnIt.txt", "r")
 sectionStarted = false
 unitTitle = nil
 unitID = nil
@@ -50,9 +50,9 @@ puts     "      <h4>Acing AP</h4>"
 puts     "   </div>"
 puts     "</div>"
 
+file.close
 
-
-fileN = File.new("units.txt", "r")
+fileN = File.new("learnIt.txt", "r")
 sectionStarted = false
 sectionID = nil
 
@@ -75,7 +75,7 @@ while (lineN = fileN.gets)
     elsif lineN.start_with? "<title>"
       unitTitle = lineN[7..-9]
       puts     "            <h3>#{unitTitle}</h3>"
-    elsif lineN.start_with? "</units>"
+    elsif lineN.start_with? "<unit>"
       puts     "      <a href=\"#\" data-role=\"button\" data-rel=\"back\" data-theme=\"a\">Back</a>"
       puts     "   </div>"
       puts     "</div>"
@@ -90,3 +90,9 @@ while (lineN = fileN.gets)
 
   end
 end
+
+puts     "      <a href=\"#\" data-role=\"button\" data-rel=\"back\" data-theme=\"a\">Back</a>"
+puts     "   </div>"
+puts     "</div>"
+
+fileN.close
