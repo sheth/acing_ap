@@ -1,0 +1,354 @@
+<units>
+  <unit>
+    <id>Unit-1</id>
+    <title>Geography</title>
+    <problem>
+      <id>Geography-01</id>
+      <question>When geographers look at the way places and things are laid out on the cultural landscape, they are taking a:</question>
+      <rightAnswer>Pattern Analysis</rightAnswer>
+      <wrongAnswer>Distribution Measurement</wrongAnwwer>
+      <wrongAnswer>Spatial Perspective </wrongAnswer>
+      <wrongAnswer>Map Measurement </wrongAnswer>
+      <wrongAnswer>None Of The Above</wrongAnswer>
+    </problem>
+    <problem>
+      <id>Geography-02</id>
+      <question>Which of the following is not true regarding remote sensing?</question>
+      <wrongAnswer>Began With Air Photography </wrongAnswer>
+      <rightAnswer>Does Not Involve Satellites </rightAnswer>
+      <wrongAnswer>Involves Aircraft </wrongAnwwer>
+      <wrongAnswer>Reveals Environmental Changes</wrongAnswer>
+      <wrongAnswer>None Of The Above</wrongAnswer>
+    </problem>
+    <problem>
+      <id>Geography-03</id>
+      <question>What event markedly changed Chicago&apos;s relative location (which already had good centrality)?</question>
+      <wrongAnswer>New Interstate Highway</wrongAnswer>
+      <wrongAnswer>More Railroads </wrongAnswer>
+      <wrongAnswer>Opening Of The St. Lawrence Seaway </wrongAnswer>
+      <rightAnswer>New Airport </rightAnswer>
+      <wrongAnswer>The New Wendy&apos;s</wrongAnwwer>
+    </problem>
+    <problem>
+      <id>Geography-04</id>
+      <question>A city is an example of what kind of region?</question>
+      <rightAnswer>Formal</rightAnswer>
+      <wrongAnswer>Functional</wrongAnswer>
+      <wrongAnswer>Perceptual</wrongAnswer>
+      <wrongAnswer>Physical</wrongAnswer>
+      <wrongAnswer>None Of The Above</wrongAnwwer>
+    </problem>
+    <problem>
+      <id>Geography-05</id>
+      <question>Geographers define and delimit a region by:</question>
+      <wrongAnswer>Establishing Criteria</wrongAnswer>
+      <wrongAnswer>Walking The Region</wrongAnswer>
+      <rightAnswer>Asking Others How They Define The Region</rightAnswer>
+      <wrongAnswer>Using Climate Changes</wrongAnswer>
+      <wrongAnswer>Giving Up</wrongAnwwer>
+    </problem> 
+ </unit>
+  <unit>
+    <id>Unit-2</id>
+    <title>Population</title>
+    <problem>
+      <id>Population-01</id>
+      <question>A country at the end of the demographic transition has which of the following?</question>
+      <wrongAnswer>High Birth Rates And Low Death Rates</wrongAnwwer>
+      <wrongAnswer>A High Infant Mortality Rate</wrongAnswer>
+      <wrongAnswer>A High Crude Birth Rate</wrongAnswer>
+      <rightAnswer>Low Birth And Death Rates</rightAnswer>
+      <wrongAnswer>High Population Density</wrongAnswer>
+    </problem>
+    <problem>
+      <id>Population-02</id>
+      <question>The nineteenth-century emigration of a large number of Swedes from a particular region of Sweden to Isanti County, Minnesota, as a result of communications from friends and relatives who preceded them there is an example of</question>
+      <wrongAnswer>Brain Drain</wrongAnswer>
+      <rightAnswer>Chain Migration</rightAnswer>
+      <wrongAnswer>Net Migration</wrongAnwwer>
+      <wrongAnswer>Internal Migration</wrongAnswer>
+      <wrongAnswer>Counterurbanization</wrongAnswer>
+    </problem>
+    <problem>
+      <id>Population-03</id>
+      <question>The ability of a resource to sustain a population is known as its</question>
+      <wrongAnswer>Support Ratio </wrongAnswer>
+      <rightAnswer>Carrying Capacity </rightAnswer>
+      <wrongAnswer>Subsistence Limit </wrongAnswer>
+      <wrongAnswer>Basic Employment </wrongAnswer>
+      <wrongAnswer>Population Pressure</wrongAnwwer>
+    </problem>
+    <problem>
+      <id>Population-04</id>
+      <question>During the last quarter of the twentieth century, the birth rate has fallen most significantly in which of the following countries?</question>
+      <wrongAnswer>The United States</wrongAnswer>
+      <wrongAnswer>India </wrongAnswer>
+      <wrongAnswer>Iran </wrongAnswer>
+      <rightAnswer>China </rightAnswer>
+      <wrongAnswer>France</wrongAnwwer>
+    </problem>
+    <problem>
+      <id>Population-05</id>
+      <question>Which of the following would be considered cyclic movement?</question>
+      <wrongAnswer>Moving To Europe </wrongAnswer>
+      <wrongAnswer>Going Away To College </wrongAnswer>
+      <rightAnswer>Going To Work And Then Returning Home At The End Of The Day</rightAnswer>
+      <wrongAnswer>Military Service </wrongAnswer>
+      <wrongAnswer>Spending A Year In Spain </wrongAnwwer>
+    </problem> 
+ </unit>
+  <unit>
+    <id>Unit-3</id>
+    <title>Culture</title>
+    <problem>
+      <id>Culture-01</id>
+      <question>Which of the following refers to the study of the relationship between the physical environment and culture?</question>
+      <wrongAnswer>Central Place Theory </wrongAnwwer>
+      <wrongAnswer>Ecosystem Analysis </wrongAnswer>
+      <wrongAnswer>Culture History </wrongAnswer>
+      <rightAnswer>Cultural Ecology </rightAnswer>
+      <wrongAnswer>Polytheism</wrongAnswer>
+    </problem>
+    <problem>
+      <id>Culture-02</id>
+      <question>Which of the following peoples can be described as a stateless nation?</question>
+      <rightAnswer>Kurds</rightAnswer>
+      <wrongAnswer>Thais</wrongAnswer>
+      <wrongAnswer>Jews</wrongAnwwer>
+      <wrongAnswer>Samoans</wrongAnswer>
+      <wrongAnswer>Albanian</wrongAnswer>
+    </problem>
+    <problem>
+      <id>Culture-03</id>
+      <question>Cultural convergence is sometimes called</question>
+      <wrongAnswer>Americanization </wrongAnswer>
+      <wrongAnswer>Mcdonalization </wrongAnswer>
+      <wrongAnswer>Cocalization </wrongAnswer>
+      <rightAnswer>Homogenization </rightAnswer>
+      <wrongAnswer>None Of The Above</wrongAnwwer>
+    </problem>
+    <problem>
+      <id>Culture-04</id>
+      <question>What are the main features of a culture?</question>
+      <wrongAnswer>Customs And Norms </wrongAnswer>
+      <wrongAnswer>History And Religion </wrongAnswer>
+      <wrongAnswer>Language And Ethnicity </wrongAnswer>
+      <rightAnswer>All Of The Above </rightAnswer>
+      <wrongAnswer>None Of The Above</wrongAnwwer>
+    </problem>
+    <problem>
+      <id>Culture-05</id>
+      <question>What is meant by multiculturalism?</question>
+      <wrongAnswer>Culture Drawing On Many Influences But Still Within The Patriarchal And Eurocentric Framework </wrongAnswer>
+      <rightAnswer>Culture Drawing On Multiple Influences Undermining Patriarchal Culture</rightAnswer>
+      <wrongAnswer>Listening To World Music </wrongAnswer>
+      <wrongAnswer>Eating A Big Mac In India </wrongAnwwer>
+      <wrongAnswer>None Of The Above</wrongAnswer>
+    </problem> 
+ </unit>
+  <unit>
+    <id>Unit-4</id>
+    <title>Political Organization of Space</title>
+    <problem>
+      <id>Political-Organization-of-Space-01</id>
+      <question>Which of the following does NOT act as a centrifugal force for a state?</question>
+      <wrongAnswer>Uneven development</wrongAnwwer>
+      <wrongAnswer>Substate nationalism </wrongAnswer>
+      <rightAnswer>Linguistic homogeneity </rightAnswer>
+      <wrongAnswer>A fragmented territorial base </wrongAnswer>
+      <wrongAnswer>A strong tradition of local governance</wrongAnswer>
+    </problem>
+    <problem>
+      <id>Political-Organization-of-Space-02</id>
+      <question>Which of the following best represents the concept of the nation-state in its internal cultural-political makeup and spatial organization?</question>
+      <wrongAnswer>Iran </wrongAnswer>
+      <rightAnswer>Japan </rightAnswer>
+      <wrongAnswer>South Africa </wrongAnwwer>
+      <wrongAnswer>New Zealand </wrongAnswer>
+      <wrongAnswer>Argentina</wrongAnswer>
+    </problem>
+    <problem>
+      <id>Political-Organization-of-Space-03</id>
+      <question>Which of the following pairs of European countries has the greatest number of African colonies in 1914?</question>
+      <wrongAnswer>Germany and Italy </wrongAnswer>
+      <wrongAnswer>Belgium and the Netherlands  </wrongAnswer>
+      <wrongAnswer>Portugal and Spain </wrongAnswer>
+      <rightAnswer>Britain and France </rightAnswer>
+      <wrongAnswer>Austria and Hungary</wrongAnwwer>
+    </problem>
+    <problem>
+      <id>Political-Organization-of-Space-04</id>
+      <question>Political geographers consider which of the following as the core area of the United States?</question>
+      <rightAnswer>The New York-Washington D.C. area </rightAnswer>
+      <wrongAnswer>The Los Angeles-San Fransico area </wrongAnswer>
+      <wrongAnswer>The Chicago-Detroit area  </wrongAnswer>
+      <wrongAnswer>The Atlanta-Birmingham, Alabama, area  </wrongAnswer>
+      <wrongAnswer>The Buffalo-Cleveland area</wrongAnwwer>
+    </problem>
+    <problem>
+      <id>Political-Organization-of-Space-05</id>
+      <question>Core-periphery models are generally based on the idea that...</question>
+      <wrongAnswer>All world regions are equally well developed. </wrongAnswer>
+      <wrongAnswer>Levels of social and economic development are fairly uniform between core areas and peripheral areas </wrongAnswer>
+      <rightAnswer>Sharp spatial contrasts in social and economic development exist between economic heartlands and outlying subordinate areas </rightAnswer>
+      <wrongAnswer>The growth and prosperity of core countries has not been achieved at the expense of peripheral countries </wrongAnswer>
+      <wrongAnswer>The economic and social heart of a territory should be at its geographic center</wrongAnwwer>
+    </problem> 
+ </unit>
+  <unit>
+    <id>Unit-5</id>
+    <title>Agriculture</title>
+    <problem>
+      <id>Agriculture-01</id>
+      <question>As a country increasingly developed, economic activities become dominant in which sector?</question>
+      <wrongAnswer>Primary Sector</wrongAnwwer>
+      <rightAnswer>Tertiary Sector</rightAnswer>
+      <wrongAnswer>Non-Basic Sector</wrongAnswer>
+      <wrongAnswer>Secondary Sector</wrongAnswer>
+      <wrongAnswer>Basic Sector</wrongAnswer>
+    </problem>
+    <problem>
+      <id>Agriculture-02</id>
+      <question>Corn (maize) was first domesticated in...</question>
+      <wrongAnswer>Northern Argentina</wrongAnswer>
+      <wrongAnswer>The Tibetan Platateau</wrongAnwwer>
+      <wrongAnswer>The Canadian Prarie</wrongAnswer>
+      <rightAnswer>Central Mexico</rightAnswer>
+      <wrongAnswer>Central Australia</wrongAnswer>
+    </problem>
+    <problem>
+      <id>Agriculture-03</id>
+      <question>Place the following agricultural events in the correct order: <br/> (I)Biotechnologic Revolution begins genetically modifying plants and animals. <br/> (II)Mechanization takes hold allowing much more work to be done with much less human labor. <br/> (III)Developed countries extend certain agricultural innovations to the Third World during the Green Revolution. <br/> (IV)Rachel Carson writes Silent Spring</question>
+      <rightAnswer>II, III, IV, I</rightAnswer>
+      <wrongAnswer>II, IV, III, I</wrongAnswer>
+      <wrongAnswer>IV, II, III, I</wrongAnswer>
+      <wrongAnswer>III, II, IV, I</wrongAnswer>
+      <wrongAnswer>None Of The Above</wrongAnwwer>
+    </problem>
+    <problem>
+      <id>Agriculture-04</id>
+      <question>The von Thunen model describes agricultural activity as it takes place in relation to the market. Which of the following statements generally represents the agricultural landscape according to the model?</question>
+      <rightAnswer>Goods That Are Expensive To Transport And Spoil Quickly Must Be Located Closer To The Market. </rightAnswer>
+      <wrongAnswer>Agricultural Activity Is Solely Determined By The Longevity Of The Agricultural Product.</wrongAnswer>
+      <wrongAnswer>Smaller Agricultural Goods Like Beans, Herbs, And Berries Will Be Grown Closer To The Market Than Bigger Goods Like Pumpkins.  </wrongAnswer>
+      <wrongAnswer>Animals, Like Grazing Cattle And Hens, Will Be Located Closer To The Market, Because They Are Difficult To Move. </wrongAnswer>
+      <wrongAnswer>None Of The Above</wrongAnwwer>
+    </problem>
+    <problem>
+      <id>Agriculture-05</id>
+      <question>Which of the following is not a characteristic of agribusiness?</question>
+      <wrongAnswer>It In Large Part Has Led To The Demise Of The American Family Farm. </wrongAnswer>
+      <wrongAnswer>It Has Incorporated Production, Consumption, And Marketing Into An Integrated Whole.  </wrongAnswer>
+      <rightAnswer>It Has Allowed For Increased Family Market Gardening. </rightAnswer>
+      <wrongAnswer>It Has Transformed Agricultural Productivity Such That Agricultural Activities Yield Much More Than They Have Historically. </wrongAnswer>
+      <wrongAnswer>All Of The Above</wrongAnwwer>
+    </problem> 
+    <problem>
+      <id>Agriculture-06</id>
+      <question>Grain raised in the United States is used today primarily as...</question>
+      <wrongAnswer>Human Food  </wrongAnswer>
+      <wrongAnswer>A Source Of Fuel </wrongAnswer>
+      <rightAnswer>Livestock Feed </rightAnswer>
+      <wrongAnswer>An Export To Foreign Countries </wrongAnswer>
+      <wrongAnswer>Raw Material For Various Industries</wrongAnwwer>
+    </problem> 
+ </unit>
+  <unit>
+    <id>Unit-6</id>
+    <title>Industrialization</title>
+    <problem>
+      <id>Industrialization-01</id>
+      <question>The world&apos;s major manufacturing regions include all of the following EXCEPT</question>
+      <wrongAnswer>The Rhine-Ruhr Corridor </wrongAnwwer>
+      <wrongAnswer>Northern Italy </wrongAnswer>
+      <wrongAnswer>The Tokyo Plain</wrongAnswer>
+      <wrongAnswer>The Volga River Valley </wrongAnswer>
+      <rightAnswer>The Connecticut Valley</rightAnswer>
+    </problem>
+    <problem>
+      <id>Industrialization-02</id>
+      <question>Which of the following is positively correlated with gross domestic product (GDP) per capita?</question>
+      <wrongAnswer>Infant Mortality Rate</wrongAnswer>
+      <rightAnswer>Carbon Dioxide Emission Per Capita </rightAnswer>
+      <wrongAnswer>Rate Of Natural Increase </wrongAnwwer>
+      <wrongAnswer>Rice Production Per Capita </wrongAnswer>
+      <wrongAnswer>Distance From The Greenwich Meridian</wrongAnswer>
+    </problem>
+    <problem>
+      <id>Industrialization-03</id>
+      <question>An informal economy...</question>
+      <wrongAnswer>Is Monitored By The Government </wrongAnswer>
+      <wrongAnswer>Is Taxed By The Government </wrongAnswer>
+      <wrongAnswer>Does Not Affect A Country </wrongAnswer>
+      <rightAnswer>Is Unmonitored By The Government </rightAnswer>
+      <wrongAnswer>Is Included In The Gross National Income Of A Country</wrongAnwwer>
+    </problem>
+    <problem>
+      <id>Industrialization-04</id>
+      <question>Which of the following is <b>NOT</b> true about Rostow&apos;s Ladder of Development model?</question>
+      <rightAnswer>All Countries Reach The Fifth Stage </rightAnswer>
+      <wrongAnswer>It Consists Of 5 Stages </wrongAnswer>
+      <wrongAnswer>Industrialization And Urbanization Start To Occur In The <i>Takeoff</i> Stage </wrongAnswer>
+      <wrongAnswer>Assumes All Countries Develop The Same </wrongAnswer>
+      <wrongAnswer>The Population Growth Rate Starts To Slow In The Fourth Stage</wrongAnwwer>
+    </problem>
+    <problem>
+      <id>Industrialization-05</id>
+      <question>Which of the following countries is in the periphery?</question>
+      <wrongAnswer>The United States </wrongAnswer>
+      <wrongAnswer>Australia </wrongAnswer>
+      <rightAnswer>Zimbabwe</rightAnswer>
+      <wrongAnswer>France</wrongAnswer>
+      <wrongAnswer>Canada</wrongAnwwer>
+    </problem> 
+ </unit>
+  <unit>
+    <id>Unit-7</id>
+    <title>Cities and Urban Land Use</title>
+    <problem>
+      <id>Cities-and-Urban-Land-Use-01</id>
+      <question>Within the framework of central place theory, which of the following provides the lowest-order good or service?</question>
+      <wrongAnswer>A Furniture Store</wrongAnwwer>
+      <wrongAnswer>An Orthodontist </wrongAnswer>
+      <wrongAnswer>A Jewelry Store </wrongAnswer>
+      <rightAnswer>A Gas Station </rightAnswer>
+      <wrongAnswer>A Professional Football Stadium</wrongAnswer>
+    </problem>
+    <problem>
+      <id>Cities-and-Urban-Land-Use-02</id>
+      <question>Edge cities have been described as the &quot;tenements of the information age&quot; because these cities have...</question>
+      <wrongAnswer>Poorly Constructed And Inexpensive Housing </wrongAnswer>
+      <rightAnswer>Many High-Density Townhouse Developments Designed For People Working In Nearby Office Buildings </rightAnswer>
+      <wrongAnswer>Sprung Up In Old Abandoned Industrial Zones </wrongAnwwer>
+      <wrongAnswer>Populations Made Up Mostly Of Recent Immigrants </wrongAnswer>
+      <wrongAnswer>Inadequate Parking</wrongAnswer>
+    </problem>
+    <problem>
+      <id>Cities-and-Urban-Land-Use-03</id>
+      <question>The sector model of city structure assumes that typical spatial behavior involves people commuting primarily... </question>
+      <wrongAnswer>Around The Outer Belt </wrongAnswer>
+      <wrongAnswer>In And Out Of Downtown </wrongAnswer>
+      <wrongAnswer>Within Downtown </wrongAnswer>
+      <rightAnswer>Within Neighborhoods </rightAnswer>
+      <wrongAnswer>Between Adjacent Cities</wrongAnwwer>
+    </problem>
+    <problem>
+      <id>Cities-and-Urban-Land-Use-04</id>
+      <question>Which of the following is <i>not</i> one of the urban hearths?</question>
+      <rightAnswer>Mesoeurope </rightAnswer>
+      <wrongAnswer>Mesopotamia </wrongAnswer>
+      <wrongAnswer>Nile River Valley </wrongAnswer>
+      <wrongAnswer>Indus River Valley </wrongAnswer>
+      <wrongAnswer>Mesoamerica</wrongAnwwer>
+    </problem>
+    <problem>
+      <id>Cities-and-Urban-Land-Use-05</id>
+      <question>The first urban revolution was the innovation of...</question>
+      <wrongAnswer>Agriculture </wrongAnswer>
+      <wrongAnswer>The Bow And Arrow </wrongAnswer>
+      <rightAnswer>Cities </rightAnswer>
+      <wrongAnswer>Homes </wrongAnswer>
+      <wrongAnswer>Hotels</wrongAnwwer>
+    </problem> 
+ </unit>
+</units>
