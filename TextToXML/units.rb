@@ -51,8 +51,7 @@ end
 file.close
 if section_started
   puts       '    </section>'
-  section_started = false
-end  
+end
 if unit_started
   puts       '  </unit>'
 end
