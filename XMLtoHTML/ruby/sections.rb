@@ -1,34 +1,34 @@
 #Ruby program to read new learnIt.txt and output the section pages (a html document) to the console.
-
-file = File.new("learnIt.txt", "r")
-sectionMain = false
-sectionOther = false
-otherSame = false
-otherDone = false
-unitTitle = nil
-nextSectionID = nil
+filename = "../../output/units.xml"
+file = File.new(filename, "r")
+section_main = false
+section_other = false
+other_same = false
+other_done = false
+unit_title = nil
+next_section_id = nil
 
 while (line = file.gets)
   line.chomp!.strip! #remove leading and trailing spaces and new lines.
 
-  if sectionMain
+  if section_main
     if line.start_with? "<id>"
-      otherDone = false
-      otherSame = false
-      fileOther = File.new("learnIt.txt", "r")
+      other_done = false
+      other_same = false
+      fileOther = File.new(filename, "r")
 
-      while (otherDone == false and otherLine = fileOther.gets)
+      while (other_done == false and otherLine = fileOther.gets)
         otherLine.chomp!.strip!
         if otherLine == line
-          otherSame = true
+          other_same = true
           next
-        elsif otherSame
+        elsif other_same
           if otherLine.start_with? "</unit>"
-            nextSectionID = "done"
-            otherDone = true
+            next_section_id = "done"
+            other_done = true
           elsif otherLine.start_with? "<id>"
-            nextSectionID = otherLine[4..-6]
-            otherDone = true
+            next_section_id = otherLine[4..-6]
+            other_done = true
           end
           next
         end
@@ -39,11 +39,11 @@ while (line = file.gets)
       puts     "<div data-role=\"page\" id=\"#{line[4..-6]}\" data-theme=\"c\">"
       puts     "   <div data-role=\"header\" data-theme=\"c\" data-position=\"fixed\">"
       puts     "      <a href=\"index.html\" data-icon=\"home\" data-transition=\"pop\">Learn it!</a>"
-      puts     "      <h1>#{unitTitle}</h1>"
+      puts     "      <h1>#{unit_title}</h1>"
       puts     "      <div data-role=\"navbar\">"
       puts     "         <ul>"
       puts     "            <li><a href=\"#\" data-rel=\"back\">Back</a></li>"
-      puts     "            <li><a href=\"##{nextSectionID}\">Next</a></li>"
+      puts     "            <li><a href=\"##{next_section_id}\">Next</a></li>"
       puts     "         </ul>"
       puts     "      </div>"
       puts     "   </div>"
@@ -60,7 +60,7 @@ while (line = file.gets)
 
 
     elsif line.start_with? "</section>"
-      sectionMain = false
+      section_main = false
       puts     "   </div>"
       puts     "</div>"
 
@@ -68,12 +68,12 @@ while (line = file.gets)
     next
 
   elsif line.start_with? "<title>"
-    unitTitle = line[7..-9]
+    unit_title = line[7..-9]
     next
 
 
   elsif line.start_with? "<section>"
-    sectionMain = true
+    section_main = true
     next
 
   end

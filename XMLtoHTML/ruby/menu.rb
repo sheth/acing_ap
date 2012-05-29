@@ -1,9 +1,10 @@
 #Ruby program to read new learnIt.txt and output the menu (a html document) to the console.
-
-file = File.new("learnIt.txt", "r")
-sectionStarted = false
-unitTitle = nil
-unitID = nil
+#units.rb output is learnIt.txt which is xml file
+filename = "../../output/units.xml"
+file = File.new(filename, "r")
+section_started = false
+unit_title = nil
+unit_id = nil
 
 puts     "<div data-role=\"page\" id=\"menu\" data-theme=\"c\">"
 puts     "   <div data-role=\"header\" data-theme=\"c\">"
@@ -16,20 +17,20 @@ while (line = file.gets)
   line.chomp!.strip! #remove leading and trailing spaces and new lines.
 
   if line.start_with? "<section>"
-    sectionStarted = true
+    section_started = true
     next
 
   elsif line.start_with? "</section>"
-    sectionStarted = false
+    section_started = false
     next
 
-  elsif sectionStarted == false
+  elsif section_started == false
     if line.start_with? "<id>"
-      unitID = line[4..-6]
-      puts     "         <li><a href=\"##{unitID}\" data-rel=\"dialog\">"
+      unit_id = line[4..-6]
+      puts     "         <li><a href=\"##{unit_id}\" data-rel=\"dialog\">"
     elsif line.start_with? "<title>"
-      unitTitle = line[7..-9]
-      puts     "            <h3>#{unitTitle}</h3>"
+      unit_title = line[7..-9]
+      puts     "            <h3>#{unit_title}</h3>"
       puts     "         </a></li>"
     end
     next
@@ -52,40 +53,40 @@ puts     "</div>"
 
 file.close
 
-fileN = File.new("learnIt.txt", "r")
-sectionStarted = false
-sectionID = nil
+fileN = File.new(filename, "r")
+section_started = false
+section_id = nil
 
 while (lineN = fileN.gets)
   lineN.chomp!.strip! #remove leading and trailing spaces and new lines.
 
   if lineN.start_with? "<section>"
-    sectionStarted = true
+    section_started = true
     next
 
   elsif lineN.start_with? "</section>"
-    sectionStarted = false
+    section_started = false
     next
 
-  elsif sectionStarted == false
+  elsif section_started == false
     if lineN.start_with? "<id>"
-      unitID = lineN[4..-6]
-      puts     "<div data-role=\"page\" id=\"#{unitID}\">"
+      unit_id = lineN[4..-6]
+      puts     "<div data-role=\"page\" id=\"#{unit_id}\">"
       puts     "   <div data-role=\"content\" data-theme=\"a\">"
     elsif lineN.start_with? "<title>"
-      unitTitle = lineN[7..-9]
-      puts     "            <h3>#{unitTitle}</h3>"
+      unit_title = lineN[7..-9]
+      puts     "            <h3>#{unit_title}</h3>"
     elsif lineN.start_with? "<unit>"
       puts     "      <a href=\"#\" data-role=\"button\" data-rel=\"back\" data-theme=\"a\">Back</a>"
       puts     "   </div>"
       puts     "</div>"
     end
 
-  elsif sectionStarted
+  elsif section_started
     if lineN.start_with? "<id>"
-      sectionID = lineN[4..-6]
+      section_id = lineN[4..-6]
     elsif lineN.start_with? "<title>"
-      puts     "      <a href=\"##{sectionID}\" data-role=\"button\" data-transition=\"pop\" data-theme=\"c\">#{lineN[7..-9]}</a>"
+      puts     "      <a href=\"##{section_id}\" data-role=\"button\" data-transition=\"pop\" data-theme=\"c\">#{lineN[7..-9]}</a>"
     end
 
   end
