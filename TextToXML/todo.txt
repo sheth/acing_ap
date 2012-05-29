@@ -1,5 +1,10 @@
+Need ruby program to output html file from glossary.xml. glossary.xml has example tags too.
+Update the other ruby programs so they use xml parser.
+
+Text files are deprecated. We won't use them any longer unless there are compelling reasons.
 done units.txt, units.dtd and units.rb
 done models.txt, models.dtd and models.rb
+
 create glossary.dtd, glossary.txt and glossary.rb - not urgent as glossary is already in ios5 version.
 create reviewit.dtd, reviewit.txt and reviewit.rb
 create takeit.dtd, takeit.txt and takeit.rb not urgent as it is small and can be done manually
