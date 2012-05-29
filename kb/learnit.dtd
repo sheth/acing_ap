@@ -5,10 +5,9 @@
 <!ELEMENT section (id, title, description+)>
 
 <!ELEMENT models (model+)>
-<!ELEMENT model (id, title, image, description)>
+<!ELEMENT model (id, title, image?, description)>
 
-<!ELEMENT glossary (letter+)>
-<!ELEMENT letter (word+)>
+<!ELEMENT glossary (word+)>
 <!ELEMENT word (id, title, description, example*)>
 
 <!ELEMENT id (#PCDATA)>

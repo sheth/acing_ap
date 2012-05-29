@@ -1,0 +1,2051 @@
+<glossary>
+  <word>
+    <id>absolutedirection</id>
+    <title>Absolute Direction</title>
+    <description>A compass direction (N,S,E,W).</description>
+    <example>I drove South to Florida.</example>
+    <example>I flew West to Arizona.</example>
+  </word>
+  <word>
+    <id>absolutelocation</id>
+    <title>Absolute Location</title>
+    <description>The exact location of a place or item using latitude and longitude.</description>
+    <example>33°45'N 84°23'W are the coordinates of Atlanta, Georgia.</example>
+    <example>36°N 138°E are the coordinates of Japan.</example>
+  </word>
+  <word>
+    <id>accessibility</id>
+    <title>Accessibility</title>
+    <description>The ease to be able to travel from one place to another.</description>
+    <example>It is easy to drive to Kroger, but difficult to drive to Canada.</example>
+    <example>Driving over mountains takes longer than flat land.</example>
+  </word>
+  <word>
+    <id>acculturation</id>
+    <title>Acculturation</title>
+    <description>Adapting certain customs that will benefit them.</description>
+    <example>A English family that migrated to the US will most likely adapt to the culture in their new home.</example>
+    <example>A native Russian family will most likely not adapt to the culture of the countries around Russia.</example>
+  </word>
+  <word>
+    <id>activityspace</id>
+    <title>Activity Space</title>
+    <description>Space used for a specific activity or industry.</description>
+    <example>Driving from to work and back.</example>
+    <example>Riding the bus to school and back.</example>
+  </word>
+  <word>
+    <id>adaptivestrategies</id>
+    <title>Adaptive Strategies</title>
+    <description>The way a culture uses its physical environment.</description>
+    <example>Many cultures farm on a percentage of their land.</example>
+    <example>some cultures set aside a certain amount of their land to be used for religious purposes.</example>
+  </word>
+  <word>
+    <id>agedistribution</id>
+    <title>Age Distribution</title>
+    <description>In a population pyramid, there are two back-to-back bar graphs, one male and one female. These graphs show the gender ration in an area.</description>
+    <example>In 2004, the US male population of 80+ was about 2% of the entire population.</example>
+    <example>In 2004, the Pakistani female population of 0-4 was about 15% of the entire population.</example>
+  </word>
+  <word>
+    <id>agglomeration</id>
+    <title>Agglomeration</title>
+    <description>A tight group or cluster; concentrating together to share the same resources.</description>
+    <example>Manufacturing plants around a resource.</example>
+    <example>Businesses at Suwanee Park.</example>
+  </word>
+  <word>
+    <id>animism</id>
+    <title>Animism</title>
+    <description>A belief where inanimate objects are worshipped because they are believed to have spirits inside of them.</description>
+    <example>Shintoism to an extent.</example>
+    <example>common in sub-Saharan Africa.</example>
+  </word>
+  <word>
+    <id>architecturalform</id>
+    <title>Architectural Form</title>
+    <description>The look of architecture based on the popular culture, environment, and available materials in the area.</description>
+    <example>Hindi temples usually have tall towers that are carved.</example>
+    <example>Stucco-style houses are common in the Southwestern United States.</example>
+  </word>
+  <word>
+    <id>arithmeticpopulationdensity</id>
+    <title>Arithmetic Population Density</title>
+    <description>The total population divided by the total land mass.</description>
+    <example>The arithmetic population density in Japan is 875 people per square mile.</example>
+    <example>The arithmetic population density in Bangladesh is 2542 people per sq. mile.</example>
+  </word>
+  <word>
+    <id>assimilation</id>
+    <title>Assimilation</title>
+    <description>Losing your culture to a more dominant culture.</description>
+    <example>Many Native groups have lost their culture to the main culture of the country they live in.</example>
+    <example>Many ethnic groups have been forced to give up their culture.</example>
+  </word>
+  <word>
+    <id>authenticity</id>
+    <title>Authenticity</title>
+    <description>Looking past stereotypes and looking at the real culture.</description>
+    <example> It was the Oriental who created the noodle, not the Italians.</example>
+    <example>Not all Southerners drink Sweet Tea.</example>
+  </word>
+  <word>
+    <id>barriadas</id>
+    <title>Barriadas</title>
+    <description>a type of "squatter settlement", ghetto, or shantytown that is on the outskirts of an urban area.</description>
+    <example>Lima, Peru.</example>
+    <example>Many Peruvian cities.</example>
+  </word>
+  <word>
+    <id>barrio</id>
+    <title>Barrio</title>
+    <description>ethnic neighborhood in Latin America cities.</description>
+    <example> usually the poorer areas in the city</example>
+    <example> usually the zone of peripheral squatter settlements according to the Latin American city model</example>
+  </word>
+  <word>
+    <id>bidrenttheory</id>
+    <title>Bid-rent Theory</title>
+    <description>a theory about real-estate prices as properties move further away from CBDs.</description>
+    <example>There aren't retail shops in residential areas.</example>
+    <example>Rent for an office building is much more expensive in a shopping center than a residential area.</example>
+  </word>
+  <word>
+    <id>blockbusting</id>
+    <title>Blockbusting</title>
+    <description>A real-estate practice to influence white people to sell their property by suggesting that the surrounding area is declining in value, usually by implying a change in racial mix; a rapid change in racial composition.</description>
+    <example>In the Great Migration, many black people migrated to the North to work in cities, which lowered real estate prices and frightened white people.</example>
+    <example>Many Chicago real estate companies had been accused of block-busting in 1962.</example>
+  </word>
+  <word>
+    <id>boundary</id>
+    <title>Boundary</title>
+    <description>The division between two states; this is not only described by the invisible, 2D lines represented on a map, but even the ground below and the airspace above a state (a boundary is a vertical plane, not just a two-dimensional line).</description>
+  </word>
+  <word>
+    <id>boundaryprocess</id>
+    <title>Boundary Process</title>
+    <description>The process of creating a boundary includes four steps: definition, often a treaty-like document that records the actual points of the landscape or describes the absolute location of the boundaries; delimitation, the actual drawing of the state's boundaries on a map by cartographers; demarcation, the physical bordering of the state with steel posts, concrete pillars, fences, or walls (often impractical or too expensive); and administration, which is how states regulate and maintain these boundaries.</description>
+  </word>
+  <word>
+    <id>buddhism</id>
+    <title>Buddhism</title>
+    <description>One of the world's major universalizing religion.</description>
+    <example>Founded by Prince Siddartha (the Buddha)</example>
+    <example>Followers seek enlightenment through knowledge.</example>
+  </word>
+  <word>
+    <id>builtenvironment</id>
+    <title>Built Environment</title>
+    <description>the man made imprint on a landscape.</description>
+    <example>A McDonald's restaurant on a street corner.</example>
+    <example>The dam on a lake.</example>
+  </word>
+  <word>
+    <id>capitalism</id>
+    <title>Capitalism</title>
+    <description>Rather than the government, in capitalism the people, corporations, or states (with the goal of earning a profit) exchange produced goods with the world market. Producers can commodify products and take advantage of the world labor supply to maximize profit. The capitalistic market began in the 15th century and spread through European colonialism, finally including the entire world by the 20th century.</description>
+  </word>
+  <word>
+    <id>carryingcapacity</id>
+    <title>Carrying Capacity</title>
+    <description>the amount of people a certain area can support.</description>
+    <example>Every country has a carrying capacity.</example>
+    <example>If the population grows more than the carrying capacity, there won't be enough food, water, and shelter to support the entire population.</example>
+  </word>
+  <word>
+    <id>cbd</id>
+    <title>Central Business District</title>
+    <description>the concentrated central area in a city that is the hearth of government, retail, transportation, and business.</description>
+    <example>Suwanee park.</example>
+    <example>New York City.</example>
+  </word>
+  <word>
+    <id>censustract</id>
+    <title>Census tract</title>
+    <description>A statistical subdivision that is smaller than a county, which is used to count the population.</description>
+    <example>California is completely covered with census tracts.</example>
+    <example>Metropolitan areas use census tracts to hold a population count.</example>
+  </word>
+  <word>
+    <id>centrality</id>
+    <title>Centrality</title>
+    <description>to be centered; equal distance from all objects; a strong central urban center, with the power to attract producers and consumers.</description>
+    <example>The commons area of a high school is usually in the central area of the school.</example>
+    <example>Times square in New York is a CBD.</example>
+  </word>
+  <word>
+    <id>centralization</id>
+    <title>Centralization</title>
+    <description>the act of businesses and governments moving to a central location.</description>
+    <example>Shrines and temples in the center of the city in Mesopotamia.</example>
+    <example>Businesses have flocked to the focal point of Suwanee, Suwanee park</example>
+  </word>
+  <word>
+    <id>centralizedpattern</id>
+    <title>Centralized Pattern</title>
+    <description>The dispersal of population is agglomerated, or clumped together.</description>
+    <example> The guests gathered in a centralized pattern on the dance floor.</example>
+    <example>The watering hole in Africa.</example>
+  </word>
+  <word>
+    <id>centralplacetheory</id>
+    <title>Central-place theory</title>
+    <description>a theory that explains why urban systems are placed where they are; explores the place, size, and population.</description>
+    <example>New York City</example>
+    <example>Atlanta</example>
+  </word>
+  <word>
+    <id>centrifugal</id>
+    <title>Centrifugal</title>
+    <description>A force that divides a state or nation, described by the political geographer Richard Hartshorne. Examples range from internal religious conflicts to political, ethnic, or economic differences.</description>
+  </word>
+  <word>
+    <id>centripetal</id>
+    <title>Centripetal</title>
+    <description>A force that unify the people within a common state or nation, described by the political geographer Richard Hartshorne. These could be as simple as a national culture and common faith or even as complex as the unification during a war.</description>
+  </word>
+  <word>
+    <id>chainmigration</id>
+    <title>Chain Migration</title>
+    <description>one member of a family migrates to a new country and the rest of the family follows shortly after.</description>
+    <example>A father from Russia migrates to the US. Three years later, the rest of his family moves from Russia to the US.</example>
+    <example>A brother from Mexico migrates to the US. He sends money to his family in Mexico every month. Five years later, the rest of his family moves to the US.</example>
+  </word>
+  <word>
+    <id>christallerwalter</id>
+    <title>Christaller, Walter</title>
+    <description>A German geographer who created the Central-place theory; researched urban systems.</description>
+    <example>Central place theory: New York City</example>
+  </word>
+  <word>
+    <id>christianity</id>
+    <title>Christianity</title>
+    <description>a monotheistic religion based on the teachings of Jesus Christ.</description>
+    <example>The Bible</example>
+    <example>Jesus is the Messiah</example>
+  </word>
+  <word>
+    <id>city</id>
+    <title>City</title>
+    <description>a conglomeration or tight cluster of people and buildings that group together to form a universal center of politics, culture, and economics.</description>
+    <example>New York City.</example>
+    <example>Suwanee.</example>
+  </word>
+  <word>
+    <id>cityscape</id>
+    <title>Cityscape</title>
+    <description>an urban landscape; how a city looks, which includes the building architecture, roads, landmarks, etc.</description>
+    <example>Horizon of New York.</example>
+    <example>Greek village.</example>
+  </word>
+  <word>
+    <id>clusteredagglomerratedsettlement</id>
+    <title>Clustered/ Agglomerrated Settlement</title>
+    <description>Houses are clumped into one area.</description>
+    <example>Location of homes in New York City.</example>
+    <example>Town homes in college towns.</example>
+  </word>
+  <word>
+    <id>cohort</id>
+    <title>Cohort</title>
+    <description>population in a category on an age-sex population pyramid.</description>
+    <example>The 45-49 age group on a population pyramid</example>
+    <example>The 0-4 age group on a population pyramid</example>
+  </word>
+  <word>
+    <id>colonialism</id>
+    <title>Colonialism</title>
+    <description>Although often referring to the European colonization during the 16th century (because of its magnitude and impact), colonialism is a general term that describes the rule of a country over an alien, separate people and place. The established settlements are imposed political and economic control by the autonomous power, often resulting in unequal economic and cultural relations.</description>
+  </word>
+  <word>
+    <id>colonialcity</id>
+    <title>Colonial city</title>
+    <description>cities that were founded and created by colonial powers long ago.</description>
+    <example>Johannesburg.</example>
+    <example>Massachusetts.</example>
+  </word>
+  <word>
+    <id>commercialization</id>
+    <title>Commercialization</title>
+    <description>exploiting a type of product to make a profit; introducing an item into the market; taking advantage of a situation to make money; using a city to attract tourists and money.</description>
+    <example>Christmas has become more about buying presents, decorations, dinner supplies, etc. than it has about the actual religious celebration.</example>
+    <example>Cities like New York City, Los Angeles, Paris, etc. that bring in exponential amounts of tourists.</example>
+  </word>
+  <word>
+    <id>commodification</id>
+    <title>Commodification</title>
+    <description>A process used by producers to maximize profit involving selling, buying, and exchanging priced products. "Companies create new products, generate new twists on old products, and create demand for the products through marketing (De Blij et al., 2007, p.232)." An example is the 20th century fad for pet rocks or the newly marketed bottled water.</description>
+  </word>
+  <word>
+    <id>commuterzone</id>
+    <title>Commuter zone</title>
+    <description>a zone in the concentric zone model.</description>
+    <example>Atlanta.</example>
+    <example>Highway.</example>
+  </word>
+  <word>
+    <id>concentriczonemodel</id>
+    <title>Concentric-Zone Model</title>
+    <description>a model that shows the structure of an American city that exhibits centrality that suggests a central district or zone, that is surrounded by 5 outer-rings.</description>
+    <example>CBD.</example>
+    <example>Commuter zon.</example>
+  </word>
+  <word>
+    <id>conferenceofberlin</id>
+    <title>Conference of Berlin (1884)</title>
+    <description>During the second wave of colonialism during the late 1800s, the major colonizers (Including Britain, France, the Netherlands, Belgium, Germany, and Italy) met in 1884 for the Berlin Conference. These colonizing parties met and divided up the map of Africa, deciding on the various colonies. Motives ranged from economic benefit to spreading Christianity.</description>
+  </word>
+  <word>
+    <id>confucianism</id>
+    <title>Confucianism</title>
+    <description>a system developed in China based on moral, political, social, and political thoughts.</description>
+    <example>making good judgments</example>
+    <example>being kind to people</example>
+  </word>
+  <word>
+    <id>connectivity</id>
+    <title>Connectivity</title>
+    <description>The linkage of one location to others.</description>
+    <example>a roundabout.</example>
+    <example>A trail in the backyard to go to another house.</example>
+  </word>
+  <word>
+    <id>contagiousdiffusion</id>
+    <title>Contagious Diffusion</title>
+    <description>a character rapidly diffused through a population.</description>
+    <example>the Bubonic Plaque.</example>
+    <example>ideas on the Internet.</example>
+  </word>
+  <word>
+    <id>coreperipherymodel</id>
+    <title>Core/periphery Model</title>
+    <description>The world economy is a three-tier structure: the core, the periphery, and semi-periphery. Core processes incorporate higher levels of education and include higher wages and more technology. There processes develop more wealth in the global economy. On the contrary, periphery processes include the lower levels of education and incorporate lower salaries and less technology. Semi-peripheries, as you can imagine, are simply a buffer between the two extremes of core and periphery. This process generally includes the exploitation of the periphery by the core. Although these are processes, they occur in places and are sometimes assigned to states. For example, the US and Canada are core states while Chile and Iraq are periphery.</description>
+  </word>
+  <word>
+    <id>counterurbanization</id>
+    <title>Counterurbanization</title>
+    <description>people moving against the trend of rural to urban and moving from urban areas to rural ones.</description>
+    <example>US in the 1970s.</example>
+    <example>Brian Berr.</example>
+  </word>
+  <word>
+    <id>creole</id>
+    <title>Creole</title>
+    <description>a pidgin language that turned into the native language of a group of people.</description>
+    <example>Jamaican.</example>
+    <example>Hawaiian.</example>
+  </word>
+  <word>
+    <id>crudebirthrate</id>
+    <title>Crude Birth Rate</title>
+    <description>the number of live births every year per 1,000 people in a population.</description>
+    <example>the CBR of the US is 15 live births per 1,000 people.</example>
+    <example>the CBR of Brazil is 20 live births per 1,000 people</example>
+  </word>
+  <word>
+    <id>crudedeathrate</id>
+    <title>Crude Death Rate</title>
+    <description>the number of deaths every year per 1,000 people in a population.</description>
+    <example> higher in peripheral countries</example>
+    <example> the CBR of the US is 12</example>
+  </word>
+  <word>
+    <id>culturaladaption</id>
+    <title>Cultural Adaption</title>
+    <description>the change of a culture due to the presence of new cultures in the area.</description>
+    <example> Chinese food has become a part of the American culture</example>
+    <example>Spanish has become an increasingly popular language in the US due to the large amount of Spanish immigrants.</example>
+  </word>
+  <word>
+    <id>culturalcoreperipherypattern</id>
+    <title>Cultural Core/Periphery Pattern</title>
+    <description>the core provides the main economic power and the peripheral or outer regions provide less economic power.</description>
+    <example> Atlanta is the core and the suburbs are the outer regions</example>
+    <example> Washington, D.C. is the core and surrounding cities are the periphery</example>
+  </word>
+  <word>
+    <id>culturalecology</id>
+    <title>Cultural Ecology</title>
+    <description>geographic study of the multiple interactions of human-environmental relationships.</description>
+    <example> air pollution due to factories</example>
+    <example> humans planting new trees to make up for the trees that are cut down</example>
+  </word>
+  <word>
+    <id>culturalidentity</id>
+    <title>Cultural Identity</title>
+    <description>belonging to a cultural group.</description>
+    <example> Chinese people are part of the Chinese culture</example>
+    <example> There is not a standard culture in America, there are many cultural groups</example>
+  </word>
+  <word>
+    <id>culturallandscape</id>
+    <title>Cultural Landscape</title>
+    <description>the presence of human activity on a certain landscape.</description>
+    <example> the Great Pyramid of Giza</example>
+    <example> Stonehenge</example>
+  </word>
+  <word>
+    <id>culturalrealm</id>
+    <title>Cultural Realm</title>
+    <description>a region where a culture prevails.</description>
+    <example> the Middle East</example>
+    <example> China</example>
+  </word>
+  <word>
+    <id>culturalshatterbelt</id>
+    <title>Cultural Shatter Belt</title>
+    <description>a politically unstable region in which many cultures live and there is conflict between them.</description>
+    <example> the former Yugoslavia</example>
+    <example> common in Africa</example>
+  </word>
+  <word>
+    <id>culture</id>
+    <title>Culture</title>
+    <description>the knowledge, beliefs, behaviors, traditions, and social forms of a group of people.</description>
+    <example> food</example>
+    <example> religion</example>
+  </word>
+  <word>
+    <id>cultureregion</id>
+    <title>Culture Region</title>
+    <description>a region where there is a common culture.</description>
+    <example> formal cultural region</example>
+    <example> functional cultural region</example>
+  </word>
+  <word>
+    <id>cyclicmovement</id>
+    <title>Cyclic Movement</title>
+    <description>a short term journey that begins at home and ends at home.</description>
+    <example> a daily routine</example>
+    <example> a week long trip to Florida and the coming back home</example>
+  </word>
+  <word>
+    <id>decentralization</id>
+    <title>Decentralization</title>
+    <description>When cities are moving further away from the center, the CBDs are no longer a gravitational focus of the city.</description>
+    <example>Counterurbanization.</example>
+    <example>Multiple nuclei mode.</example>
+  </word>
+  <word>
+    <id>deindustrialization</id>
+    <title>Deindustrialization</title>
+    <description>the movement of industrial jobs and manufacturing to areas where labor isn't as cheap, therefore leaving behind a high service economy with a large proportion of unemployment.</description>
+    <example>Rust belt.</example>
+    <example>Japa.</example>
+  </word>
+  <word>
+    <id>demographicequation</id>
+    <title>Demographic Equation</title>
+    <description>a formula that calculates a population's change.</description>
+    <example>subtract CDR from CBR and add or subtract net migration.</example>
+    <example>if the CBR and CDR are =, and immigration and emigration rates are =, it is zero.</example>
+  </word>
+  <word>
+    <id>demographicmomentum</id>
+    <title>Demographic Momentum</title>
+    <description>the tendency for a growing population to continue growing after a fertility decline because of the population's young age distribution.</description>
+    <example>growth even with a restrictive population policy.</example>
+    <example>can happen after a sudden increase in the population, like the Baby Boom.</example>
+  </word>
+  <word>
+    <id>demographicregion</id>
+    <title>Demographic Region</title>
+    <description>what stage on the Demographic Transition Model a certain region is in.</description>
+    <example>Most of sub-Saharan Africa is in Stage 2 of the DTM.</example>
+    <example>two-thirds of North America are in Stage 4 of the DTM.</example>
+  </word>
+  <word>
+    <id>demographictransitionmodel</id>
+    <title>Demographic Transition Model</title>
+    <description>a representation of what stage of growth a country is in.</description>
+    <example>there are 4 main stages.</example>
+    <example>there are no countries currently in stage 1.</example>
+  </word>
+  <word>
+    <id>dependencyratio</id>
+    <title>Dependency Ratio</title>
+    <description>the ratio of the number of people either too young or to old to work to the number of people that can work and support those who can't work.</description>
+    <example>higher in countries with more younger and older people.</example>
+    <example>Japan has a large population of people who cannot work, mostly elderly people.</example>
+  </word>
+  <word>
+    <id>devolution</id>
+    <title>Devolution</title>
+    <description>The change in political power in a state, from a more centralized unitary system to a more federal system. This can be permanently written in a reconstructed constitution (as in Spain) or temporary without the alteration of a constitution (as in the United Kingdom).</description>
+  </word>
+  <word>
+    <id>dialect</id>
+    <title>Dialect</title>
+    <description>a variation of a language.</description>
+    <example>Mandarin Chinese.</example>
+    <example>Peninsular Spanish.</example>
+  </word>
+  <word>
+    <id>diffusion</id>
+    <title>Diffusion</title>
+    <description>the spread of ideas and innovations.</description>
+    <example>Expansive.</example>
+    <example>Relocatio.</example>
+  </word>
+  <word>
+    <id>diffusionoffertilitycontrol</id>
+    <title>Diffusion of Fertility Control</title>
+    <description>when fertility control spreads to the different areas of the world.</description>
+    <example>China's One Child Policy.</example>
+    <example>the high rate of AIDS in Africa shows there is not much fertility control in Africa.</example>
+  </word>
+  <word>
+    <id>diseasediffusion</id>
+    <title>Disease Diffusion</title>
+    <description>how a disease spreads from place to place.</description>
+    <example>The Bubonic plaque was spread by fleas that were on rats that were on ships.</example>
+    <example>Swine flu was brought to the US by a group of US citizens after a trip.</example>
+  </word>
+  <word>
+    <id>dispersionscatteredsettlement</id>
+    <title>Dispersion/ Scattered Settlement</title>
+    <description>Houses are far from one another.</description>
+    <example>Location of houses in Kansas.</example>
+    <example>Houses with dairy farms.</example>
+  </word>
+  <word>
+    <id>distancedecay</id>
+    <title>Distance Decay</title>
+    <description>when the communication between two separate groups stops because of the distance between them.</description>
+    <example>time-space compression almost eliminates distance decay.</example>
+    <example>common with isolated groups.</example>
+  </word>
+  <word>
+    <id>distribution</id>
+    <title>Distribution</title>
+    <description>The dispersal of a product or service across an area.</description>
+  </word>
+  <word>
+    <id>doublingtime</id>
+    <title>Doubling Time</title>
+    <description>the total time it takes for a certain population to double in size and number.</description>
+    <example>the doubling time for the world population 2,000 years ago was 1,600 years.</example>
+    <example>the world's doubling times is currently 51 years.</example>
+  </word>
+  <word>
+    <id>dowrydeath</id>
+    <title>Dowry Death</title>
+    <description>In arranged marriages in India, the bride's father is responsible for paying a dowry(a price paid to the father of the groom). If he refuses, the bride can be killed.</description>
+    <example>there can be disputes over the price of the dowry.</example>
+    <example>Indian Arranged Marriages.</example>
+  </word>
+  <word>
+    <id>earlycities</id>
+    <title>Early cities</title>
+    <description>created in the first urban revolution, about 3500 to 1500 years ago, origin of agriculture and language.</description>
+    <example>Athens.</example>
+    <example>Jerich.</example>
+  </word>
+  <word>
+    <id>economicbase</id>
+    <title>Economic base</title>
+    <description>(basic/nonbasic)Community's collection of basic industry.</description>
+    <example>Sugar Hill economy.</example>
+    <example>Robert Heig.</example>
+  </word>
+  <word>
+    <id>ecumene</id>
+    <title>Ecumene</title>
+    <description>the proportion of Earth's surface that is occupied by permanent human settlements.</description>
+    <example>only about 40% of Earth's surface is inhabited by human settlements.</example>
+    <example>the majority of Canada's population is located near the Canadian-US border.</example>
+  </word>
+  <word>
+    <id>edgecity</id>
+    <title>Edge city</title>
+    <description>an area on the outskirts of a CBD where urbanization is starting to shift towards; high office/retail space, few residential areas, and modern buildings are characteristics of edge cities.</description>
+    <example>Sydney.</example>
+    <example>Melbourn.</example>
+  </word>
+  <word>
+    <id>emergingcities</id>
+    <title>Emerging cities</title>
+    <description>Cities with a low population, but alarmingly high growth rate.</description>
+    <example>San Antonio.</example>
+    <example>Austi.</example>
+  </word>
+  <word>
+    <id>enclave</id>
+    <title>Enclave</title>
+    <description>a territory in which its boundaries are inside the boundaries of another territory.</description>
+    <example>Lesotho.</example>
+    <example>Nagorno-Karabag.</example>
+  </word>
+  <word>
+    <id>enfranchisement</id>
+    <title>Enfranchisement</title>
+    <description>being granted freedom, rights, or citizenship.</description>
+    <example>immigrants becoming citizens of the country they just immigrated to.</example>
+    <example>women getting the right to vote.</example>
+  </word>
+  <word>
+    <id>entrepot</id>
+    <title>entrepot</title>
+    <description>Entrepôt a center of trade that doesn't have import or export costs.</description>
+  </word>
+  <word>
+    <id>epidemiologicaltransitionmodel</id>
+    <title>Epidemiological Transition Model</title>
+    <description>the cause of death in each stage of the Demographic Transition Model.</description>
+    <example>The main cause of death in Stage 1 of the DTM was plaques and epidemics.</example>
+    <example>The main cause of death in Stage 3 of the DTM is cardiovascular diseases and cancer.</example>
+  </word>
+  <word>
+    <id>ethniccleansing</id>
+    <title>Ethnic Cleansing</title>
+    <description>the killing of an ethnic/religious group in order to wipe out the group permanently.</description>
+    <example>usually performed by a rival ethnic group.</example>
+    <example>usually an act of hatred.</example>
+  </word>
+  <word>
+    <id>ethnicconflict</id>
+    <title>Ethnic Conflict</title>
+    <description>a conflict between ethnic groups.</description>
+    <example>between the Hutu and Tutsi groups in Rwanda in the 1990s.</example>
+    <example>the Balkan region in the former Yugoslavi.</example>
+  </word>
+  <word>
+    <id>ethnicenclave</id>
+    <title>Ethnic Enclave</title>
+    <description>a neighborhood with a distinct, ethnic presence.</description>
+    <example>Chinatown in San Fransisco.</example>
+    <example>Little Italy in New York City.</example>
+  </word>
+  <word>
+    <id>ethnicgroup</id>
+    <title>Ethnic Group</title>
+    <description>a group of people that share a common culture and heritage.</description>
+    <example>Koreans.</example>
+    <example>Haitians.</example>
+  </word>
+  <word>
+    <id>ethnichomeland</id>
+    <title>Ethnic Homeland</title>
+    <description>where a certain ethnicity originated.</description>
+    <example>Dominicans are from the Dominican Republic.</example>
+    <example>Koreans come from Korea.</example>
+  </word>
+  <word>
+    <id>ethniclandscape</id>
+    <title>Ethnic Landscape</title>
+    <description>a landscape that reflects an ethnicity.</description>
+    <example>Chinese people are the majority of workers in Chinese restaurants.</example>
+    <example>Mayan Temples in Latin America.</example>
+  </word>
+  <word>
+    <id>ethnicneighborhood</id>
+    <title>Ethnic neighborhood</title>
+    <description>cities that are usually located in large metropolitan city where the population consists of a local culture where the people are free to practice their customs.</description>
+    <example>Little China.</example>
+    <example>Little Ital.</example>
+  </word>
+  <word>
+    <id>ethnicreligion</id>
+    <title>Ethnic Religion</title>
+    <description>a local religion that is comprised on mostly one ethnicity.</description>
+    <example>Shintoism.</example>
+    <example>Judais.</example>
+  </word>
+  <word>
+    <id>ethnicity</id>
+    <title>Ethnicity</title>
+    <description>the identity of a group of people who share a common ancestor and culture.</description>
+    <example>Chinese.</example>
+    <example>Japanese.</example>
+  </word>
+  <word>
+    <id>ethnocentrism</id>
+    <title>Ethnocentrism</title>
+    <description>the belief that one's ethnicity is the dominant ethnicity.</description>
+    <example>Nazis.</example>
+    <example>Japanese over Koreans.</example>
+  </word>
+  <word>
+    <id>exclave</id>
+    <title>Exclave</title>
+    <description>a territory tin which its boundaries are attached to the boundaries of another territory without sharing a border with that territory.</description>
+    <example>Alaska.</example>
+    <example>Kaliningrad, Russi.</example>
+  </word>
+  <word>
+    <id>expansivediffusion</id>
+    <title>Expansive Diffusion</title>
+    <description>the spread of ideas and innovations through different populations.</description>
+    <example>Contagious.</example>
+    <example>Hierarchical.</example>
+  </word>
+  <word>
+    <id>favela</id>
+    <title>Favela</title>
+    <description>A Brazilian shanty town.</description>
+    <example>Lima, Peru.</example>
+    <example>Barriada.</example>
+  </word>
+  <word>
+    <id>federal</id>
+    <title>Federal</title>
+    <description>a political system in which power is shared between the national and state governments. Examples can range from the United States (where the death penalty, the access to alcohol, and the concealed weapons are limited by states) or Nigeria (where the Muslim North follow Shari'a law and the South, being Christian or animist, don't).</description>
+  </word>
+  <word>
+    <id>femaleheadedhousehold</id>
+    <title>femaleheadedhousehold</title>
+    <description>Female-headed household a household in which the mother or oldest daughter is in charge.</description>
+    <example>Latin America.</example>
+    <example>Grenad.</example>
+  </word>
+  <word>
+    <id>festivallandscape</id>
+    <title>festivallandscape</title>
+    <description>Festival landscape how places look during festivals and celebrations unique to different cultures.</description>
+    <example>China.</example>
+    <example>Suwanee Par.</example>
+  </word>
+  <word>
+    <id>folkculture</id>
+    <title>Folk Culture</title>
+    <description>cultural traits of small communities.</description>
+    <example>clothing.</example>
+    <example>music.</example>
+  </word>
+  <word>
+    <id>folkfood</id>
+    <title>Folk Food</title>
+    <description>traditional food cooked and eaten in a particular culture.</description>
+    <example>Sushi in Asia.</example>
+    <example>Cabbage and corned beef in Ireland.</example>
+  </word>
+  <word>
+    <id>folkhouse</id>
+    <title>Folk House</title>
+    <description>a type of house that reflects the culture and fashion in the area.</description>
+    <example>Stucco houses in the Southwestern United States.</example>
+    <example>Saltbox houses in New England.</example>
+  </word>
+  <word>
+    <id>folksong</id>
+    <title>Folk Song</title>
+    <description>a song that tells a story that has been in the culture and passed down from generation to generation.</description>
+    <example>"Barbara Allen" Scotland.</example>
+    <example>"Black Sheep" America.</example>
+  </word>
+  <word>
+    <id>forcedmigration</id>
+    <title>Forced Migration</title>
+    <description>when people are forced out of their country and forced to live in a new country because of war, government, or natural disaster.</description>
+    <example>The Jews were pushed out of their homelands by the Roman Empire (the diaspora).</example>
+    <example>very common in Darfur, Sudan (refugees go to Rwanda and other neighboring countries).</example>
+  </word>
+  <word>
+    <id>frictionofdistance</id>
+    <title>Friction of Distance</title>
+    <description>the inhibition of distance on human activity.</description>
+    <example>A lot of people don't just hop up and drive to California.</example>
+    <example>The need of an airplane to go to Tokyo.</example>
+  </word>
+  <word>
+    <id>folklore</id>
+    <title>Folklore</title>
+    <description>traditional myths, tales, stories, songs, and beliefs passed down orally in a culture.</description>
+    <example>folk songs.</example>
+    <example>stories that are not written dow.</example>
+  </word>
+  <word>
+    <id>formalcultureregion</id>
+    <title>Formal Culture Region</title>
+    <description>an area where people share on or more characteristics.</description>
+    <example>Atlanta, GA.</example>
+    <example>Beijing, China.</example>
+  </word>
+  <word>
+    <id>functionalcultureregion</id>
+    <title>Functional Culture Region</title>
+    <description>a region that is organized around a focal point or a node.</description>
+    <example>a capital city.</example>
+    <example>an airport or train station.</example>
+  </word>
+  <word>
+    <id>fundamentalism</id>
+    <title>Fundamentalism</title>
+    <description>the literal interpretation of a set of basic principles.</description>
+    <example>usually involves religion.</example>
+    <example>can resort to violence (extremism).</example>
+  </word>
+  <word>
+    <id>gatewaycity</id>
+    <title>Gateway city</title>
+    <description>a city that acts as a connection between two places, similar to a primate city.</description>
+    <example>St. Louis.</example>
+    <example>Atlanta airport.</example>
+  </word>
+  <word>
+    <id>gender</id>
+    <title>Gender</title>
+    <description>a person's sex, male or female.</description>
+    <example>China.</example>
+    <example>India.</example>
+  </word>
+  <word>
+    <id>genderedspace</id>
+    <title>Gendered Space</title>
+    <description>an area specifically designated to a certain gender.</description>
+    <example>The men's restroom.</example>
+    <example>The women's locker room.</example>
+  </word>
+  <word>
+    <id>gendergap</id>
+    <title>Gender Gap</title>
+    <description>social differences between men and women.</description>
+    <example>men usually work and bring in the money for the family.</example>
+    <example>women usually cook and stay at home with the children.</example>
+  </word>
+  <word>
+    <id>gentrification</id>
+    <title>Gentrification</title>
+    <description>older, lower class homes are renovated to become more modern in order to increase property values.</description>
+    <example>Segregation.</example>
+    <example>Apartheid.</example>
+  </word>
+  <word>
+    <id>gerrymandering</id>
+    <title>Gerrymandering</title>
+    <description>Being named after Governor Elbridge Gerry, the term defines the process by which districts are drawn and redistricted to favor a group. Although gerrymandering occurs today, it is often for the reason of giving representation to the minorities. Another example of gerrymandering is during the 1950s and 1960s in the United State, a time when minorities (African Americans) were often refused to vote.</description>
+  </word>
+  <word>
+    <id>ghetto</id>
+    <title>Ghetto</title>
+    <description>a lower class area occupied by a population with a uniform race, religion, or social background.</description>
+    <example>Slums.</example>
+    <example>favelas.</example>
+  </word>
+  <word>
+    <id>globalization</id>
+    <title>Globalization</title>
+    <description>the evolution of technology at a global scale.</description>
+    <example>outsourcing.</example>
+    <example>world businesses.</example>
+  </word>
+  <word>
+    <id>gravitymodel</id>
+    <title>Gravity Model</title>
+    <description>predicts the perfect location for a service in direct relation to the population of area and indirectly related to the distance the people have to travel to use it.</description>
+    <example>more populated cities are more likely to interact with each other than less populated cities.</example>
+    <example>cities closer together are more likely to interact than cities farther apart.</example>
+  </word>
+  <word>
+    <id>greatcities</id>
+    <title>Great cities</title>
+    <description>similar to a primate city, they have influence on their country and world.</description>
+    <example>London.</example>
+    <example>San Francisco.</example>
+  </word>
+  <word>
+    <id>guestworker</id>
+    <title>Guest Worker</title>
+    <description>a labor migrant brought in to replace the workers that died in World War II.</description>
+    <example>France received a large amount of guest workers after World War II.</example>
+    <example>Many guest workers did not return to their ho country.</example>
+  </word>
+  <word>
+    <id>hajj</id>
+    <title>Hajj</title>
+    <description>the pilgrimage made by Muslims to the holy city of Mecca.</description>
+    <example>one of the Five Pillars of Faith (Islam).</example>
+    <example>must be made at least one in a Muslim's life.</example>
+  </word>
+  <word>
+    <id>hearth</id>
+    <title>Hearth</title>
+    <description>The point of origin from where the diffusion starts.</description>
+    <example>Coke originated in Atlanta Georgia.</example>
+    <example>The abundance of seafood on the coast.</example>
+  </word>
+  <word>
+    <id>hierarchicaldiffusion</id>
+    <title>Hierarchical Diffusion</title>
+    <description>ideas that get diffused first by the most connected places and cities.</description>
+    <example>clothing.</example>
+    <example>music.</example>
+  </word>
+  <word>
+    <id>hightechcorridors</id>
+    <title>High-tech corridors</title>
+    <description>a center for technology production and design.</description>
+    <example>San Francisco.</example>
+    <example>Atlanta.</example>
+  </word>
+  <word>
+    <id>hinduism</id>
+    <title>Hinduism</title>
+    <description>third largest world religion (by followers).</description>
+    <example>no single founder.</example>
+    <example>caste system.</example>
+  </word>
+  <word>
+    <id>hinterland</id>
+    <title>Hinterland</title>
+    <description>a remote and undeveloped area.</description>
+    <example>Rural areas.</example>
+    <example>Country/boondocks.</example>
+  </word>
+  <word>
+    <id>hydrauliccivilization</id>
+    <title>Hydraulic civilization</title>
+    <description>a government or social structure in which control is defined by power over water.</description>
+    <example>Karl Wittfogel.</example>
+    <example>Sri Lanka.</example>
+  </word>
+  <word>
+    <id>indigenouscity</id>
+    <title>Indigenous city</title>
+    <description>a city with a population of indigenous people.</description>
+    <example>Vancouver.</example>
+    <example>Australia.</example>
+  </word>
+  <word>
+    <id>indoeuropeanlanguage</id>
+    <title>Indo-European Language</title>
+    <description>several hundred related dialects and languages; includes most major European languages, some Middles Eastern languages, and some Asian languages.</description>
+    <example>Spanish.</example>
+    <example>English.</example>
+  </word>
+  <word>
+    <id>infanticide</id>
+    <title>Infanticide</title>
+    <description>the killing or murder of a child under the age of 1.</description>
+    <example>sacrificing infants was part of ancient cultures.</example>
+    <example>According to the Bible, ancient Hebrews sacrificed infants to the Gods.</example>
+  </word>
+  <word>
+    <id>infantmortalityrate</id>
+    <title>Infant Mortality Rate</title>
+    <description>the number of deaths of infants under age 1 to 1000 live births.</description>
+    <example>In 2002, the IMR in the US is 7 deaths/1,000 live births.</example>
+    <example>In 2004, the IMR in Sierra Leone was 179.5, the highest in the world.</example>
+  </word>
+  <word>
+    <id>informalsector</id>
+    <title>Informal sector</title>
+    <description>an economic system that isn't tracked, taxed, or monitored by the government, and is not included in the GNP.</description>
+    <example>Sub-Saharan cities in Africa.</example>
+    <example>Black Market.</example>
+  </word>
+  <word>
+    <id>infilling</id>
+    <title>In-filling</title>
+    <description>to fill in a space, hole, or gap.</description>
+    <example>Pot holes.</example>
+    <example>City councils.</example>
+  </word>
+  <word>
+    <id>infrastructure</id>
+    <title>Infrastructure</title>
+    <description>underlying structures and features of an area.</description>
+    <example>Roads.</example>
+    <example>Train tracks.</example>
+  </word>
+  <word>
+    <id>innercity</id>
+    <title>Inner city</title>
+    <description>the central area of a major city, similar to a CBD.</description>
+    <example>Suwanee Park.</example>
+    <example>Times Square.</example>
+  </word>
+  <word>
+    <id>innovationadoption</id>
+    <title>Innovation Adoption</title>
+    <description>how, why, and a what rate new technological innovations move throughout a society.</description>
+    <example>many people bought Xbox 360 gaming consoles when it first hit the market.</example>
+    <example>people looking to save money look for cheaper technology.</example>
+  </word>
+  <word>
+    <id>intercontinentalmigrationpatterns</id>
+    <title>Intercontinental Migration Patterns</title>
+    <description>permanent movement from one country to another without leaving the continent.</description>
+    <example>Moving from Canada to the US.</example>
+    <example>Moving from Egypt to South Africa.</example>
+  </word>
+  <word>
+    <id>interfaithboundaries</id>
+    <title>Interfaith Boundaries</title>
+    <description>boundaries between the world's major faiths.</description>
+    <example>the former Yugoslavia had many interfaith boundaries.</example>
+    <example>many African countries.</example>
+  </word>
+  <word>
+    <id>internalmigration</id>
+    <title>Internal Migration</title>
+    <description>a permanent movement to a different part of the same country.</description>
+    <example>Moving from Georgia to Texas.</example>
+    <example>Moving From Chengdu, China to Beijing, China.</example>
+  </word>
+  <word>
+    <id>interregionalmigrationpatterns</id>
+    <title>Interregional Migration Patterns</title>
+    <description>permanent movement from one region to another.</description>
+    <example>Moving from Northern Asia to Northern Africa.</example>
+    <example>Moving from Latin America to Australia.</example>
+  </word>
+  <word>
+    <id>interveningopportunity</id>
+    <title>Intervening Opportunity</title>
+    <description>a certain feature, whether it's environmental or cultural, on a landscape that aids in migration.</description>
+    <example>Moving to America for freedom.</example>
+    <example>a new series of job openings.</example>
+  </word>
+  <word>
+    <id>intrafaithboundaries</id>
+    <title>Intrafaith Boundaries</title>
+    <description>boundaries within one faith.</description>
+    <example>Protestant and Catholic in Northern Ireland.</example>
+    <example>Sunni Muslims and Shia Muslims.</example>
+  </word>
+  <word>
+    <id>invasionandsuccession</id>
+    <title>Invasion and succession</title>
+    <description>a process where a group of immigrants move into the territory previously inhabited by other immigrants.</description>
+    <example>Settlers.</example>
+    <example>Gold rush.</example>
+  </word>
+  <word>
+    <id>islam</id>
+    <title>Islam</title>
+    <description>a monotheistic religion based on the teachings of Muhammad.</description>
+    <example>the Qu'ran.</example>
+    <example>Muhammad is the Prophet.</example>
+  </word>
+  <word>
+    <id>isogloss</id>
+    <title>Isogloss</title>
+    <description>a geographic boundary of where a dialect is spoken.</description>
+    <example>the Centum-Satem isogloss.</example>
+    <example>the North-Midland isogloss.</example>
+  </word>
+  <word>
+    <id>jainism</id>
+    <title>Jainism</title>
+    <description>a religion/philosophy that was founded in ancient India.</description>
+    <example>spiritual independence.</example>
+    <example>equality throughout all life.</example>
+  </word>
+  <word>
+    <id>jcurve</id>
+    <title>J-Curve</title>
+    <description>when an area's population projection shows exponential growth.</description>
+    <example>an area with no carrying capacity.</example>
+    <example>there is no area on Earth with a J-curve.</example>
+  </word>
+  <word>
+    <id>judaism</id>
+    <title>Judaism</title>
+    <description>one of the first monotheistic religions.</description>
+    <example>the Torah.</example>
+    <example>the religion of the ancient Hebrews.</example>
+  </word>
+  <word>
+    <id>landscapesofthedead</id>
+    <title>Landscapes of the Dead</title>
+    <description>a place where people are buried.</description>
+    <example>cemeteries.</example>
+    <example>Arlington National Cemetery.</example>
+  </word>
+  <word>
+    <id>language</id>
+    <title>Language</title>
+    <description>a set of sounds, combination of sounds, and symbols used for communication.</description>
+    <example>Chinese.</example>
+    <example>Russian.</example>
+  </word>
+  <word>
+    <id>languagefamily</id>
+    <title>Language Family</title>
+    <description>a group of languages that have a common ancestral language.</description>
+    <example>Indo-European Languages.</example>
+    <example>Sino-Tibetan.</example>
+  </word>
+  <word>
+    <id>languagegroup</id>
+    <title>Language Group</title>
+    <description>a group of related languages.</description>
+    <example>Romance Languages.</example>
+    <example>Celtic Languages.</example>
+  </word>
+  <word>
+    <id>languagesubfamily</id>
+    <title>Language Subfamily</title>
+    <description>Languages that are more related inside of a language family.</description>
+    <example>Popolocan Languages.</example>
+    <example>Italic Languages.</example>
+  </word>
+  <word>
+    <id>lateralcommuting</id>
+    <title>Lateral commuting</title>
+    <description>commuting between suburban areas instead of between toward the center of the city.</description>
+    <example>Basic sector expansion.</example>
+    <example>Lowry Model.</example>
+  </word>
+  <word>
+    <id>lifeexpectancy</id>
+    <title>Life Expectancy</title>
+    <description>the number of years a person, in a certain place with certain conditions, will live.</description>
+    <example>the life expectancy is higher in wealthier countries.</example>
+    <example>most of African countries have a lower life expectancy.</example>
+  </word>
+  <word>
+    <id>linearpattern</id>
+    <title>Linear Pattern</title>
+    <description>The dispersal of population aligns into a line.</description>
+    <example>Civilizations along the Mississippi River.</example>
+    <example>Cities along the coast.</example>
+  </word>
+  <word>
+    <id>linguafranca</id>
+    <title>Lingua Franca</title>
+    <description>a common language used for trade and commerce.</description>
+    <example>English.</example>
+    <example>the "Frankish" Language.</example>
+  </word>
+  <word>
+    <id>longevitygap</id>
+    <title>Longevity Gap</title>
+    <description>the difference between the life expectancies of developed countries and developing countries.</description>
+    <example>the longevity gap between Japan and the US is 7.88 years.</example>
+    <example>the longevity gap between Canada and Germany is 1.13 years.</example>
+  </word>
+  <word>
+    <id>maladaption</id>
+    <title>Maladaption</title>
+    <description>an adaption that is more harmful than it is helpful.</description>
+    <example>a species of bacteria evolving to resist antibiotics.</example>
+    <example>organisms will die off when exposed to new environmental conditions.</example>
+  </word>
+  <word>
+    <id>maladaptivediffusion</id>
+    <title>Maladaptive Diffusion</title>
+    <description>when an idea or innovation that is diffused to an area does not work out well.</description>
+    <example>New England style homes in the Southwestern US.</example>
+    <example>Winter coats in Ecuador.</example>
+  </word>
+  <word>
+    <id>malthusthomas</id>
+    <title>Malthus, Thomas</title>
+    <description>the first person to propose that the rate of increase of the world's population is outrunning the production of food.</description>
+    <example>assumed that the food was eaten in the country it was grown in.</example>
+    <example>his predictions were proved false.</example>
+  </word>
+  <word>
+    <id>materialculture</id>
+    <title>Material Culture</title>
+    <description>the art, structures, dances, clothing, etc. made by the people of a culture.</description>
+    <example>a place of worship.</example>
+    <example>sculptures.</example>
+  </word>
+  <word>
+    <id>maternalmortalityrate</id>
+    <title>Maternal Mortality rate</title>
+    <description>number of deaths of women due to pregnancy or giving birth out of 100,000 live births.</description>
+    <example>the MMR in the Central African Republic is 1,100 per 100,000 live births.</example>
+    <example>many African countries have the higher MMRs.</example>
+  </word>
+  <word>
+    <id>medievalcities</id>
+    <title>Medieval cities</title>
+    <description>ancient cities that used medieval practices.</description>
+    <example>York.</example>
+    <example>Canterbury.</example>
+  </word>
+  <word>
+    <id>megacities</id>
+    <title>Megacities</title>
+    <description>high urban areas meshed together.</description>
+    <example>Tokyo.</example>
+    <example>New York.</example>
+  </word>
+  <word>
+    <id>megalopolisconurbation</id>
+    <title>Megalopolis/conurba-tion</title>
+    <description>huge megacities made of high urban areas.</description>
+    <example>Detroit.</example>
+    <example>Chicago.</example>
+  </word>
+  <word>
+    <id>metropolitanarea</id>
+    <title>Metropolitan area</title>
+    <description>a large population center consisting of a large metropolis and its adjacent zone of influence.</description>
+    <example>Atlanta.</example>
+    <example>Chicago.</example>
+  </word>
+  <word>
+    <id>migrationpattern</id>
+    <title>Migration Pattern</title>
+    <description>the different movements of people to new places.</description>
+    <example>interregional.</example>
+    <example>intercontinental.</example>
+  </word>
+  <word>
+    <id>monotheism</id>
+    <title>Monotheism</title>
+    <description>the belief in only one God.</description>
+    <example>Christianity.</example>
+    <example>Judaism.</example>
+  </word>
+  <word>
+    <id>mormonism</id>
+    <title>Mormonism</title>
+    <description>a branch of Christianity that is separate from Protestant denominations.</description>
+    <example>The Church of Jesus Christ of Latter-Day Saints.</example>
+    <example>about 3 percent of Americans are Mormon.</example>
+  </word>
+  <word>
+    <id>mortalityrate</id>
+    <title>Mortality Rate</title>
+    <description>number of people that die in an area annually.</description>
+    <example>there are higher mortality rates in peripheral countries.</example>
+    <example>countries in Stage 1 of the DTM had high mortality rate.</example>
+  </word>
+  <word>
+    <id>multinationalstate</id>
+    <title>Multinational State</title>
+    <description>A state with multiple nations within its borders. Yugoslavia is an example, as all the citizens never achieved a sense of the Yugoslav nationality. All the millions of people either identified themselves as Slovenes, Croats, Serbs, or a member of yet another ethnic group.</description>
+  </word>
+  <word>
+    <id>multiplenucleimodel</id>
+    <title>Multiple nuclei model</title>
+    <description>a model of the internal structure of cities in which social groups are arranged around a collection of nodes of activities.</description>
+    <example>Decentralization.</example>
+    <example>Haris and Ullman.</example>
+  </word>
+  <word>
+    <id>multistatenation</id>
+    <title>Multistate Nation</title>
+    <description>Where a nation stretches beyond states' borders. One example is shown in the overlapping nations of Hungary and Romania (The territory of Transylvania has frequently changed borders affecting the population).</description>
+  </word>
+  <word>
+    <id>multipliereffect</id>
+    <title>Multiplier effect</title>
+    <description>the process by which a change in an injection or leakage in the circular flow of income brings about a greater change in GDP.</description>
+    <example>New factories.</example>
+    <example>service industries.</example>
+  </word>
+  <word>
+    <id>muslimpilgrimage</id>
+    <title>Muslim Pilgrimage</title>
+    <description>making a journey to the holy city of Mecca.</description>
+    <example>called the Hajj.</example>
+    <example>all Muslims are required to complete this journey at least once.</example>
+  </word>
+  <word>
+    <id>mutualintelligibility</id>
+    <title>Mutual Intelligibility</title>
+    <description>a term used when two people speaking to one another can understand one another.</description>
+    <example>used to distinguish dialects from languages.</example>
+    <example>proved to not be a good criteria for distinguishing languages and dialects.</example>
+  </word>
+  <word>
+    <id>natality</id>
+    <title>Natality</title>
+    <description>the number of live births compared to the population of the area.</description>
+    <example>also called crude birth rate.</example>
+    <example>higher in peripheral countries.</example>
+  </word>
+  <word>
+    <id>nation</id>
+    <title>Nation</title>
+    <description>Unlike the common usage of state, country, and nation interchangeably, a nation in geographic sense is a group of people with a common culture, including religion, language, ethnicity, or other common features, and who relate to a territory with a common political goal. The Flemish and the Wallonian (in Belgium) along with the Polish in Poland are all examples of nations.</description>
+  </word>
+  <word>
+    <id>nationstate</id>
+    <title>Nation-state</title>
+    <description>A politically organized space (a state) whose citizens are of the same culture (a nation). It is very rare when the nation and state occupy the same space, known as a nation-state. Examples in the modern world include France and Spain (who brought their populations together) or Norway and Poland (nations who separated from a more diverse state).</description>
+  </word>
+  <word>
+    <id>neighborhood</id>
+    <title>Neighborhood</title>
+    <description>a geographically localised community within a larger city, town or suburb.</description>
+    <example>Edinburgh.</example>
+    <example>Wild Timbe.</example>
+  </word>
+  <word>
+    <id>neomalthusian</id>
+    <title>Neo-Malthusian</title>
+    <description>building on Malthus's theory; added population growth in LDC's and using up other resources other than food to his theory.</description>
+    <example>Paul Ehrlich's The Population Bomb.</example>
+    <example>believe population growth will always outpace food production.</example>
+  </word>
+  <word>
+    <id>network</id>
+    <title>Network</title>
+    <description>Interconnected nodes without a center. (defined by Manuel Castells).</description>
+    <example>Facebook friends.</example>
+    <example>Schools in Gwinnett county.</example>
+  </word>
+  <word>
+    <id>nonmaterialculture</id>
+    <title>Non-material culture</title>
+    <description>the beliefs, practices, and values of a cultural group.</description>
+    <example>the religion of the culture.</example>
+    <example>the way a culture does things.</example>
+  </word>
+  <word>
+    <id>officepark</id>
+    <title>Office park</title>
+    <description>a property designed and developed specifically to attract corporate offices and provide them with all facilities required to carry on business.</description>
+    <example>Defoor center.</example>
+    <example>Centennial towe.</example>
+  </word>
+  <word>
+    <id>officiallanguage</id>
+    <title>Official Language</title>
+    <description>a language used in a country by the government and other agencies to communicate to the country as a whole.</description>
+    <example>Official Language in France is French.</example>
+    <example>Official Language in Germany is German.</example>
+  </word>
+  <word>
+    <id>overpopulation</id>
+    <title>Overpopulation</title>
+    <description>he number of people on Earth compared to the availability of resources.</description>
+    <example>China has overpopulation.</example>
+    <example>India has more overpopulation than China.</example>
+  </word>
+  <word>
+    <id>peaceofwestphalia</id>
+    <title>Peace of Westphalia</title>
+    <description>Negotiated in 1648, this event marked the beginning of the modern state in Europe. Concluding the major religious war in Europe (the Thirty Years' War), the treaties were made up of a new language that recognized state and nationhood, clearly defined borders, along with guarantees of security. These treaties laid the foundation of territorially defined states in Europe. This peace also stabilized religious conflict in many parts of Europe.</description>
+  </word>
+  <word>
+    <id>peaklandvalueintersection</id>
+    <title>Peak land value</title>
+    <description>the region within a settlement with the greatest land value and commerce.</description>
+    <example>Real estate value.</example>
+    <example>Beach front propert.</example>
+  </word>
+  <word>
+    <id>periodicmovement</id>
+    <title>Periodic Movement</title>
+    <description>a long term journey that starts at home and eventually returns home.</description>
+    <example>college.</example>
+    <example>military service.</example>
+  </word>
+  <word>
+    <id>physiologicaldensity</id>
+    <title>Physiological Density</title>
+    <description>Population divided by the total arable land.</description>
+    <example>Australia: 107.</example>
+    <example>New Zealand 419.</example>
+  </word>
+  <word>
+    <id>pidginlanguage</id>
+    <title>Pidgin Language</title>
+    <description>a simplistic combination of two or more languages.</description>
+    <example>Creole.</example>
+    <example>Spanglish.</example>
+  </word>
+  <word>
+    <id>plannedcommunities</id>
+    <title>Planned communities</title>
+    <description>a city, town, or community that was carefully planned from its inception and is typically constructed in a previously undeveloped area.</description>
+    <example>Blackstone.</example>
+    <example>Colony at the Gran.</example>
+  </word>
+  <word>
+    <id>pluralsociety</id>
+    <title>Plural Society</title>
+    <description>a community that has many different cultural/ethnic groups.</description>
+    <example>the US.</example>
+    <example>Gwinnett County, GA, USA.</example>
+  </word>
+  <word>
+    <id>polytheism</id>
+    <title>Polytheism</title>
+    <description>the belief of more than one God.</description>
+    <example>Mayan religions.</example>
+    <example>its is being debated whether or not Hinduism is a polytheistic religion.</example>
+  </word>
+  <word>
+    <id>popularculture</id>
+    <title>Popular Culture</title>
+    <description>cultural traits based on new trends, media, ideas, and music.</description>
+    <example>television plays a big part in popular culture.</example>
+    <example>energy drinks have become more popular.</example>
+  </word>
+  <word>
+    <id>populationdensitites</id>
+    <title>Population Densitites</title>
+    <description>he measure of total population in an area relative to land size.</description>
+    <example>more people are concentrated in major economic regions.</example>
+    <example>India has higher population densities than China.</example>
+  </word>
+  <word>
+    <id>populationdistributions</id>
+    <title>Population Distributions</title>
+    <description>location on Earth where groups of people live.</description>
+    <example>East Asia has the highest population concentration in the world.</example>
+    <example>Very few people live in the northern provinces and territories in Canada.</example>
+  </word>
+  <word>
+    <id>populationexplosion</id>
+    <title>Population Explosion</title>
+    <description>when a doubling time is less than 100 years.</description>
+    <example>in 1963, the world population's doubling time was 35 years.</example>
+    <example>can cause overpopulation.</example>
+  </word>
+  <word>
+    <id>populaitonprojection</id>
+    <title>Populaiton Projection</title>
+    <description>a prediction of what the population of an area will be in the future.</description>
+    <example>in 2050, the world's population will be around 9 billion.</example>
+    <example>India is expected to have a larger population than China by 2050.</example>
+  </word>
+  <word>
+    <id>populationpyramid</id>
+    <title>Population Pyramid</title>
+    <description>a representation of the age and gender of a population.</description>
+    <example>a Stage 4 pyramid is shaped like a bell.</example>
+    <example>an upside-down pyramid suggests the country is in Stage 5 of the DTM.</example>
+  </word>
+  <word>
+    <id>postindustrialcity</id>
+    <title>Postindustrial city</title>
+    <description>a city exhibiting the characteristics of a post-industrial society.</description>
+    <example>Syracuse.</example>
+    <example>Detroit.</example>
+  </word>
+  <word>
+    <id>postmodernurbanlandscape</id>
+    <title>Postmodern Urban Landscape</title>
+    <description>reverting back to earlier methods of buildings.</description>
+    <example>Greek influence.</example>
+    <example>Roman influenc.</example>
+  </word>
+  <word>
+    <id>possibilism</id>
+    <title>Possibilism</title>
+    <description>Normally the environment would effect the human activity, but the environment may be changed by some people.</description>
+    <example>People tear down hills to build a store.</example>
+    <example>A tree is cut down to build a house.</example>
+  </word>
+  <word>
+    <id>primatecity</id>
+    <title>Primate city</title>
+    <description>largest, and most culturally reflective, city in a country that acts as a representative of sorts.</description>
+    <example>Paris.</example>
+    <example>London.</example>
+  </word>
+  <word>
+    <id>proselyticreligion</id>
+    <title>Proselytic Religion</title>
+    <description>trying to convert someone to your religion.</description>
+    <example>missionaries.</example>
+    <example>many criminals convert to Islam in prison.</example>
+  </word>
+  <word>
+    <id>pushpullfactors</id>
+    <title>Push-Pull Factors</title>
+    <description>- factors that make a person leave one area and migrate to another area.</description>
+    <example>better standard of living.</example>
+    <example>economic development plays a big part in push-pull factors.</example>
+  </word>
+  <word>
+    <id>psychologicalpopulationdensity</id>
+    <title>Psychological Population Density</title>
+    <description>total number people divided by the total area of land used for agriculture.</description>
+    <example>in 2004, Egypt's psychological population density was 6319 per sq. mile.</example>
+    <example>higher in countries with less arable land.</example>
+  </word>
+  <word>
+    <id>race</id>
+    <title>Race</title>
+    <description>lassification of humans based on skin color and other physical characteristics.</description>
+    <example>Asian.</example>
+    <example>White.</example>
+  </word>
+  <word>
+    <id>racialsteering</id>
+    <title>Racial Steering</title>
+    <description>an illegal real estate practice to get people to sell their homes for low prices.</description>
+    <example>gentrification.</example>
+    <example>ethnic neighborhoods.</example>
+  </word>
+  <word>
+    <id>randomizedpattern</id>
+    <title>Randomized Pattern</title>
+    <description>There is no true pattern to the disperal of the population.</description>
+    <example>The location of Volkswagen Beetles in Georgia.</example>
+    <example>The location of cattle farms.</example>
+  </word>
+  <word>
+    <id>ranksizerule</id>
+    <title>Rank-size rule</title>
+    <description>how populous a city is is inversely related to its position on the urban hierarchy.</description>
+    <example>Primate city.</example>
+    <example>Village.</example>
+  </word>
+  <word>
+    <id>rateofnaturalincrease</id>
+    <title>Rate of Natural Increase</title>
+    <description>the rate in which a population grows in a year.</description>
+    <example>the world's rate of natural increase is 1.3.</example>
+    <example>countries in Stage 5 of the DTM have a RNI of either 0 or a negative number.</example>
+  </word>
+  <word>
+    <id>reapportionment</id>
+    <title>Reapportionment</title>
+    <description>The process by which districts are redrawn and moved so that they encompass an even number of people (for equal representation). This occurs every ten years in the United States, the same time the census is taken to count the population of the State. Reapportionment and redistricting main goal is equal representation, along with compact contiguous districts and equality of racial and linguistic minorities. Examples include gerrymandering, the drawing of districts to favor certain groups, and majority-minority method, requirements allowing minorities representation.</description>
+  </word>
+  <word>
+    <id>redlining</id>
+    <title>Redlining</title>
+    <description>a practice that discriminates against minorities by preventing them from getting loans and purchasing homes.</description>
+    <example>Real estate companies.</example>
+    <example>gentrification.</example>
+  </word>
+  <word>
+    <id>refugee</id>
+    <title>Refugee</title>
+    <description>a person whom is forced to migrate out of their homeland because of fear of prosecution. The reasons of prosecution may be race, nationality, membership of a specific social groups, political opinion, or religion.</description>
+    <example>refugees from Darfur, Sudan cross over into neighboring countries for shelter.</example>
+    <example>war can increase the amount of refugees.</example>
+  </word>
+  <word>
+    <id>reincarnation</id>
+    <title>Reincarnation</title>
+    <description>the belief of coming back to life as a plant, animal, or human after this life.</description>
+    <example>common in Hinduism.</example>
+    <example>life is a cycle that never ends.</example>
+  </word>
+  <word>
+    <id>relativedirection</id>
+    <title>Relative Direction</title>
+    <description>directions to get to a position with steps in relation to other positions.</description>
+    <example>Turn right at the light, and left at the white picket fence.</example>
+    <example>Walk until you see a Maple tree.</example>
+  </word>
+  <word>
+    <id>relativelocation</id>
+    <title>Relative Location</title>
+    <description>The location of a place or item in relevance to another place or item.</description>
+    <example>Georgia is North of Florida.</example>
+    <example>North Gwinnett High School is down the street from my house.</example>
+  </word>
+  <word>
+    <id>religion</id>
+    <title>Religion</title>
+    <description>he faithfulness to codified beliefs and rituals that generally involve a faith in a spiritual nature.</description>
+    <example>Christianity.</example>
+    <example>Judaism.</example>
+  </word>
+  <word>
+    <id>religiousarchitecturalstyles</id>
+    <title>Religious Architectural Styles</title>
+    <description>the architecture styles of religions.</description>
+    <example>Judaism- Synagogue.</example>
+    <example>Hinduism- A Hindu Temple (Devalayam , Devasthanam or Mandir).</example>
+  </word>
+  <word>
+    <id>religiousconflict</id>
+    <title>Religious Conflict</title>
+    <description>a conflict between religions.</description>
+    <example>Catholics vs. the Protestants in Northern Ireland.</example>
+    <example>Christians vs. Muslims in many African countries.</example>
+  </word>
+  <word>
+    <id>religiousculturalhearth</id>
+    <title>Religious Cultural Hearth</title>
+    <description>where religions originate.</description>
+    <example>Indus River Valley.</example>
+    <example>Mesopotamia.</example>
+  </word>
+  <word>
+    <id>relocationdiffusion</id>
+    <title>Relocation Diffusion</title>
+    <description>diffusion when a group of people move and take they're ideas and innovations with them.</description>
+    <example>spread of a disease when an infected person moves to a different place.</example>
+    <example>a new food becomes popular in a place when a new group brought it there from a different place.</example>
+  </word>
+  <word>
+    <id>restrictivecovenants</id>
+    <title>Restrictive covenants</title>
+    <description>a set of rules and codes the owner of a home or specific property must follow.</description>
+    <example>Homeowner's association.</example>
+    <example>house color, fence type.</example>
+  </word>
+  <word>
+    <id>ruralurbanmigrationpattern</id>
+    <title>Rural-Urban Migration Pattern</title>
+    <description>moving from the rural and suburban areas to an urban area.</description>
+    <example>Moving from Flowery Branch, GA to Atlanta, GA.</example>
+    <example>moving from Berkeley Lake, GA to Atlanta, GA.</example>
+  </word>
+  <word>
+    <id>sacredspace</id>
+    <title>Sacred Space</title>
+    <description>place or space people infuse with religious meaning.</description>
+    <example>a church.</example>
+    <example>a temple.</example>
+  </word>
+  <word>
+    <id>scale</id>
+    <title>Scale</title>
+    <description>ratio that compares distance on a map to the actual distance.</description>
+    <example>One inch = one mile.</example>
+    <example>One dot means 1,000 people.</example>
+  </word>
+  <word>
+    <id>sectormodel</id>
+    <title>Sector model</title>
+    <description>a model created by Hector Hoyt to show transportation routes within a city.</description>
+    <example>Chicago.</example>
+    <example>CBD, factories, residential, low class.</example>
+  </word>
+  <word>
+    <id>secularism</id>
+    <title>Secularism</title>
+    <description>the belief that religion should not define a person or a community.</description>
+    <example>Atheism.</example>
+    <example>the US government is not influenced by religion.</example>
+  </word>
+  <word>
+    <id>scurve</id>
+    <title>S-Curve</title>
+    <description>relates to the growth and decline of an area's rate of natural increase.</description>
+    <example>China's population.</example>
+    <example>carrying capacity.</example>
+  </word>
+  <word>
+    <id>segregation</id>
+    <title>Segregation</title>
+    <description>the separation of classes and ethnic groups.</description>
+    <example>Apartheid.</example>
+    <example>gentrification.</example>
+  </word>
+  <word>
+    <id>sequentoccupance</id>
+    <title>Sequent Occupance</title>
+    <description>the long lasting cultural impression on a landscape.</description>
+    <example>Mayan pyramids and temples.</example>
+    <example>the Moai statues on Easter Island.</example>
+  </word>
+  <word>
+    <id>settlementform</id>
+    <title>Settlement form</title>
+    <description>how homes and buildings are spread out.</description>
+    <example>nucleated: homes and buildings forming a tight cluster.</example>
+    <example>dispersed: the buildings are spread out pretty evenly.</example>
+    <example>elongated: buildings form a straight line.</example>
+  </word>
+  <word>
+    <id>sexratio</id>
+    <title>Sex Ratio</title>
+    <description>the number of males per 100 females in a certain area.</description>
+    <example>In 2000, China's sex ration was 116:100.</example>
+    <example>The sex ratio in the US is 97:100.</example>
+  </word>
+  <word>
+    <id>shamanism</id>
+    <title>Shamanism</title>
+    <description>a local faith in which people follow their shaman, or a religious leader, teacher, healer, and visionary.</description>
+    <example>big part of the community.</example>
+    <example>usually isolated communities.</example>
+  </word>
+  <word>
+    <id>sharialaw</id>
+    <title>Sharia Law</title>
+    <description>a law system in Islam.</description>
+    <example>punishment for theft may be amputation of limbs.</example>
+    <example>the main law system in many Islamic countries.</example>
+  </word>
+  <word>
+    <id>shia</id>
+    <title>Shia</title>
+    <description>believe Muslim leader has to be directly blood related to Muhammad.</description>
+    <example>more extreme than Sunni Muslims.</example>
+    <example>smaller population of Shia Muslims than Sunni Muslims.</example>
+  </word>
+  <word>
+    <id>shintoism</id>
+    <title>Shintoism</title>
+    <description>a religion in Japan that is known as the way of God.</description>
+    <example>God is called Kami.</example>
+    <example>ethnic religion.</example>
+  </word>
+  <word>
+    <id>shoppingmall</id>
+    <title>Shopping mall</title>
+    <description>a modern version of the traditional marketplace.</description>
+    <example>Mall of Georgia.</example>
+    <example>Discover Mills.</example>
+  </word>
+  <word>
+    <id>sikhism</id>
+    <title>Sikhism</title>
+    <description>monotheistic religion that began in Northern India in the 16th Century.</description>
+    <example>do not believe in the caste system.</example>
+    <example>emphasises faith in God.</example>
+  </word>
+  <word>
+    <id>sitesituation</id>
+    <title>Site/situation</title>
+    <description>where something is located in relation to other areas and why.</description>
+    <example>GPS coordinates.</example>
+    <example>Acropolis- high point.</example>
+  </word>
+  <word>
+    <id>slum</id>
+    <title>Slum</title>
+    <description>an area of low class economic and social development.</description>
+    <example>barriadas.</example>
+    <example>ghetto.</example>
+  </word>
+  <word>
+    <id>socialdistance</id>
+    <title>Social Distance</title>
+    <description>the distance between groups in a society or community.</description>
+    <example>many ethnic groups are separated from each other.</example>
+    <example>two high schools are separated from each other.</example>
+  </word>
+  <word>
+    <id>socialstructure</id>
+    <title>Social structure</title>
+    <description>relationships between groups of people.</description>
+    <example>high class.</example>
+    <example>low class.</example>
+  </word>
+  <word>
+    <id>sovereignty</id>
+    <title>Sovereignty</title>
+    <description>Possessing independent control over a territory both politically and militarily (having the last say over their respective territory). For example, as a nation that is recognized as being a state is also recognized as being sovereign within the borders, the United States of America along with Great Britain.</description>
+  </word>
+  <word>
+    <id>spatialinteraction</id>
+    <title>Spatial Interaction</title>
+    <description>The relationship between two regions that trade raw material and other goods to support one another.</description>
+    <example>The North with industries and the South with agriculture.</example>
+    <example>The US and the middle east with oil trade.</example>
+  </word>
+  <word>
+    <id>specialization</id>
+    <title>Specialization</title>
+    <description>when a country offers a small range of jobs of specialties and services.</description>
+    <example>Kenya specialized in agriculture.</example>
+    <example>OPEC and oil.</example>
+  </word>
+  <word>
+    <id>squattersettlement</id>
+    <title>Squatter settlement</title>
+    <description>development of homes in impoverished areas.</description>
+    <example>Ghetto</example>
+    <example>Slum</example>
+  </word>
+  <word>
+    <id>standardlanguage</id>
+    <title>Standard Language</title>
+    <description>variant of a language that a country's intellectual or politically elite seek to promote as the norm.</description>
+    <example>the "King's English".</example>
+    <example>Standard French for French.</example>
+  </word>
+  <word>
+    <id>standardofliving</id>
+    <title>Standard of Living</title>
+    <description>the quality and quantity of goods and services available to people and how they are distributed inside of a population.</description>
+    <example>the standard of living in the US is high because it is a wealthy country.</example>
+    <example>the standard of living in Afghanistan is poor because it isn't a wealthy country.</example>
+  </word>
+  <word>
+    <id>state</id>
+    <title>State</title>
+    <description>A politically organized territory with a stable population, defined borders, and sovereign government along with being recognized as a state by the international community.</description>
+    <example>May be any countries, including China or Canada.</example>
+  </word>
+  <word>
+    <id>statelessnation</id>
+    <title>Stateless Nation</title>
+    <description>A nation (defined cultural group) that has no specific state. In other words, these nations span between many diverse states.</description>
+    <example>The Kurds and Palestinians are two examples of stateless nations.</example>
+  </word>
+  <word>
+    <id>stepmigration</id>
+    <title>Step Migration</title>
+    <description>the order of places people will most likely move to.</description>
+    <example>Moving from a village to a town.</example>
+    <example>Moving from a town to a city.</example>
+  </word>
+  <word>
+    <id>stimulusdiffusion</id>
+    <title>Stimulus Diffusion</title>
+    <description>when an idea or innovation is changed as it is diffused in order to make it more favorable to the people it's being diffused to.</description>
+    <example>fast food restaurants in the US use beef, but fast food restaurants in India use other meats, such as lamb.</example>
+    <example>Oreos in the US are sweeter than Oreos in China because Chinese people do not like very sweet foods.</example>
+  </word>
+  <word>
+    <id>streetpattern</id>
+    <title>Street pattern</title>
+    <description>How streets in a city or urban area are laid out.</description>
+    <example>grid: the streets are at right angles.</example>
+    <example>dendritic: the streets are arranged like a tree branching out.</example>
+  </word>
+  <word>
+    <id>suburb</id>
+    <title>Suburb</title>
+    <description>an area surrounding the central city that is mainly urban.</description>
+    <example>Sugar Hill.</example>
+    <example>Buford.</example>
+  </word>
+  <word>
+    <id>suburbanization</id>
+    <title>Suburbanization</title>
+    <description>the process of an area becoming more suburban.</description>
+    <example>Sugar Hill.</example>
+    <example>Chicago.</example>
+  </word>
+  <word>
+    <id>sunni</id>
+    <title>Sunni</title>
+    <description>believe the religious leader should be anyone capable of the job, not necessarily a direct descendant of Muhammad.</description>
+    <example>the largest Muslim population.</example>
+    <example>not specific to only one region of the world.</example>
+  </word>
+  <word>
+    <id>surveysystems</id>
+    <title>Survey Systems</title>
+    <description>a way to gather peoples' opinions on a certain topic.</description>
+    <example>a poll.</example>
+    <example>a survey form at a business for customers to fill out.</example>
+  </word>
+  <word>
+    <id>sustainability</id>
+    <title>Sustainability</title>
+    <description>providing for the current generation and still have the resources to provide for the future generations.</description>
+    <example>conservation.</example>
+    <example>recycling.</example>
+  </word>
+  <word>
+    <id>symboliclandscape</id>
+    <title>Symbolic landscape</title>
+    <description>a collection of geographical areas that have a cultural meaning.</description>
+    <example>Acropolis.</example>
+    <example>Washington D.C. and free masonry.</example>
+  </word>
+  <word>
+    <id>taoism</id>
+    <title>Taoism</title>
+    <description>a religion that focuses on proper political rule and on the oneness of humanity and nature.</description>
+    <example>founded by Lao-Tsu.</example>
+    <example>based on the book Book of the Way.</example>
+  </word>
+  <word>
+    <id>tenement</id>
+    <title>Tenement</title>
+    <description>a self-contained housing unit that is in low developed areas.</description>
+    <example>apartment.</example>
+    <example>college campus.</example>
+  </word>
+  <word>
+    <id>territorialintegrity</id>
+    <title>Territorial Integrity</title>
+    <description>The right of states to defend their sovereign territory from intrusion of other states.</description>
+  </word>
+  <word>
+    <id>territoriality</id>
+    <title>Territoriality</title>
+    <description>Human territoriality is a term generally referring to the opinion of Robert Sack who describes human territoriality as "the attempt by an individual or group to affect, influence, or control people, phenomena, and relationships, by delimiting and asserting control over a [specific] geographic area (De Blij et. al., 2007, p.222)." There are several ways for a group to control another, including physical force or organized sets of laws. His view contrasts with that of Robert Audrey, who believes that human territoriality is similar to the general behavior of animals. By contrast, Sack believes that human territoriality is shown in many arrangements based on the settings (as the territorial strategy changes) and should not be compared to mere animal instinct. Human behavior is learned unlike animals where behavior is instinctive. Central to the idea of state is the concept of territoriality, making states such as the USA or Portugal examples of a territoriality. The concept of territoriality today is tied closely with the concept of sovereignty; In specific terms, a territoriality is defined by a country or community's strong defense and protection over its territory as a result of its sense of attachment to it.</description>
+  </word>
+  <word>
+    <id>theocracy</id>
+    <title>Theocracy</title>
+    <description>a form of government in which God is a state's Supreme Ruler.</description>
+    <example>Iran</example>
+    <example>Israel is sometime described as a theocratic state.</example>
+  </word>
+  <word>
+    <id>toponym</id>
+    <title>Toponym</title>
+    <description>the name of a place.</description>
+    <example>Humans created places.</example>
+    <example>part of cultural landscapes.</example>
+  </word>
+  <word>
+    <id>totalfertilityrate</id>
+    <title>Total Fertility Rate</title>
+    <description>he number of children, on average, a woman will give birth to during her childbearing years (15-49 generally).</description>
+    <example>very high rates in Africa.</example>
+    <example>more of a prediction.</example>
+  </word>
+  <word>
+    <id>town</id>
+    <title>Town</title>
+    <description>An urban area with a definite border that is smaller than a city.</description>
+    <example>Sugar HIll.</example>
+    <example>Wyatt, Indiana.</example>
+  </word>
+  <word>
+    <id>tradelanguage</id>
+    <title>Trade Language</title>
+    <description>a language used in trade communication.</description>
+    <example>English (global).</example>
+    <example>Swahili (Eastern Africa).</example>
+  </word>
+  <word>
+    <id>traditionalarchitecture</id>
+    <title>Traditional Architecture</title>
+    <description>a cultural group's or religion's style of architecture.</description>
+    <example>Islamic buildings are usually rounded at the top.</example>
+    <example>some Japanese styles of architecture are called Asuka and Nara.</example>
+  </word>
+  <word>
+    <id>transhumance</id>
+    <title>Transhumance</title>
+    <description>the periodic movement of livestock from place to place depending on the season.</description>
+    <example>A farmer taking his sheep into the mountains in the summer.</example>
+    <example>A farmer bringing his sheep to a valley in the fall.</example>
+  </word>
+  <word>
+    <id>underclass</id>
+    <title>Underclass</title>
+    <description>a class of citizens that are generally the lowest and most impoverished.</description>
+    <example>Social Structure.</example>
+    <example>Low class.</example>
+  </word>
+  <word>
+    <id>underemployment</id>
+    <title>Underemployment</title>
+    <description>a country, typically undeveloped, that has many unemployed citizens.</description>
+    <example>India.</example>
+    <example>China.</example>
+  </word>
+  <word>
+    <id>underpopulation</id>
+    <title>Underpopulation</title>
+    <description>the direct opposite of overpopulation; a sharp decline or decrease of a certain population.</description>
+    <example>Norway.</example>
+    <example>Russia.</example>
+  </word>
+  <word>
+    <id>universalizing</id>
+    <title>Universalizing</title>
+    <description>The spread of religion by appealing to people.</description>
+    <example>Usually done with missionaries in Christanity.</example>
+  </word>
+  <word>
+    <id>unitary</id>
+    <title>Unitary</title>
+    <description>A political system where the state is not divided into provinces or territories but where the state is governed as a centralized unit, often not accommodating the outlying, minority regions. Most European governments were unitary until the end of World War II. Modern examples include the United Kingdom or France.</description>
+  </word>
+  <word>
+    <id>urbangrowthrate</id>
+    <title>Urban growth rate</title>
+    <description>how fast an urban population grows.</description>
+    <example>J curve.</example>
+    <example>S curve.</example>
+  </word>
+  <word>
+    <id>urbanfunction</id>
+    <title>Urban function</title>
+    <description>a place that doesn't offer any services.</description>
+    <example>Classification.</example>
+    <example>Site.</example>
+  </word>
+  <word>
+    <id>urbanheartharea</id>
+    <title>Urban hearth area</title>
+    <description>5 different areas where urban growth may have originated and diffused from.</description>
+    <example>Mesoamerica.</example>
+    <example>Mesopotamia.</example>
+  </word>
+  <word>
+    <id>urbanheatisland</id>
+    <title>Urban heat island</title>
+    <description>a metropolitan area that has a higher temperature than surrounding areas.</description>
+    <example>Orlando.</example>
+    <example>Las Vegas.</example>
+  </word>
+  <word>
+    <id>urbanhierarchy</id>
+    <title>Urban hierarchy</title>
+    <description>town structure within a specific area.</description>
+    <example>1st order towns.</example>
+    <example>2nd order towns.</example>
+  </word>
+  <word>
+    <id>urbanhydrology</id>
+    <title>Urban hydrology</title>
+    <description>studying rainfall and runoff effects on a city.</description>
+    <example>acid rain.</example>
+    <example>agriculture waste products.</example>
+  </word>
+  <word>
+    <id>urbanmorphology</id>
+    <title>Urban morphology</title>
+    <description>the formation and transformation of human settlements.</description>
+    <example>village.</example>
+    <example>metropolitan area.</example>
+  </word>
+  <word>
+    <id>urbanization</id>
+    <title>Urbanization</title>
+    <description>the process of an area moving from a rural area to a more urban one.</description>
+    <example>New York City.</example>
+    <example>Japan.</example>
+  </word>
+  <word>
+    <id>urbanizedpopulation</id>
+    <title>Urbanized population</title>
+    <description>populations that live in urban areas instead of agricrultural ones.</description>
+    <example>Modernization.</example>
+    <example>Economic development.</example>
+  </word>
+  <word>
+    <id>vernacularperceptualcultureregion</id>
+    <title>Vernacular (perceptual) Culture Region</title>
+    <description>a place that people believe exists because of their culture.</description>
+    <example>the Southeastern US.</example>
+    <example>New England in the US.</example>
+  </word>
+  <word>
+    <id>voluntarymigrationmovement</id>
+    <title>Voluntary Migration Movement</title>
+    <description>when people migrate because of an opportunity, not because they are forced.</description>
+    <example>Migrating to another country because it has more employment opportunities.</example>
+    <example>People moving from a poorer country to a country with more opportunities.</example>
+  </word>
+  <word>
+    <id>worldcity</id>
+    <title>World city</title>
+    <description>A city that is extremely important in the global economy.</description>
+    <example>New York City.</example>
+    <example>Tokyo.</example>
+  </word>
+  <word>
+    <id>zeropopulationgrowth</id>
+    <title>Zero Population Growth</title>
+    <description>when the crude birth rate and the crude death rate of a population are equal so there is no growth in the population.</description>
+    <example>Japan.</example>
+    <example>Sweden.</example>
+  </word>
+  <word>
+    <id>zoneintransition</id>
+    <title>Zone in transition</title>
+    <description>the area surrounding the central business district.</description>
+    <example>Suburbs surrounding CBD.</example>
+    <example>Middle class</example>
+  </word>
+  <word>
+    <id>zoning</id>
+    <title>Zoning</title>
+    <description>Dividing an area into different sections based on their function.</description>
+    <example>CBD</example>
+    <example>Sector Model</example>
+  </word>
+  <word>
+    <id>zoroastrianism</id>
+    <title>Zoroastrianism</title>
+    <description>Religion or philosophy based on the teachings of the prophet Zoroaster.</description>
+    <example>Used to be one of the world's largest religions.</example>
+    <example>Believe there is one God.</example>
+  </word>
+</glossary>
