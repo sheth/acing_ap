@@ -1,5 +1,5 @@
-#Ruby program to read new learnIt.txt and output the section pages (a html document) to the console.
-filename = "../../output/units.xml"
+#Ruby program to read xml file and output the section pages (a html document) to the console.
+filename = "../kb/units.xml"
 file = File.new(filename, "r")
 section_main = false
 section_other = false

@@ -2,7 +2,7 @@ require "rexml/document"
 # <!ELEMENT models (model)+>'
 # <!ELEMENT model (id, title, image?, description)>'
 
-filename = "../../output/models.xml"
+filename = "../kb/models.xml"
 file = File.new(filename)
 doc = REXML::Document.new file
 puts %{

@@ -1,6 +1,6 @@
 #Ruby program to read new learnIt.txt and output the menu (a html document) to the console.
 #units.rb output is learnIt.txt which is xml file
-filename = "../../output/units.xml"
+filename = "../kb/units.xml"
 file = File.new(filename, "r")
 section_started = false
 unit_title = nil
