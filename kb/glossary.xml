@@ -1,3 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE glossary [
+<!ELEMENT glossary (word+)>
+<!ELEMENT word (id, title, description, example*)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT example (#PCDATA)>
+]>
 <glossary>
   <word>
     <id>absolutedirection</id>
@@ -10,8 +19,8 @@
     <id>absolutelocation</id>
     <title>Absolute Location</title>
     <description>The exact location of a place or item using latitude and longitude.</description>
-    <example>33°45'N 84°23'W are the coordinates of Atlanta, Georgia.</example>
-    <example>36°N 138°E are the coordinates of Japan.</example>
+    <example>33&#176;45&#180;N 84&#176;23&#180;W are the coordinates of Atlanta, Georgia.</example>
+    <example>36&#176;N 138&#176;E are the coordinates of Japan.</example>
   </word>
   <word>
     <id>accessibility</id>
@@ -588,7 +597,7 @@
   <word>
     <id>entrepot</id>
     <title>entrepot</title>
-    <description>Entrepôt a center of trade that doesn't have import or export costs.</description>
+    <description>Entrep&#244;t a center of trade that doesn't have import or export costs.</description>
   </word>
   <word>
     <id>epidemiologicaltransitionmodel</id>
