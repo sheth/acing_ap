@@ -1,3 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE units [
+<!ELEMENT units (unit+)>
+<!ELEMENT unit (id, title, problem+)+>
+<!ELEMENT problem (id, question, wrongAnswer*, rightAnswer, wrongAnswer*)>
+
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT question (#PCDATA)>
+<!ELEMENT wrongAnswer (#PCDATA)>
+<!ELEMENT rightAnswer (#PCDATA)>
+]>
+
 <units>
   <unit>
     <id>Unit-1</id>
@@ -6,7 +20,7 @@
       <id>Geography-01</id>
       <question>When geographers look at the way places and things are laid out on the cultural landscape, they are taking a:</question>
       <rightAnswer>Pattern Analysis</rightAnswer>
-      <wrongAnswer>Distribution Measurement</wrongAnwwer>
+      <wrongAnswer>Distribution Measurement</wrongAnswer>
       <wrongAnswer>Spatial Perspective </wrongAnswer>
       <wrongAnswer>Map Measurement </wrongAnswer>
       <wrongAnswer>None Of The Above</wrongAnswer>
@@ -16,7 +30,7 @@
       <question>Which of the following is not true regarding remote sensing?</question>
       <wrongAnswer>Began With Air Photography </wrongAnswer>
       <rightAnswer>Does Not Involve Satellites </rightAnswer>
-      <wrongAnswer>Involves Aircraft </wrongAnwwer>
+      <wrongAnswer>Involves Aircraft </wrongAnswer>
       <wrongAnswer>Reveals Environmental Changes</wrongAnswer>
       <wrongAnswer>None Of The Above</wrongAnswer>
     </problem>
@@ -27,7 +41,7 @@
       <wrongAnswer>More Railroads </wrongAnswer>
       <wrongAnswer>Opening Of The St. Lawrence Seaway </wrongAnswer>
       <rightAnswer>New Airport </rightAnswer>
-      <wrongAnswer>The New Wendy&apos;s</wrongAnwwer>
+      <wrongAnswer>The New Wendy&apos;s</wrongAnswer>
     </problem>
     <problem>
       <id>Geography-04</id>
@@ -36,7 +50,7 @@
       <wrongAnswer>Functional</wrongAnswer>
       <wrongAnswer>Perceptual</wrongAnswer>
       <wrongAnswer>Physical</wrongAnswer>
-      <wrongAnswer>None Of The Above</wrongAnwwer>
+      <wrongAnswer>None Of The Above</wrongAnswer>
     </problem>
     <problem>
       <id>Geography-05</id>
@@ -45,7 +59,7 @@
       <wrongAnswer>Walking The Region</wrongAnswer>
       <rightAnswer>Asking Others How They Define The Region</rightAnswer>
       <wrongAnswer>Using Climate Changes</wrongAnswer>
-      <wrongAnswer>Giving Up</wrongAnwwer>
+      <wrongAnswer>Giving Up</wrongAnswer>
     </problem> 
  </unit>
   <unit>
@@ -54,7 +68,7 @@
     <problem>
       <id>Population-01</id>
       <question>A country at the end of the demographic transition has which of the following?</question>
-      <wrongAnswer>High Birth Rates And Low Death Rates</wrongAnwwer>
+      <wrongAnswer>High Birth Rates And Low Death Rates</wrongAnswer>
       <wrongAnswer>A High Infant Mortality Rate</wrongAnswer>
       <wrongAnswer>A High Crude Birth Rate</wrongAnswer>
       <rightAnswer>Low Birth And Death Rates</rightAnswer>
@@ -65,7 +79,7 @@
       <question>The nineteenth-century emigration of a large number of Swedes from a particular region of Sweden to Isanti County, Minnesota, as a result of communications from friends and relatives who preceded them there is an example of</question>
       <wrongAnswer>Brain Drain</wrongAnswer>
       <rightAnswer>Chain Migration</rightAnswer>
-      <wrongAnswer>Net Migration</wrongAnwwer>
+      <wrongAnswer>Net Migration</wrongAnswer>
       <wrongAnswer>Internal Migration</wrongAnswer>
       <wrongAnswer>Counterurbanization</wrongAnswer>
     </problem>
@@ -76,7 +90,7 @@
       <rightAnswer>Carrying Capacity </rightAnswer>
       <wrongAnswer>Subsistence Limit </wrongAnswer>
       <wrongAnswer>Basic Employment </wrongAnswer>
-      <wrongAnswer>Population Pressure</wrongAnwwer>
+      <wrongAnswer>Population Pressure</wrongAnswer>
     </problem>
     <problem>
       <id>Population-04</id>
@@ -85,7 +99,7 @@
       <wrongAnswer>India </wrongAnswer>
       <wrongAnswer>Iran </wrongAnswer>
       <rightAnswer>China </rightAnswer>
-      <wrongAnswer>France</wrongAnwwer>
+      <wrongAnswer>France</wrongAnswer>
     </problem>
     <problem>
       <id>Population-05</id>
@@ -94,7 +108,7 @@
       <wrongAnswer>Going Away To College </wrongAnswer>
       <rightAnswer>Going To Work And Then Returning Home At The End Of The Day</rightAnswer>
       <wrongAnswer>Military Service </wrongAnswer>
-      <wrongAnswer>Spending A Year In Spain </wrongAnwwer>
+      <wrongAnswer>Spending A Year In Spain </wrongAnswer>
     </problem> 
  </unit>
   <unit>
@@ -103,7 +117,7 @@
     <problem>
       <id>Culture-01</id>
       <question>Which of the following refers to the study of the relationship between the physical environment and culture?</question>
-      <wrongAnswer>Central Place Theory </wrongAnwwer>
+      <wrongAnswer>Central Place Theory </wrongAnswer>
       <wrongAnswer>Ecosystem Analysis </wrongAnswer>
       <wrongAnswer>Culture History </wrongAnswer>
       <rightAnswer>Cultural Ecology </rightAnswer>
@@ -114,7 +128,7 @@
       <question>Which of the following peoples can be described as a stateless nation?</question>
       <rightAnswer>Kurds</rightAnswer>
       <wrongAnswer>Thais</wrongAnswer>
-      <wrongAnswer>Jews</wrongAnwwer>
+      <wrongAnswer>Jews</wrongAnswer>
       <wrongAnswer>Samoans</wrongAnswer>
       <wrongAnswer>Albanian</wrongAnswer>
     </problem>
@@ -125,7 +139,7 @@
       <wrongAnswer>Mcdonalization </wrongAnswer>
       <wrongAnswer>Cocalization </wrongAnswer>
       <rightAnswer>Homogenization </rightAnswer>
-      <wrongAnswer>None Of The Above</wrongAnwwer>
+      <wrongAnswer>None Of The Above</wrongAnswer>
     </problem>
     <problem>
       <id>Culture-04</id>
@@ -134,7 +148,7 @@
       <wrongAnswer>History And Religion </wrongAnswer>
       <wrongAnswer>Language And Ethnicity </wrongAnswer>
       <rightAnswer>All Of The Above </rightAnswer>
-      <wrongAnswer>None Of The Above</wrongAnwwer>
+      <wrongAnswer>None Of The Above</wrongAnswer>
     </problem>
     <problem>
       <id>Culture-05</id>
@@ -142,7 +156,7 @@
       <wrongAnswer>Culture Drawing On Many Influences But Still Within The Patriarchal And Eurocentric Framework </wrongAnswer>
       <rightAnswer>Culture Drawing On Multiple Influences Undermining Patriarchal Culture</rightAnswer>
       <wrongAnswer>Listening To World Music </wrongAnswer>
-      <wrongAnswer>Eating A Big Mac In India </wrongAnwwer>
+      <wrongAnswer>Eating A Big Mac In India </wrongAnswer>
       <wrongAnswer>None Of The Above</wrongAnswer>
     </problem> 
  </unit>
@@ -152,7 +166,7 @@
     <problem>
       <id>Political-Organization-of-Space-01</id>
       <question>Which of the following does NOT act as a centrifugal force for a state?</question>
-      <wrongAnswer>Uneven development</wrongAnwwer>
+      <wrongAnswer>Uneven development</wrongAnswer>
       <wrongAnswer>Substate nationalism </wrongAnswer>
       <rightAnswer>Linguistic homogeneity </rightAnswer>
       <wrongAnswer>A fragmented territorial base </wrongAnswer>
@@ -163,7 +177,7 @@
       <question>Which of the following best represents the concept of the nation-state in its internal cultural-political makeup and spatial organization?</question>
       <wrongAnswer>Iran </wrongAnswer>
       <rightAnswer>Japan </rightAnswer>
-      <wrongAnswer>South Africa </wrongAnwwer>
+      <wrongAnswer>South Africa </wrongAnswer>
       <wrongAnswer>New Zealand </wrongAnswer>
       <wrongAnswer>Argentina</wrongAnswer>
     </problem>
@@ -174,7 +188,7 @@
       <wrongAnswer>Belgium and the Netherlands  </wrongAnswer>
       <wrongAnswer>Portugal and Spain </wrongAnswer>
       <rightAnswer>Britain and France </rightAnswer>
-      <wrongAnswer>Austria and Hungary</wrongAnwwer>
+      <wrongAnswer>Austria and Hungary</wrongAnswer>
     </problem>
     <problem>
       <id>Political-Organization-of-Space-04</id>
@@ -183,7 +197,7 @@
       <wrongAnswer>The Los Angeles-San Fransico area </wrongAnswer>
       <wrongAnswer>The Chicago-Detroit area  </wrongAnswer>
       <wrongAnswer>The Atlanta-Birmingham, Alabama, area  </wrongAnswer>
-      <wrongAnswer>The Buffalo-Cleveland area</wrongAnwwer>
+      <wrongAnswer>The Buffalo-Cleveland area</wrongAnswer>
     </problem>
     <problem>
       <id>Political-Organization-of-Space-05</id>
@@ -192,7 +206,7 @@
       <wrongAnswer>Levels of social and economic development are fairly uniform between core areas and peripheral areas </wrongAnswer>
       <rightAnswer>Sharp spatial contrasts in social and economic development exist between economic heartlands and outlying subordinate areas </rightAnswer>
       <wrongAnswer>The growth and prosperity of core countries has not been achieved at the expense of peripheral countries </wrongAnswer>
-      <wrongAnswer>The economic and social heart of a territory should be at its geographic center</wrongAnwwer>
+      <wrongAnswer>The economic and social heart of a territory should be at its geographic center</wrongAnswer>
     </problem> 
  </unit>
   <unit>
@@ -201,7 +215,7 @@
     <problem>
       <id>Agriculture-01</id>
       <question>As a country increasingly developed, economic activities become dominant in which sector?</question>
-      <wrongAnswer>Primary Sector</wrongAnwwer>
+      <wrongAnswer>Primary Sector</wrongAnswer>
       <rightAnswer>Tertiary Sector</rightAnswer>
       <wrongAnswer>Non-Basic Sector</wrongAnswer>
       <wrongAnswer>Secondary Sector</wrongAnswer>
@@ -211,19 +225,19 @@
       <id>Agriculture-02</id>
       <question>Corn (maize) was first domesticated in...</question>
       <wrongAnswer>Northern Argentina</wrongAnswer>
-      <wrongAnswer>The Tibetan Platateau</wrongAnwwer>
+      <wrongAnswer>The Tibetan Platateau</wrongAnswer>
       <wrongAnswer>The Canadian Prarie</wrongAnswer>
       <rightAnswer>Central Mexico</rightAnswer>
       <wrongAnswer>Central Australia</wrongAnswer>
     </problem>
     <problem>
       <id>Agriculture-03</id>
-      <question>Place the following agricultural events in the correct order: <br/> (I)Biotechnologic Revolution begins genetically modifying plants and animals. <br/> (II)Mechanization takes hold allowing much more work to be done with much less human labor. <br/> (III)Developed countries extend certain agricultural innovations to the Third World during the Green Revolution. <br/> (IV)Rachel Carson writes Silent Spring</question>
+      <question>Place the following agricultural events in the correct order: &lt;br&gt;(I)Biotechnologic Revolution begins genetically modifying plants and animals.&lt;br&gt;(II)Mechanization takes hold allowing much more work to be done with much less human labor. &lt;br&gt;(III)Developed countries extend certain agricultural innovations to the Third World during the Green Revolution. &lt;br&gt;(IV)Rachel Carson writes Silent Spring</question>
       <rightAnswer>II, III, IV, I</rightAnswer>
       <wrongAnswer>II, IV, III, I</wrongAnswer>
       <wrongAnswer>IV, II, III, I</wrongAnswer>
       <wrongAnswer>III, II, IV, I</wrongAnswer>
-      <wrongAnswer>None Of The Above</wrongAnwwer>
+      <wrongAnswer>None Of The Above</wrongAnswer>
     </problem>
     <problem>
       <id>Agriculture-04</id>
@@ -232,7 +246,7 @@
       <wrongAnswer>Agricultural Activity Is Solely Determined By The Longevity Of The Agricultural Product.</wrongAnswer>
       <wrongAnswer>Smaller Agricultural Goods Like Beans, Herbs, And Berries Will Be Grown Closer To The Market Than Bigger Goods Like Pumpkins.  </wrongAnswer>
       <wrongAnswer>Animals, Like Grazing Cattle And Hens, Will Be Located Closer To The Market, Because They Are Difficult To Move. </wrongAnswer>
-      <wrongAnswer>None Of The Above</wrongAnwwer>
+      <wrongAnswer>None Of The Above</wrongAnswer>
     </problem>
     <problem>
       <id>Agriculture-05</id>
@@ -241,7 +255,7 @@
       <wrongAnswer>It Has Incorporated Production, Consumption, And Marketing Into An Integrated Whole.  </wrongAnswer>
       <rightAnswer>It Has Allowed For Increased Family Market Gardening. </rightAnswer>
       <wrongAnswer>It Has Transformed Agricultural Productivity Such That Agricultural Activities Yield Much More Than They Have Historically. </wrongAnswer>
-      <wrongAnswer>All Of The Above</wrongAnwwer>
+      <wrongAnswer>All Of The Above</wrongAnswer>
     </problem> 
     <problem>
       <id>Agriculture-06</id>
@@ -250,7 +264,7 @@
       <wrongAnswer>A Source Of Fuel </wrongAnswer>
       <rightAnswer>Livestock Feed </rightAnswer>
       <wrongAnswer>An Export To Foreign Countries </wrongAnswer>
-      <wrongAnswer>Raw Material For Various Industries</wrongAnwwer>
+      <wrongAnswer>Raw Material For Various Industries</wrongAnswer>
     </problem> 
  </unit>
   <unit>
@@ -259,7 +273,7 @@
     <problem>
       <id>Industrialization-01</id>
       <question>The world&apos;s major manufacturing regions include all of the following EXCEPT</question>
-      <wrongAnswer>The Rhine-Ruhr Corridor </wrongAnwwer>
+      <wrongAnswer>The Rhine-Ruhr Corridor </wrongAnswer>
       <wrongAnswer>Northern Italy </wrongAnswer>
       <wrongAnswer>The Tokyo Plain</wrongAnswer>
       <wrongAnswer>The Volga River Valley </wrongAnswer>
@@ -270,7 +284,7 @@
       <question>Which of the following is positively correlated with gross domestic product (GDP) per capita?</question>
       <wrongAnswer>Infant Mortality Rate</wrongAnswer>
       <rightAnswer>Carbon Dioxide Emission Per Capita </rightAnswer>
-      <wrongAnswer>Rate Of Natural Increase </wrongAnwwer>
+      <wrongAnswer>Rate Of Natural Increase </wrongAnswer>
       <wrongAnswer>Rice Production Per Capita </wrongAnswer>
       <wrongAnswer>Distance From The Greenwich Meridian</wrongAnswer>
     </problem>
@@ -281,16 +295,16 @@
       <wrongAnswer>Is Taxed By The Government </wrongAnswer>
       <wrongAnswer>Does Not Affect A Country </wrongAnswer>
       <rightAnswer>Is Unmonitored By The Government </rightAnswer>
-      <wrongAnswer>Is Included In The Gross National Income Of A Country</wrongAnwwer>
+      <wrongAnswer>Is Included In The Gross National Income Of A Country</wrongAnswer>
     </problem>
     <problem>
       <id>Industrialization-04</id>
-      <question>Which of the following is <b>NOT</b> true about Rostow&apos;s Ladder of Development model?</question>
+      <question>Which of the following is NOT true about Rostow&apos;s Ladder of Development model?</question>
       <rightAnswer>All Countries Reach The Fifth Stage </rightAnswer>
       <wrongAnswer>It Consists Of 5 Stages </wrongAnswer>
-      <wrongAnswer>Industrialization And Urbanization Start To Occur In The <i>Takeoff</i> Stage </wrongAnswer>
+      <wrongAnswer>Industrialization And Urbanization Start To Occur In The Takeoff Stage </wrongAnswer>
       <wrongAnswer>Assumes All Countries Develop The Same </wrongAnswer>
-      <wrongAnswer>The Population Growth Rate Starts To Slow In The Fourth Stage</wrongAnwwer>
+      <wrongAnswer>The Population Growth Rate Starts To Slow In The Fourth Stage</wrongAnswer>
     </problem>
     <problem>
       <id>Industrialization-05</id>
@@ -299,7 +313,7 @@
       <wrongAnswer>Australia </wrongAnswer>
       <rightAnswer>Zimbabwe</rightAnswer>
       <wrongAnswer>France</wrongAnswer>
-      <wrongAnswer>Canada</wrongAnwwer>
+      <wrongAnswer>Canada</wrongAnswer>
     </problem> 
  </unit>
   <unit>
@@ -308,7 +322,7 @@
     <problem>
       <id>Cities-and-Urban-Land-Use-01</id>
       <question>Within the framework of central place theory, which of the following provides the lowest-order good or service?</question>
-      <wrongAnswer>A Furniture Store</wrongAnwwer>
+      <wrongAnswer>A Furniture Store</wrongAnswer>
       <wrongAnswer>An Orthodontist </wrongAnswer>
       <wrongAnswer>A Jewelry Store </wrongAnswer>
       <rightAnswer>A Gas Station </rightAnswer>
@@ -319,7 +333,7 @@
       <question>Edge cities have been described as the &quot;tenements of the information age&quot; because these cities have...</question>
       <wrongAnswer>Poorly Constructed And Inexpensive Housing </wrongAnswer>
       <rightAnswer>Many High-Density Townhouse Developments Designed For People Working In Nearby Office Buildings </rightAnswer>
-      <wrongAnswer>Sprung Up In Old Abandoned Industrial Zones </wrongAnwwer>
+      <wrongAnswer>Sprung Up In Old Abandoned Industrial Zones </wrongAnswer>
       <wrongAnswer>Populations Made Up Mostly Of Recent Immigrants </wrongAnswer>
       <wrongAnswer>Inadequate Parking</wrongAnswer>
     </problem>
@@ -330,16 +344,16 @@
       <wrongAnswer>In And Out Of Downtown </wrongAnswer>
       <wrongAnswer>Within Downtown </wrongAnswer>
       <rightAnswer>Within Neighborhoods </rightAnswer>
-      <wrongAnswer>Between Adjacent Cities</wrongAnwwer>
+      <wrongAnswer>Between Adjacent Cities</wrongAnswer>
     </problem>
     <problem>
       <id>Cities-and-Urban-Land-Use-04</id>
-      <question>Which of the following is <i>not</i> one of the urban hearths?</question>
+      <question>Which of the following is NOT one of the urban hearths?</question>
       <rightAnswer>Mesoeurope </rightAnswer>
       <wrongAnswer>Mesopotamia </wrongAnswer>
       <wrongAnswer>Nile River Valley </wrongAnswer>
       <wrongAnswer>Indus River Valley </wrongAnswer>
-      <wrongAnswer>Mesoamerica</wrongAnwwer>
+      <wrongAnswer>Mesoamerica</wrongAnswer>
     </problem>
     <problem>
       <id>Cities-and-Urban-Land-Use-05</id>
@@ -348,7 +362,7 @@
       <wrongAnswer>The Bow And Arrow </wrongAnswer>
       <rightAnswer>Cities </rightAnswer>
       <wrongAnswer>Homes </wrongAnswer>
-      <wrongAnswer>Hotels</wrongAnwwer>
+      <wrongAnswer>Hotels</wrongAnswer>
     </problem> 
  </unit>
 </units>
