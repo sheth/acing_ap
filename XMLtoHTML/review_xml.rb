@@ -33,8 +33,8 @@ puts %{
      }
 #we will have to traverse twice, first to provide the links and second will have the actual questions
 doc.elements.each("units/unit") do |unit_element|
-  id = unit_element.elements['problem/id'].get_text
-  title = unit_element.elements['title'].get_text
+  id = unit_element.elements['problem/id'].text
+  title = unit_element.elements['title'].text
   puts %{ <li><a href="##{id}"><h3>#{title}</h3></a></li> }
 end
 puts %{
@@ -50,8 +50,8 @@ puts %{
 #get the array this time, as we need to create link to the next model
 problem_array = doc.elements.to_a("units/unit/problem")
 for i in 0...problem_array.size do
-  id = problem_array[i].elements['id'].get_text
-  title = problem_array[i].elements['../title'].get_text
+  id = problem_array[i].elements['id'].text
+  title = problem_array[i].elements['../title'].text
   puts %{
     <div data-role="page" id="#{id}" data-theme="c">
       <div data-role="header" data-theme="c" data-position="fixed">
@@ -63,12 +63,12 @@ for i in 0...problem_array.size do
        }
   next_title_id = nil
   if (i < (problem_array.size - 1))
-    next_title_id = problem_array[i+1].elements['id'].get_text
+    next_title_id = problem_array[i+1].elements['id'].text
     puts %{
       <li><a href="##{next_title_id}">Next</a></li>
     }
   end
-  question = problem_array[i].elements['question'].get_text
+  question = problem_array[i].elements['question'].text
   puts %{
         </ul>
         </div>
