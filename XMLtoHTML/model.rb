@@ -25,7 +25,7 @@ puts %{
 doc.elements.each("models/model") do |model_element|
   id = model_element.elements['id'].text
   title = model_element.elements['title'].text
-  puts "<a href=\"##{id}\" data-role=\"button\" data-transition=\pop\ data-theme=\"c\">#{title}</a>"
+  puts "<a href=\"##{id}\" data-role=\"button\" data-transition=\"pop\" data-theme=\"c\">#{title}</a>"
 end
 puts %{
       <a href="#" data-role="button" data-rel="back" data-theme="a">Back</a>
