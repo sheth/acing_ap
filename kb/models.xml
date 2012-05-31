@@ -1,3 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE models [
+<!ELEMENT models (model+)>
+<!ELEMENT model (id, title, image?, description)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT example (#PCDATA)>
+]>
 <models>
  <model>
     <id>Model1</id>
