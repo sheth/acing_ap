@@ -1,3 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE units [
+<!ELEMENT units (unit)+>
+<!ELEMENT unit (id, title, section+)+>
+<!ELEMENT section (id, title, description+)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT question (#PCDATA)>
+<!ELEMENT wrongAnswer (#PCDATA)>
+<!ELEMENT rightAnswer (#PCDATA)>
+]>
+
 <units>
   <unit>
     <id>Unit-1</id>
