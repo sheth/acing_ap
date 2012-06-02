@@ -18,7 +18,7 @@ puts %{
 	<script type="text/javascript">
 			function correctAnswer(nextID)
 			{
-			 	document.getElementById("correctNext").innerHTML= "<a data-role=\\"button\\" href=\\"#" + nextID + "\\" data-icon=\\"check\\" data-transition=\\"pop\\">Next</a>";
+			 	document.getElementById("correctNext").href="#" + nextID;
 			}
 	</script>
         <style>
@@ -127,7 +127,7 @@ puts %{
   <div data-role="content" data-theme="c">
     <img style="display:block; margin-left:auto; margin-right:auto;" src="images/right.png" />
     <p style="text-align: center; color:green;"><b>Way to ace it!</b></p>
-    <div id="correctNext"></div>
+    <a id="correctNext" data-role="button" href="#" data-icon="check" data-transition="pop">Next</a>
     <a href="review.html" data-icon="home" data-transition="pop" data-role="button">Review it!</a>
   </div>
 </div>
