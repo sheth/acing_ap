@@ -1,11 +1,13 @@
 require "rexml/document"
+require "./AcingAP"
+
 #<!ELEMENT units (unit+)>
 #<!ELEMENT unit (id, title, problem+)+>
 #<!ELEMENT problem (id, question, wrongAnswer*, rightAnswer, wrongAnswer*)>
-
 filename = "../kb/review.xml"
 file = File.new(filename)
 doc = REXML::Document.new file
+AcingAP.open_head
 puts %{
 <!DOCTYPE html>
 <html>

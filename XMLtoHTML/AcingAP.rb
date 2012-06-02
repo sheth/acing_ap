@@ -2,7 +2,7 @@ module AcingAP
 #common routines used and refactored in this module
 
   # open_head outputs <html><head>... Does not close the head tag
-  def open_head
+  def self.open_head
     puts %{
       <!DOCTYPE html>
       <html>
@@ -15,7 +15,7 @@ module AcingAP
     }
   end
 
-  def footer
+  def self.footer
     puts %{
       <div data-role="footer" data-position="fixed" data-id="mainFooter">
         <div data-role="navbar" data-iconpos="top">
