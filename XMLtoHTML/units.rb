@@ -33,8 +33,19 @@ for i in 0...unit_array.size do
   puts %{ <li><a href="##{unit_id}" data-rel="dialog"><h3>#{unit_title}</h3></a></li> }
 end
 puts %{
+ <li data-theme="a"><a href="models.html" data-rel="dialog" data-ajax="false"><h3>Models</h3></a></li>
+ <li data-theme="a"><a href="glossary.html" data-ajax="false"><h3>Glossary</h3></a></li> 
       </ul>
    </div>
+   <div data-role="footer" data-position="fixed" data-id="mainFooter">
+      <div data-role="navbar" data-iconpos="top">
+         <ul>
+            <li><a href="learn.html" data-ajax="false" data-icon="grid" data-theme="c">Learn it!</a></li>
+            <li><a href="review.html" data-ajax="false" data-icon="star">Review it!</a></li>
+            <li><a href="take.html" data-ajax="false" data-icon="check">Take it!</a></li>
+         </ul>
+      </div>
+   </div> 
 </div>
 <!--Menu End-->
      }
@@ -109,7 +120,16 @@ for i in 0...unit_array.size do
         end
       end
       puts %{
-  </div>
+   </div>
+   <div data-role="footer" data-position="fixed" data-id="mainFooter">
+      <div data-role="navbar" data-iconpos="top">
+         <ul>
+            <li><a href="learn.html" data-ajax="false" data-icon="grid" data-theme="c">Learn it!</a></li>
+            <li><a href="review.html" data-ajax="false" data-icon="star">Review it!</a></li>
+            <li><a href="take.html" data-ajax="false" data-icon="check">Take it!</a></li>
+         </ul>
+      </div>
+   </div> 
 </div>
       }
     else
@@ -121,4 +141,3 @@ puts %{
 </body>
 </html>
 }
-

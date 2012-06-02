@@ -21,6 +21,11 @@ puts %{
 			 	document.getElementById("correctNext").innerHTML= "<a data-role=\\"button\\" href=\\"#" + nextID + "\\" data-icon=\\"check\\" data-transition=\\"pop\\">Next</a>";
 			}
 	</script>
+        <style>
+        .ui-btn-inner { 
+          white-space: normal !important; 
+}
+</style>
 </head>
 <body>
 <!--Menu Start-->
@@ -40,9 +45,15 @@ end
 puts %{
       </ul>
    </div>
-   <div data-role="footer" data-theme="c">
-      <h4>Acing AP</h4>
-   </div>
+   <div data-role="footer" data-position="fixed" data-id="mainFooter">
+      <div data-role="navbar" data-iconpos="top">
+         <ul>
+            <li><a href="learn.html" data-ajax="false" data-icon="grid">Learn it!</a></li>
+            <li><a href="review.html" data-ajax="false" data-icon="star" data-theme="c">Review it!</a></li>
+            <li><a href="take.html" data-ajax="false" data-icon="check">Take it!</a></li>
+         </ul>
+      </div>
+   </div> 
 </div>
 <!--Menu End-->
      }
@@ -80,22 +91,31 @@ for i in 0...problem_array.size do
   problem_array[i].each_element_with_text do |e|
     if (e.name.eql?("rightAnswer") && next_title_id)
       puts %{
-        <li><a href="#correct" onclick="correctAnswer('#{next_title_id}')" data-inline="true" data-rel="dialog">#{e.text}</a></li>
+        <li><a href="#correct" onclick="correctAnswer('#{next_title_id}')" data-inline="true" data-rel="dialog" data-role="button" data-mini="true">#{e.text}</a></li>
       }
     elsif (e.name.eql?("rightAnswer") && !next_title_id)
       puts %{
-	      <li><a href="#correct" onclick="correctAnswer('done')" data-inline="true" data-rel="dialog">#{e.text}</a></li>
+	      <li><a href="#correct" onclick="correctAnswer('done')" data-inline="true" data-rel="dialog" data-role="button" data-mini="true">#{e.text}</a></li>
       }
     elsif (e.name.eql?("wrongAnswer"))
       puts %{
-	      <li><a href="#incorrect" data-inline="true" data-rel="dialog">#{e.text}</a></li>
+	      <li><a href="#incorrect" data-inline="true" data-rel="dialog" data-role="button" data-mini="true">#{e.text}</a></li>
       }
     end
   end
   puts %{
         </ol>
+   </div>
+   <div data-role="footer" data-position="fixed" data-id="mainFooter">
+      <div data-role="navbar" data-iconpos="top">
+         <ul>
+            <li><a href="learn.html" data-ajax="false" data-icon="grid">Learn it!</a></li>
+            <li><a href="review.html" data-ajax="false" data-icon="star" data-theme="c">Review it!</a></li>
+            <li><a href="take.html" data-ajax="false" data-icon="check">Take it!</a></li>
+         </ul>
       </div>
-    </div>
+   </div>
+</div>
   }
 end
 puts %{
@@ -133,10 +153,19 @@ puts %{
     <h1>Done</h1>
   </div>
   <div data-role="content" data-theme="c">
-    <p style="text-align: center; color:green;"><b>Unit completed!</b></p>
+    <p style="text-align: center; color:green;"><b>Completed!</b></p>
     <a href="#" data-rel="back" data-icon="back" data-role="button">Back</a>
     <a href="review.html" data-icon="home" data-transition="pop" data-role="button">Review it!</a>
   </div>
+   <div data-role="footer" data-position="fixed" data-id="mainFooter">
+      <div data-role="navbar" data-iconpos="top">
+         <ul>
+            <li><a href="learn.html" data-ajax="false" data-icon="grid">Learn it!</a></li>
+            <li><a href="review.html" data-ajax="false" data-icon="star" data-theme="c">Review it!</a></li>
+            <li><a href="take.html" data-ajax="false" data-icon="check">Take it!</a></li>
+         </ul>
+      </div>
+   </div>
 </div>
 <!-- Done Page-->
 </body>

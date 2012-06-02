@@ -53,7 +53,7 @@ for i in 0...model_array.size do
   puts %{
   <div data-role="page" id="#{id}" data-theme="c">
     <div data-role="header" data-theme="c" data-position="fixed">
-      <a href="learn.html" data-icon="home" data-transition="pop">Learn it!</a>
+      <a href="learn.html" data-icon="home" data-transition="pop" data-ajax="false">Learn it!</a>
       <h1>Models</h1>
       <div data-role="navbar">
         <ul>
@@ -79,8 +79,17 @@ for i in 0...model_array.size do
   end
   puts %{
       <p style="margin-left: 10px; margin-right: 10px;">#{des}</p>
-    </div>
-  </div>
+   </div>
+   <div data-role="footer" data-position="fixed" data-id="mainFooter">
+      <div data-role="navbar" data-iconpos="top">
+         <ul>
+            <li><a href="learn.html" data-ajax="false" data-icon="grid" data-theme="c">Learn it!</a></li>
+            <li><a href="review.html" data-ajax="false" data-icon="star">Review it!</a></li>
+            <li><a href="take.html" data-ajax="false" data-icon="check">Take it!</a></li>
+         </ul>
+      </div>
+   </div>
+</div>
   }
 end
 puts %{

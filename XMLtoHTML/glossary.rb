@@ -19,7 +19,7 @@ puts %{
 <!--Glossary-->
 <div data-role="page" id="glossary" data-theme="c">
   <div data-role="header" data-theme="c" data-position="fixed">
-    <a href="learn.html" data-icon="home" data-transition="pop">Learn it!</a>
+    <a href="learn.html" data-ajax="false" data-icon="home" data-transition="pop">Learn it!</a>
     <h1>Glossary</h1>
   </div>
 	<div data-role="content" data-theme="c">
@@ -48,7 +48,16 @@ for i in 0...words_array.size do
 end
 puts %{
     </ul>
-	</div>
+  </div>
+  <div data-role="footer" data-position="fixed" data-id="mainFooter">
+    <div data-role="navbar" data-iconpos="top">
+      <ul>
+        <li><a href="learn.html" data-ajax="false" data-icon="grid" data-theme="c">Learn it!</a></li>
+        <li><a href="review.html" data-ajax="false" data-icon="star">Review it!</a></li>
+        <li><a href="take.html" data-ajax="false" data-icon="check">Take it!</a></li>
+      </ul>
+    </div>
+  </div> 
 </div>
 <!-- Glossary Words / Terms Pages-->
 }
@@ -59,7 +68,7 @@ for i in 0...words_array.size do
   puts %{
 <div data-role="page" data-theme="c" id="#{glossary_id}">
   <div data-role="header" data-theme="c" data-position="fixed">
-    <a href="learn.html" data-icon="home" data-transition="pop">Learn it!</a>
+    <a href="learn.html" data-icon="home" data-ajax="false" data-transition="pop">Learn it!</a>
     <h1>Glossary</h1> <a href="#" data-rel="back" data-icon="back" data-transition="pop">Back</a>
   </div>
   <div data-role="content" data-theme="c">
@@ -69,12 +78,21 @@ for i in 0...words_array.size do
   words_array[i].each_element_with_text do |e|
     if (e.name.eql?("example"))
       puts %{
-    <p style="margin-left: 10px; margin-right: 10px;background: black; color:white">#{e.text}</p>
+    <p style="margin-left: 10px; margin-right: 10px;"><em>#{e.text}</em></p>
       }
     end
   end
   puts %{
   </div>
+  <div data-role="footer" data-position="fixed" data-id="mainFooter">
+    <div data-role="navbar" data-iconpos="top">
+      <ul>
+        <li><a href="learn.html" data-ajax="false" data-icon="grid" data-theme="c">Learn it!</a></li>
+        <li><a href="review.html" data-ajax="false" data-icon="star">Review it!</a></li>
+        <li><a href="take.html" data-ajax="false" data-icon="check">Take it!</a></li>
+      </ul>
+    </div>
+  </div> 
 </div>
   }
 end
