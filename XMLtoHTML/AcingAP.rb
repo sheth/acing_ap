@@ -17,6 +17,7 @@ module AcingAP
 
   def self.footer
     puts %{
+      </div>
       <div data-role="footer" data-position="fixed" data-id="mainFooter">
         <div data-role="navbar" data-iconpos="top">
           <ul>
@@ -26,6 +27,7 @@ module AcingAP
           </ul>
         </div>
       </div>
+    </div>
     }
   end
 end

@@ -1,27 +1,22 @@
 require "rexml/document"
+require "./AcingAP"
+
 #<!ELEMENT units (unit+)>
 #<!ELEMENT unit (id, title, section+)+>
 #<!ELEMENT section (id, title, description+)>
 filename = "../kb/units.xml"
 file = File.new(filename)
 doc = REXML::Document.new file
+AcingAP.open_head
 puts %{
-<!DOCTYPE html>
-<html>
-	<head>
-	<title>Acing AP Human Geography</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.1.0.min.css" />
-	<script src="js/jquery-1.7.1.min.js"></script>
-	<script src="js/jquery.mobile-1.1.0.min.js"></script>
 </head>
 <body>
-<!--Menu Start-->
 <div data-role="page" id="menu" data-theme="c">
    <div data-role="header" data-theme="c">
       <h1>Learn it!</h1>
    </div>
    <div data-role="content" data-theme="c">
+      <!--Menu Start-->
       <ul data-role="listview" data-theme="c">
      }
 #we will have to traverse thrice, first to provide the menus and
@@ -36,19 +31,9 @@ puts %{
  <li data-theme="a"><a href="models.html" data-rel="dialog" data-ajax="false"><h3>Models</h3></a></li>
  <li data-theme="a"><a href="glossary.html" data-ajax="false"><h3>Glossary</h3></a></li> 
       </ul>
-   </div>
-   <div data-role="footer" data-position="fixed" data-id="mainFooter">
-      <div data-role="navbar" data-iconpos="top">
-         <ul>
-            <li><a href="learn.html" data-ajax="false" data-icon="grid" data-theme="c">Learn it!</a></li>
-            <li><a href="review.html" data-ajax="false" data-icon="star">Review it!</a></li>
-            <li><a href="take.html" data-ajax="false" data-icon="check">Take it!</a></li>
-         </ul>
-      </div>
-   </div> 
-</div>
-<!--Menu End-->
-     }
+      <!--Menu End-->
+}
+AcingAP.footer
 # second time for section menu
 section_array = doc.elements.to_a("units/unit/section")
 for i in 0...unit_array.size do
@@ -119,19 +104,7 @@ for i in 0...unit_array.size do
           }
         end
       end
-      puts %{
-   </div>
-   <div data-role="footer" data-position="fixed" data-id="mainFooter">
-      <div data-role="navbar" data-iconpos="top">
-         <ul>
-            <li><a href="learn.html" data-ajax="false" data-icon="grid" data-theme="c">Learn it!</a></li>
-            <li><a href="review.html" data-ajax="false" data-icon="star">Review it!</a></li>
-            <li><a href="take.html" data-ajax="false" data-icon="check">Take it!</a></li>
-         </ul>
-      </div>
-   </div> 
-</div>
-      }
+      AcingAP.footer
     else
       next
     end

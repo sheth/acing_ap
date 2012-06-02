@@ -73,12 +73,8 @@ for i in 0...model_array.size do
   end
   puts %{
       <p style="margin-left: 10px; margin-right: 10px;">#{des}</p>
-   </div>
   }
   AcingAP.footer
-  puts %{
-</div>
-  }
 end
 puts %{
 </body>

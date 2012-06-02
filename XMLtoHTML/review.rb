@@ -9,14 +9,6 @@ file = File.new(filename)
 doc = REXML::Document.new file
 AcingAP.open_head
 puts %{
-<!DOCTYPE html>
-<html>
-	<head>
-	<title>Acing AP Human Geography</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.1.0.min.css" />
-	<script src="js/jquery-1.7.1.min.js"></script>
-	<script src="js/jquery.mobile-1.1.0.min.js"></script>
 	<script type="text/javascript">
 			function correctAnswer(nextID)
 			{
@@ -24,18 +16,16 @@ puts %{
 			}
 	</script>
         <style>
-        .ui-btn-inner { 
-          white-space: normal !important; 
-}
-</style>
+          .ui-btn-inner { white-space: normal !important; }
+  </style>
 </head>
 <body>
-<!--Menu Start-->
 <div data-role="page" id="menu" data-theme="c">
    <div data-role="header" data-theme="c">
       <h1>Review it!</h1>
    </div>
    <div data-role="content" data-theme="c">
+      <!--Menu Start-->
       <ul data-role="listview" data-theme="c">
      }
 #we will have to traverse twice, first to provide the links and second will have the actual questions
@@ -46,19 +36,9 @@ doc.elements.each("units/unit") do |unit_element|
 end
 puts %{
       </ul>
-   </div>
-   <div data-role="footer" data-position="fixed" data-id="mainFooter">
-      <div data-role="navbar" data-iconpos="top">
-         <ul>
-            <li><a href="learn.html" data-ajax="false" data-icon="grid">Learn it!</a></li>
-            <li><a href="review.html" data-ajax="false" data-icon="star" data-theme="c">Review it!</a></li>
-            <li><a href="take.html" data-ajax="false" data-icon="check">Take it!</a></li>
-         </ul>
-      </div>
-   </div> 
-</div>
-<!--Menu End-->
-     }
+      <!--Menu End-->
+}
+AcingAP.footer
 
 #get the array this time, as we need to create link to the next model
 problem_array = doc.elements.to_a("units/unit/problem")
@@ -107,18 +87,8 @@ for i in 0...problem_array.size do
   end
   puts %{
         </ol>
-   </div>
-   <div data-role="footer" data-position="fixed" data-id="mainFooter">
-      <div data-role="navbar" data-iconpos="top">
-         <ul>
-            <li><a href="learn.html" data-ajax="false" data-icon="grid">Learn it!</a></li>
-            <li><a href="review.html" data-ajax="false" data-icon="star" data-theme="c">Review it!</a></li>
-            <li><a href="take.html" data-ajax="false" data-icon="check">Take it!</a></li>
-         </ul>
-      </div>
-   </div>
-</div>
   }
+  AcingAP.footer
 end
 puts %{
 <!-- Correct Page-->
@@ -158,17 +128,9 @@ puts %{
     <p style="text-align: center; color:green;"><b>Completed!</b></p>
     <a href="#" data-rel="back" data-icon="back" data-role="button">Back</a>
     <a href="review.html" data-icon="home" data-transition="pop" data-role="button">Review it!</a>
-  </div>
-   <div data-role="footer" data-position="fixed" data-id="mainFooter">
-      <div data-role="navbar" data-iconpos="top">
-         <ul>
-            <li><a href="learn.html" data-ajax="false" data-icon="grid">Learn it!</a></li>
-            <li><a href="review.html" data-ajax="false" data-icon="star" data-theme="c">Review it!</a></li>
-            <li><a href="take.html" data-ajax="false" data-icon="check">Take it!</a></li>
-         </ul>
-      </div>
-   </div>
-</div>
+}
+AcingAP.footer
+puts %{
 <!-- Done Page-->
 </body>
 </html>

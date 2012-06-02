@@ -70,13 +70,7 @@ for i in 0...words_array.size do
       }
     end
   end
-  puts %{
-    </div>
-  }
   AcingAP.footer
-  puts %{
-    </div>
-  }
 end
 puts %{
 </body>
