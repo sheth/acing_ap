@@ -15,14 +15,22 @@ module AcingAP
     }
   end
 
-  def self.footer
+  # outputs the floating footer. If passed true, Review button has data-theme=c else LaarnIt has that theme.
+  def self.footer flag=false
     puts %{
       </div>
       <div data-role="footer" data-position="fixed" data-id="mainFooter">
         <div data-role="navbar" data-iconpos="top">
           <ul>
-            <li><a href="learn.html" data-ajax="false" data-icon="grid" data-theme="c">Learn it!</a></li>
-            <li><a href="review.html" data-ajax="false" data-icon="star">Review it!</a></li>
+    }
+    if !flag
+      puts '<li><a href="learn.html" data-ajax="false" data-icon="grid" data-theme="c">Learn it!</a></li>'
+      puts '<li><a href="review.html" data-ajax="false" data-icon="star">Review it!</a></li>'
+    else
+      puts '<li><a href="learn.html" data-ajax="false" data-icon="grid">Learn it!</a></li>'
+      puts '<li><a href="review.html" data-ajax="false" data-icon="star" data-theme="c">Review it!</a></li>'
+    end
+    puts %{
             <li><a href="take.html" data-ajax="false" data-icon="check">Take it!</a></li>
           </ul>
         </div>

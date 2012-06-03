@@ -38,7 +38,7 @@ puts %{
       </ul>
       <!--Menu End-->
 }
-AcingAP.footer
+AcingAP.footer(true)
 
 #get the array this time, as we need to create link to the next model
 problem_array = doc.elements.to_a("units/unit/problem")
@@ -88,7 +88,7 @@ for i in 0...problem_array.size do
   puts %{
         </ol>
   }
-  AcingAP.footer
+  AcingAP.footer(true)
 end
 puts %{
 <!-- Correct Page-->
@@ -129,7 +129,7 @@ puts %{
     <a href="#" data-rel="back" data-icon="back" data-role="button">Back</a>
     <a href="review.html" data-icon="home" data-transition="pop" data-role="button">Review it!</a>
 }
-AcingAP.footer
+AcingAP.footer(true)
 puts %{
 <!-- Done Page-->
 </body>
