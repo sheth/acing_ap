@@ -10,6 +10,7 @@ AcingAP.open_head
 puts %{
 </head>
 <body>
+<div id="full">
 <!--Glossary-->
 <div data-role="page" id="glossary" data-theme="c">
   <div data-role="header" data-theme="c" data-position="fixed">
@@ -73,6 +74,7 @@ for i in 0...words_array.size do
   AcingAP.footer
 end
 puts %{
+</div>
 </body>
 </html>
 }

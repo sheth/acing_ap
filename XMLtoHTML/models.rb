@@ -10,6 +10,7 @@ AcingAP.open_head
 puts %{
 </head>
 <body>
+<div id="full">
   <!--Menu Start-->
   <div data-role="page" id="models">
     <div data-role="content" data-theme="a">
@@ -77,6 +78,7 @@ for i in 0...model_array.size do
   AcingAP.footer
 end
 puts %{
+</div>
 </body>
 </html>
 }

@@ -11,6 +11,7 @@ AcingAP.open_head
 puts %{
 </head>
 <body>
+<div id="full">
 <div data-role="page" id="menu" data-theme="c">
    <div data-role="header" data-theme="c">
       <h1>Learn it!</h1>
@@ -111,6 +112,7 @@ for i in 0...unit_array.size do
   end
 end
 puts %{
+</div>
 </body>
 </html>
 }

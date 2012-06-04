@@ -20,6 +20,7 @@ puts %{
   </style>
 </head>
 <body>
+<div id="full">
 <div data-role="page" id="menu" data-theme="c">
    <div data-role="header" data-theme="c">
       <h1>Review it!</h1>
@@ -132,6 +133,7 @@ puts %{
 AcingAP.footer(true)
 puts %{
 <!-- Done Page-->
+</div>
 </body>
 </html>
 }
