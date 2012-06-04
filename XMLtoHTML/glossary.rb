@@ -43,11 +43,9 @@ for i in 0...words_array.size do
 end
 puts %{
     </ul>
-  </div>
 }
 AcingAP.footer
 puts %{
-</div>
 <!-- Glossary Words / Terms Pages-->
 }
 for i in 0...words_array.size do
