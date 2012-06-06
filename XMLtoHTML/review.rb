@@ -21,13 +21,13 @@ puts %{
 </head>
 <body>
 <div id="full">
-<div data-role="page" id="menu" data-theme="c">
-   <div data-role="header" data-theme="c">
+<div data-role="page" id="menu" data-theme="b">
+   <div data-role="header" data-theme="b">
       <h1>Review it!</h1>
    </div>
-   <div data-role="content" data-theme="c">
+   <div data-role="content" data-theme="b">
       <!--Menu Start-->
-      <ul data-role="listview" data-theme="c">
+      <ul data-role="listview" data-theme="b">
      }
 #we will have to traverse twice, first to provide the links and second will have the actual questions
 doc.elements.each("units/unit") do |unit_element|
@@ -47,8 +47,8 @@ for i in 0...problem_array.size do
   id = problem_array[i].elements['id'].text
   title = problem_array[i].elements['../title'].text
   puts %{
-    <div data-role="page" id="#{id}" data-theme="c">
-      <div data-role="header" data-theme="c" data-position="fixed">
+    <div data-role="page" id="#{id}" data-theme="b">
+      <div data-role="header" data-theme="b" data-position="fixed">
         <a href="review.html" data-icon="home" data-transition="pop">Review it!</a>
         <h1>#{title}</h1>
         <div data-role="navbar">
@@ -67,7 +67,7 @@ for i in 0...problem_array.size do
         </ul>
         </div>
       </div>
-      <div data-role="content" data-theme="c">
+      <div data-role="content" data-theme="b">
         <h3>#{question}</h3>
         <ol style="list-style-type:upper-alpha">
   }
@@ -94,10 +94,10 @@ end
 puts %{
 <!-- Correct Page-->
 <div data-role="page" id="correct">
-  <div data-role="header" data-theme="d">
+  <div data-role="header" data-theme="b">
     <h1>Correct</h1>
   </div>
-  <div data-role="content" data-theme="c">
+  <div data-role="content" data-theme="b">
     <img style="display:block; margin-left:auto; margin-right:auto;" src="images/right.png" />
     <p style="text-align: center; color:green;"><b>Way to ace it!</b></p>
     <a id="correctNext" data-role="button" href="#" data-icon="check" data-transition="pop">Next</a>
@@ -108,10 +108,10 @@ puts %{
 
 <!-- Incorrect Page-->
 <div data-role="page" id="incorrect">
-  <div data-role="header" data-theme="d">
+  <div data-role="header" data-theme="a">
     <h1>Incorrect</h1>
   </div>
-  <div data-role="content" data-theme="c">
+  <div data-role="content" data-theme="b">
     <img style="display:block; margin-left:auto; margin-right:auto;" src="images/wrong.png" />
     <p style="text-align: center; color:red;"><b>Try again!</b></p>
     <a href="#" data-rel="back" data-icon="back" data-role="button">Back</a>
@@ -122,10 +122,10 @@ puts %{
 
 <!-- Done Page-->
 <div data-role="page" id="done">
-  <div data-role="header" data-theme="d">
+  <div data-role="header" data-theme="b">
     <h1>Done</h1>
   </div>
-  <div data-role="content" data-theme="c">
+  <div data-role="content" data-theme="b">
     <p style="text-align: center; color:green;"><b>Completed!</b></p>
     <a href="#" data-rel="back" data-icon="back" data-role="button">Back</a>
     <a href="review.html" data-icon="home" data-transition="pop" data-role="button">Review it!</a>

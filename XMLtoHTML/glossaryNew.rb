@@ -12,14 +12,14 @@ puts %{
 <body>
 <div id="full">
 <!--Glossary-->
-<div data-role="page" id="glossary" data-theme="a">
-  <div data-role="header" data-theme="a" data-position="fixed">
+<div data-role="page" id="glossary" data-theme="c">
+  <div data-role="header" data-theme="c" data-position="fixed">
     <a href="learn.html" data-ajax="false" data-icon="home" data-transition="pop">Learn it!</a>
     <h1>Glossary</h1>
   </div>
-	<div data-role="content" data-theme="a">
+	<div data-role="content" data-theme="c">
 	  <p>The vocabulary and terminology used throughout the course is one of the best reviews for the test. Check to see if you know all these words!</p>
-	  <ul data-role="listview" data-theme="a" data-filter="true" data-dividertheme="a">
+	  <ul data-role="listview" data-theme="d" data-filter="true" data-dividertheme="a" data-role="collapsible-set">
 }
 #will have to run through it twice, once for menu and other for the actual words and its meaning.
 words_array = doc.elements.to_a("glossary/word")
@@ -38,7 +38,9 @@ for i in 0...words_array.size do
     }
   end
   puts %{
-        <li><a href="##{glossary_id}">#{title}</a></li>
+        <li>
+           <a href="##{glossary_id}">#{title}</a>
+        </li>
   }
 end
 puts %{
@@ -53,12 +55,12 @@ for i in 0...words_array.size do
   title = words_array[i].elements['title'].text
   description = words_array[i].elements['description'].text
   puts %{
-<div data-role="page" data-theme="a" id="#{glossary_id}">
-  <div data-role="header" data-theme="a" data-position="fixed">
+<div data-role="page" data-theme="c" id="#{glossary_id}">
+  <div data-role="header" data-theme="c" data-position="fixed">
     <a href="learn.html" data-icon="home" data-ajax="false" data-transition="pop">Learn it!</a>
     <h1>Glossary</h1> <a href="#" data-rel="back" data-icon="back" data-transition="pop">Back</a>
   </div>
-  <div data-role="content" data-theme="a">
+  <div data-role="content" data-theme="c">
     <h1>#{title}</h1>
     <p style="margin-left: 10px; margin-right: 10px;">#{description}</p>
   }

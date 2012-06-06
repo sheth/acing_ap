@@ -23,7 +23,7 @@ doc.elements.each("models/model") do |model_element|
   puts "<a href=\"##{id}\" data-role=\"button\" data-transition=\"pop\" data-theme=\"c\">#{title}</a>"
 end
 puts %{
-      <a href="#" data-role="button" data-rel="back" data-theme="a">Back</a>
+      <a href="#" data-role="button" data-rel="back" data-theme="d">Back</a>
     </div>
   </div>
   <!--Menu End-->
@@ -46,8 +46,8 @@ for i in 0...model_array.size do
   end
   des = model_array[i].elements['description'].text
   puts %{
-  <div data-role="page" id="#{id}" data-theme="c">
-    <div data-role="header" data-theme="c" data-position="fixed">
+  <div data-role="page" id="#{id}" data-theme="a">
+    <div data-role="header" data-theme="a" data-position="fixed">
       <a href="learn.html" data-icon="home" data-transition="pop" data-ajax="false">Learn it!</a>
       <h1>Models</h1>
       <div data-role="navbar">
@@ -64,7 +64,7 @@ for i in 0...model_array.size do
         </ul>
       </div>
     </div>
-    <div data-role="content" data-theme="c">
+    <div data-role="content" data-theme="a">
       <h1>#{title}</h1>
   }
   if !image.nil?

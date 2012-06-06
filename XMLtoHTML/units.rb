@@ -12,13 +12,13 @@ puts %{
 </head>
 <body>
 <div id="full">
-<div data-role="page" id="menu" data-theme="c">
-   <div data-role="header" data-theme="c">
+<div data-role="page" id="menu" data-theme="a">
+   <div data-role="header" data-theme="a">
       <h1>Learn it!</h1>
    </div>
-   <div data-role="content" data-theme="c">
+   <div data-role="content" data-theme="a">
       <!--Menu Start-->
-      <ul data-role="listview" data-theme="c">
+      <ul data-role="listview" data-theme="a">
      }
 #we will have to traverse thrice, first to provide the menus and
 #second will sections menu and third will have the actual section descriptions
@@ -29,8 +29,8 @@ for i in 0...unit_array.size do
   puts %{ <li><a href="##{unit_id}" data-rel="dialog"><h3>#{unit_title}</h3></a></li> }
 end
 puts %{
- <li data-theme="a"><a href="models.html" data-rel="dialog" data-ajax="false"><h3>Models</h3></a></li>
- <li data-theme="a"><a href="glossary.html" data-ajax="false"><h3>Glossary</h3></a></li> 
+ <li data-theme="d"><a href="models.html" data-rel="dialog" data-ajax="false"><h3>Models</h3></a></li>
+ <li data-theme="d"><a href="glossary.html" data-ajax="false"><h3>Glossary</h3></a></li> 
       </ul>
       <!--Menu End-->
 }
@@ -42,7 +42,7 @@ for i in 0...unit_array.size do
   unit_title = unit_array[i].elements['title'].text
   puts %{
 <div data-role="page" id="#{unit_id}">
-  <div data-role="content" data-theme="a">
+  <div data-role="content" data-theme="d">
     <h3>#{unit_title}</h3>
   }
   for j in 0...section_array.size do
@@ -51,7 +51,7 @@ for i in 0...unit_array.size do
     parent_title = section_array[j].elements['../title'].text
     if (parent_title.eql? unit_title)
       puts %{
-      <a href="##{section_id}" data-role="button" data-transition="pop" data-theme="c">#{section_title}</a>
+      <a href="##{section_id}" data-role="button" data-transition="pop" data-theme="a">#{section_title}</a>
       }
     else
       next
@@ -59,7 +59,7 @@ for i in 0...unit_array.size do
   end
 
   puts %{
-    <a href="#" data-role="button" data-rel="back" data-theme="a">Back</a>
+    <a href="#" data-role="button" data-rel="back" data-theme="d">Back</a>
    </div>
 </div>
   }
@@ -74,8 +74,8 @@ for i in 0...unit_array.size do
     parent_title = section_array[j].elements['../title'].text
     if (parent_title.eql? unit_title)
       puts %{
-<div data-role="page" id="#{section_id}" data-theme="c">
-  <div data-role="header" data-theme="c" data-position="fixed">
+<div data-role="page" id="#{section_id}" data-theme="a">
+  <div data-role="header" data-theme="a" data-position="fixed">
     <a href="learn.html" data-icon="home" data-transition="pop">Learn it!</a>
     <h1>#{parent_title}</h1>
     <div data-role="navbar">
@@ -94,7 +94,7 @@ for i in 0...unit_array.size do
       </ul>
     </div>
   </div>
-  <div data-role="content" data-theme="c">
+  <div data-role="content" data-theme="a">
     <h1>#{section_title}</h1>
       }
       #one section can have multiple descriptions.
