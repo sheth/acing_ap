@@ -19,7 +19,7 @@ puts %{
   </div>
 	<div data-role="content" data-theme="a">
 	  <p>The vocabulary and terminology used throughout the course is one of the best reviews for the test. Check to see if you know all these words!</p>
-	  <ul data-role="listview" data-theme="a" data-filter="true" data-dividertheme="a">
+	  <ul data-role="listview" data-theme="a" data-filter="true" data-dividertheme="a" data-inset="true">
 }
 #will have to run through it twice, once for menu and other for the actual words and its meaning.
 words_array = doc.elements.to_a("glossary/word")
@@ -49,6 +49,11 @@ puts %{
 <!-- Glossary Words / Terms Pages-->
 }
 for i in 0...words_array.size do
+  if (i < (words_array.size - 1))
+    next_word_exists = true
+  else
+    next_word_exists = false
+  end
   glossary_id = words_array[i].elements['id'].text
   title = words_array[i].elements['title'].text
   description = words_array[i].elements['description'].text
@@ -56,8 +61,22 @@ for i in 0...words_array.size do
 <div data-role="page" data-theme="a" id="#{glossary_id}">
   <div data-role="header" data-theme="a" data-position="fixed">
     <a href="learn.html" data-icon="home" data-ajax="false" data-transition="pop">Learn it!</a>
-    <h1>Glossary</h1> <a href="#" data-rel="back" data-icon="back" data-transition="pop">Back</a>
-  </div>
+    <h1>Glossary</h1>
+    <a href="glossary.html" data-icon="refresh">Glossary</a>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#" data-rel="back">Back</a></li>
+  }
+  if next_word_exists
+    sibling_id = words_array[i+1].elements['id'].text
+    puts %{
+          <li><a href="##{sibling_id}">Next</a></li>
+    }
+  end
+  puts %{
+        </ul>
+      </div>
+    </div>
   <div data-role="content" data-theme="a">
     <h1>#{title}</h1>
     <p style="margin-left: 10px; margin-right: 10px;">#{description}</p>
