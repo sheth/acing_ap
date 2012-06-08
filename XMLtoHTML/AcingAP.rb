@@ -13,7 +13,7 @@ module AcingAP
         <link rel="stylesheet" href="css/themes/default/jquery.mobile.structure-1.1.0.min.css" />
         <script src="js/jquery-1.7.1.min.js"></script>
         <script src="js/jquery.mobile-1.1.0.min.js"></script>
-	<script src="js/jquery.touchSwipe-1.2.6.js"></script>
+        <script src="js/jquery.touchSwipe-1.2.6.js"></script>
     }
   end
 
