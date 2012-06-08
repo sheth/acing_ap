@@ -337,7 +337,7 @@
     <title>Counterurbanization</title>
     <description>people moving against the trend of rural to urban and moving from urban areas to rural ones.</description>
     <example>US in the 1970s.</example>
-    <example>Brian Berr.</example>
+    <example>Brian Berry.</example>
   </word>
   <word>
     <id>creole</id>
@@ -442,7 +442,7 @@
     <title>Deindustrialization</title>
     <description>The movement of industrial jobs and manufacturing to areas where labor isn't as cheap, therefore leaving behind a high service economy with a large proportion of unemployment.</description>
     <example>Rust belt.</example>
-    <example>Japa.</example>
+    <example>Japan.</example>
   </word>
   <word>
     <id>demographicequation</id>
@@ -618,7 +618,7 @@
     <title>Ethnic Conflict</title>
     <description>A conflict between ethnic groups.</description>
     <example>Between the Hutu and Tutsi groups in Rwanda in the 1990s.</example>
-    <example>The Balkan region in the former Yugoslavi.</example>
+    <example>The Balkan region in the former Yugoslavia.</example>
   </word>
   <word>
     <id>ethnicenclave</id>
@@ -1384,8 +1384,8 @@
     <example>Energy drinks have become more popular.</example>
   </word>
   <word>
-    <id>populationdensitites</id>
-    <title>Population Densitites</title>
+    <id>populationdensity</id>
+    <title>Population Density</title>
     <description>The measure of total population in an area relative to land size.</description>
     <example>More people are concentrated in major economic regions.</example>
     <example>India has higher population densities than China.</example>
@@ -1938,7 +1938,7 @@
     <id>universalizing</id>
     <title>Universalizing</title>
     <description>The spread of religion by appealing to people.</description>
-    <example>Usually done with missionaries in Christanity.</example>
+    <example>Usually done with missionaries in Christianity.</example>
   </word>
   <word>
     <id>unitary</id>
@@ -2004,7 +2004,7 @@
   <word>
     <id>urbanizedpopulation</id>
     <title>Urbanized population</title>
-    <description>populations that live in urban areas instead of agricrultural ones.</description>
+    <description>populations that live in urban areas instead of agricultural ones.</description>
     <example>Modernization.</example>
     <example>Economic development.</example>
   </word>
