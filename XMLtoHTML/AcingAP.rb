@@ -26,11 +26,15 @@ module AcingAP
           <ul>
     }
     if !flag
-      puts '<li><a href="learn.html" data-ajax="false" data-icon="grid" data-theme="e">Learn it!</a></li>'
-      puts '<li><a href="review.html" data-ajax="false" data-icon="star" data-theme="d">Review it!</a></li>'
+      puts %{
+            <li><a href="learn.html" data-ajax="false" data-icon="grid" data-theme="e">Learn it!</a></li>
+            <li><a href="review.html" data-ajax="false" data-icon="star" data-theme="d">Review it!</a></li>
+      }
     else
-      puts '<li><a href="learn.html" data-ajax="false" data-icon="grid" data-theme="d">Learn it!</a></li>'
-      puts '<li><a href="review.html" data-ajax="false" data-icon="star" data-theme="e">Review it!</a></li>'
+      puts %{
+            <li><a href="learn.html" data-ajax="false" data-icon="grid" data-theme="d">Learn it!</a></li>
+            <li><a href="review.html" data-ajax="false" data-icon="star" data-theme="e">Review it!</a></li>
+      }
     end
     puts %{
             <li><a href="take.html" data-ajax="false" data-icon="check" data-theme="d">Take it!</a></li>
