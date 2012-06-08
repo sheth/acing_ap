@@ -225,14 +225,18 @@
       <id>Agriculture-02</id>
       <question>Corn (maize) was first domesticated in...</question>
       <wrongAnswer>Northern Argentina</wrongAnswer>
-      <wrongAnswer>The Tibetan Platateau</wrongAnswer>
-      <wrongAnswer>The Canadian Prarie</wrongAnswer>
+      <wrongAnswer>The Tibetan Plateau</wrongAnswer>
+      <wrongAnswer>The Canadian Prairie</wrongAnswer>
       <rightAnswer>Central Mexico</rightAnswer>
       <wrongAnswer>Central Australia</wrongAnswer>
     </problem>
     <problem>
       <id>Agriculture-03</id>
-      <question>Place the following agricultural events in the correct order: &lt;br&gt;(I)Biotechnologic Revolution begins genetically modifying plants and animals.&lt;br&gt;(II)Mechanization takes hold allowing much more work to be done with much less human labor. &lt;br&gt;(III)Developed countries extend certain agricultural innovations to the Third World during the Green Revolution. &lt;br&gt;(IV)Rachel Carson writes Silent Spring</question>
+      <question>Place the following agricultural events in the correct order: &lt;br&gt;
+        (I)Biotechnology Revolution begins by genetically modifying plants and animals.&lt;br&gt;
+        (II)Mechanization takes hold allowing much more work to be done with much less human labor. &lt;br&gt;
+        (III)Developed countries extend certain agricultural innovations to the Third World during the Green Revolution. &lt;br&gt;
+        (IV)Rachel Carson writes Silent Spring</question>
       <rightAnswer>II, III, IV, I</rightAnswer>
       <wrongAnswer>II, IV, III, I</wrongAnswer>
       <wrongAnswer>IV, II, III, I</wrongAnswer>
