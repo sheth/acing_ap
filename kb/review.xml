@@ -46,8 +46,8 @@
     <problem>
       <id>Geography-04</id>
       <question>A city is an example of what kind of region?</question>
-      <rightAnswer>Formal</rightAnswer>
-      <wrongAnswer>Functional</wrongAnswer>
+      <wrongAnswer>Formal</wrongAnswer>
+      <rightAnswer>Functional</rightAnswer>
       <wrongAnswer>Perceptual</wrongAnswer>
       <wrongAnswer>Physical</wrongAnswer>
       <wrongAnswer>None Of The Above</wrongAnswer>
@@ -76,7 +76,7 @@
     </problem>
     <problem>
       <id>Population-02</id>
-      <question>The nineteenth-century emigration of a large number of Swedes from a particular region of Sweden to Isanti County, Minnesota, as a result of communications from friends and relatives who preceded them there is an example of</question>
+      <question>In the nineteenth-century, a large number of Swedes from a particular region of Sweden emigrated to Isanti County, Minnesota as a result of communications from friends and relatives who preceded them there. This type of  emigration is an example of</question>
       <wrongAnswer>Brain Drain</wrongAnswer>
       <rightAnswer>Chain Migration</rightAnswer>
       <wrongAnswer>Net Migration</wrongAnswer>
@@ -214,7 +214,7 @@
     <title>Agriculture</title>
     <problem>
       <id>Agriculture-01</id>
-      <question>As a country increasingly developed, economic activities become dominant in which sector?</question>
+      <question>As a country becomes increasingly developed, economic activities become dominant in which sector?</question>
       <wrongAnswer>Primary Sector</wrongAnswer>
       <rightAnswer>Tertiary Sector</rightAnswer>
       <wrongAnswer>Non-Basic Sector</wrongAnswer>

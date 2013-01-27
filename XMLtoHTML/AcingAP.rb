@@ -10,10 +10,10 @@ module AcingAP
         <title>Acing AP Human Geography</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/themes/acing-ap-theme.min.css" />
-        <link rel="stylesheet" href="css/themes/default/jquery.mobile.structure-1.1.0.min.css" />
+        <link rel="stylesheet" href="css/themes/default/jquery.mobile.structure-1.2.0.min.css" />
         <script src="js/jquery-1.7.1.min.js"></script>
-        <script src="js/jquery.mobile-1.1.0.min.js"></script>
-        <script src="js/jquery.touchSwipe-1.2.6.js"></script>
+        <script src="js/jquery.mobile-1.2.0.min.js"></script>
+        <script src="phonegap.js"></script>
     }
   end
 

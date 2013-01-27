@@ -23,6 +23,7 @@ puts %{
 <div id="full">
 <div data-role="page" id="menu" data-theme="b">
    <div data-role="header" data-theme="b">
+    <a href="index.html" data-ajax="false" data-icon="home" data-transition="pop">Home</a>
       <h1>Review it!</h1>
    </div>
    <div data-role="content" data-theme="b">
